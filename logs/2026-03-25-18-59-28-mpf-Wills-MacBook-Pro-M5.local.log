@@ -1,0 +1,12 @@
+2026-03-25 18:59:28,372 : INFO : root : Loading config.
+2026-03-25 18:59:28,419 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-03-25 18:59:28,420 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-25 18:59:28,420 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-03-25 18:59:28,420 : WARNING : ConfigProcessor : Config file in cache changed: /Users/willrante/Documents/GitHub/pinball/config/config_switches.yaml
+2026-03-25 18:59:28,420 : INFO : ConfigProcessor : Loading config from file /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/mpfconfig.yaml.
+2026-03-25 18:59:28,430 : INFO : ConfigProcessor : Loading config: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/mpfconfig.yaml
+2026-03-25 18:59:28,431 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/config/config.yaml.
+2026-03-25 18:59:28,431 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/config/config.yaml
+2026-03-25 18:59:28,431 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/config/config_ball_devices.yaml
+2026-03-25 18:59:28,432 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/config/config_coils.yaml
+2026-03-25 18:59:28,432 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/config/config_switches.yaml

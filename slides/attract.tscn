@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://buxeg768cjibf"]
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+[ext_resource type="Script" uid="uid://dpe3dq8axt3g7" path="res://addons/mpf-gmc/classes/mpf_carousel.gd" id="2_m2s46"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_hhxni"]
+[ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_f161n"]
 
 [node name="Attract" type="Control" unique_id=532832071]
 layout_mode = 3
@@ -14,13 +17,90 @@ offset_right = 1280.0
 offset_bottom = 1024.0
 color = Color(0.23529412, 0.38039216, 0.98039216, 1)
 
-[node name="Label" type="Label" parent="ColorRect" unique_id=732737122]
+[node name="MPFCarousel" type="Control" parent="." unique_id=963139551]
+anchors_preset = 0
+offset_top = 2.0
+offset_right = 40.0
+offset_bottom = 42.0
+script = ExtResource("2_m2s46")
+carousel_name = "attract"
+metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
+
+[node name="title" type="Label" parent="MPFCarousel" unique_id=732737122]
+visible = false
 layout_mode = 0
-offset_left = 12.0
-offset_top = 323.0
-offset_right = 1269.0
-offset_bottom = 547.0
+offset_right = 1280.0
+offset_bottom = 1022.0
 theme_override_font_sizes/font_size = 80
-text = "Welcome to Pinball"
+text = "Welcome to Pinball!"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="credits" type="Label" parent="MPFCarousel" unique_id=224826079]
+visible = false
+layout_mode = 0
+offset_right = 1281.0
+offset_bottom = 1024.0
+theme_override_font_sizes/font_size = 80
+text = "SAMPLE TEXT"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hhxni")
+variable_type = 2
+variable_name = "credits_string"
+comma_separate = true
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=103322399]
+visible = false
+position = Vector2(640, 520)
+texture = ExtResource("4_f161n")
+
+[node name="last_scores_1p" type="Node2D" parent="MPFCarousel" unique_id=673796730]
+visible = false
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p" unique_id=1987102647]
+offset_right = 1285.0
+offset_bottom = 1023.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hhxni")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="last_scores_2p" type="Node2D" parent="MPFCarousel" unique_id=344220273]
+
+[node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p" unique_id=286918589]
+offset_right = 1285.0
+offset_bottom = 558.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hhxni")
+variable_type = 2
+variable_name = "player1_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p" unique_id=248235802]
+offset_left = 2.0
+offset_top = 468.0
+offset_right = 1287.0
+offset_bottom = 1026.0
+theme_override_font_sizes/font_size = 80
+text = "123,456"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_hhxni")
+variable_type = 2
+variable_name = "player2_score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

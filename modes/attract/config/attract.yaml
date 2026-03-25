@@ -3,6 +3,18 @@
 # Attract mode that starts when the machine boots up, stops
 # whenever a game is started, and re-starts after the game ends.
 
+mode_settings:
+  selectable_items:
+    - title
+    - credits
+    - last_scores_1p{machine.player1_score and not machine.player2_score}
+    - last_scores_2p{machine.player2_score and not machine.player3_score}
+    - last_scores_3p{machine.player3_score and not machine.player4_score}
+    - last_scores_4p{machine.player4_score}
+    - mpf_logo
+  next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete
+  previous_item_events: s_flipper_left_active
+
 slide_player:
   mode_attract_started: attract
 
@@ -11,3 +23,15 @@ sound_player:
     16_school_of_rock__teachers_pet:
       bus: music
       
+timers:
+  attract_carousel_timer:
+    end_value: 1
+    tick_interval: 5s
+    start_running: true
+    control_events:
+      - event: carousel_item_highlighted
+        action: restart
+      - event: flipper_cradle
+        action: stop
+      - event: flipper_cradle_release
+        action: restart
