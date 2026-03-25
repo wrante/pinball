@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://buxeg768cjibf"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control" unique_id=532832071]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=535370418]
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+color = Color(0.23529412, 0.38039216, 0.98039216, 1)
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=732737122]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 323.0
+offset_right = 1269.0
+offset_bottom = 547.0
+theme_override_font_sizes/font_size = 80
+text = "Welcome to Pinball"
+horizontal_alignment = 1
+vertical_alignment = 1

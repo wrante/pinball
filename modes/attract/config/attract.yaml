@@ -5,3 +5,9 @@
 
 slide_player:
   mode_attract_started: attract
+
+sound_player:
+  mode_attract_started:
+    16_school_of_rock__teachers_pet:
+      bus: music
+      
