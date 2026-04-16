@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://cpbbg00g1k81w"]
+
+[ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_a4vdr"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_2jp88"]
+
+[node name="BaseSlide" type="Control" unique_id=255509203]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_right = 1281.0
+offset_bottom = 1024.0
+script = ExtResource("1_a4vdr")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2106363255]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.42249337, 0.5912409, 0.36048025, 1)
+
+[node name="player_score" type="Label" parent="." unique_id=1625480727]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -24.5
+offset_bottom = 24.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0.9607843, 0.42352942, 0.54509807, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 2
+theme_override_font_sizes/font_size = 120
+text = "1,234,560"
+horizontal_alignment = 1
+script = ExtResource("2_2jp88")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1220819541]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 170.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+
+[node name="HFlowContainer" type="HFlowContainer" parent="MarginContainer" unique_id=1575292608]
+layout_mode = 2
+theme_override_constants/h_separation = 30
+
+[node name="player_number" type="Label" parent="MarginContainer/HFlowContainer" unique_id=1834992143]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22748154, 0.4304675, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "Player 1"
+script = ExtResource("2_2jp88")
+variable_name = "number"
+template_string = "Player %s"
+min_players = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="player_ball" type="Label" parent="MarginContainer/HFlowContainer" unique_id=677266329]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22748154, 0.4304675, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "Ball 1"
+script = ExtResource("2_2jp88")
+variable_name = "ball"
+template_string = "Ball %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
