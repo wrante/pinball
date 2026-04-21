@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dnsybg4mign38"
+path="res://.godot/imported/Bo Diddley - Bo Diddley.mp3-caa3ed38c56b21d6df5afc95fca80423.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/R+B/Bo Diddley - Bo Diddley.mp3"
+dest_files=["res://.godot/imported/Bo Diddley - Bo Diddley.mp3-caa3ed38c56b21d6df5afc95fca80423.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

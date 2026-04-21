@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ca04qlsnkucqi"
+path="res://.godot/imported/Peter, Paul and Mary - Puff, the Magic Dragon.mp3-db03f9d196a95ab3b9d0b352b64080cb.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Folk/Peter, Paul and Mary - Puff, the Magic Dragon.mp3"
+dest_files=["res://.godot/imported/Peter, Paul and Mary - Puff, the Magic Dragon.mp3-db03f9d196a95ab3b9d0b352b64080cb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

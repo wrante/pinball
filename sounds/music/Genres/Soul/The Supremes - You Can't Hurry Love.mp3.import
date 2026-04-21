@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4gogi4ypp18a"
+path="res://.godot/imported/The Supremes - You Can't Hurry Love.mp3-f38f87ce84fd144198d5e67c5e7184da.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Soul/The Supremes - You Can't Hurry Love.mp3"
+dest_files=["res://.godot/imported/The Supremes - You Can't Hurry Love.mp3-f38f87ce84fd144198d5e67c5e7184da.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

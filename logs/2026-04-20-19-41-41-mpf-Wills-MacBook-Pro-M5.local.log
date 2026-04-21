@@ -1,0 +1,9 @@
+2026-04-20 19:41:41,826 : INFO : root : Loading config.
+2026-04-20 19:41:41,873 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-20 19:41:41,873 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-20 19:41:41,873 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-20 19:41:41,884 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 19:41:41,885 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-20 19:41:41,885 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 19:41:41,885 : WARNING : ConfigProcessor : Config file in cache changed: /Users/willrante/Documents/GitHub/pinball/modes/song_select/config/song_select.yaml
+2026-04-20 19:41:41,885 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/modes/song_select/config/song_select.yaml.

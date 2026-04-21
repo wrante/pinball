@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://u7kp1nwdrqcy"
+path="res://.godot/imported/David Bowie - Suffragette City.mp3-8f27cca10dabd4541905331c8ec8e90e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Glitter:Glam/David Bowie - Suffragette City.mp3"
+dest_files=["res://.godot/imported/David Bowie - Suffragette City.mp3-8f27cca10dabd4541905331c8ec8e90e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0wh2rjqt7hgh"
+path="res://.godot/imported/Sonic Youth - Teen Age Riot.mp3-ddff05ba45d53c399129a91fe8585050.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Sonic Youth - Teen Age Riot.mp3"
+dest_files=["res://.godot/imported/Sonic Youth - Teen Age Riot.mp3-ddff05ba45d53c399129a91fe8585050.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

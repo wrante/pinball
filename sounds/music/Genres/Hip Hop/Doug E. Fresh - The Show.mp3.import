@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bf8by2ekfmndn"
+path="res://.godot/imported/Doug E. Fresh - The Show.mp3-849392361769c5e985dde3f5f00d567b.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hip Hop/Doug E. Fresh - The Show.mp3"
+dest_files=["res://.godot/imported/Doug E. Fresh - The Show.mp3-849392361769c5e985dde3f5f00d567b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

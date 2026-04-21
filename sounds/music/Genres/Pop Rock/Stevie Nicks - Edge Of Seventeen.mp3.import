@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfwyshnmgcdd6"
+path="res://.godot/imported/Stevie Nicks - Edge Of Seventeen.mp3-5112d84d5a8524cdbb151ab1dfe85a94.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Pop Rock/Stevie Nicks - Edge Of Seventeen.mp3"
+dest_files=["res://.godot/imported/Stevie Nicks - Edge Of Seventeen.mp3-5112d84d5a8524cdbb151ab1dfe85a94.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

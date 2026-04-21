@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c67uh7bhiyrlp"
+path="res://.godot/imported/Joan Baez - Silver Dagger.mp3-bdaa2f257beb94640f6c0fd7bbfd6a59.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Folk/Joan Baez - Silver Dagger.mp3"
+dest_files=["res://.godot/imported/Joan Baez - Silver Dagger.mp3-bdaa2f257beb94640f6c0fd7bbfd6a59.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

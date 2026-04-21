@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c52wy75u4nuiw"
+path="res://.godot/imported/Ice Cube - It Was A Good Day.mp3-dc5427f38514a51945d8a68f54d27bcb.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rap/Ice Cube - It Was A Good Day.mp3"
+dest_files=["res://.godot/imported/Ice Cube - It Was A Good Day.mp3-dc5427f38514a51945d8a68f54d27bcb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

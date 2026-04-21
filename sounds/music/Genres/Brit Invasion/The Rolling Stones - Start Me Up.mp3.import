@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cx8p8dlpppu1i"
+path="res://.godot/imported/The Rolling Stones - Start Me Up.mp3-278bc8fbb436d9456226774a83da4436.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Brit Invasion/The Rolling Stones - Start Me Up.mp3"
+dest_files=["res://.godot/imported/The Rolling Stones - Start Me Up.mp3-278bc8fbb436d9456226774a83da4436.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

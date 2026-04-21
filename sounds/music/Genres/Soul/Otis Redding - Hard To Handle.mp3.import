@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ksmde3dly2cn"
+path="res://.godot/imported/Otis Redding - Hard To Handle.mp3-7c884a0456c812d4ff71541c9821d2d9.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Soul/Otis Redding - Hard To Handle.mp3"
+dest_files=["res://.godot/imported/Otis Redding - Hard To Handle.mp3-7c884a0456c812d4ff71541c9821d2d9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

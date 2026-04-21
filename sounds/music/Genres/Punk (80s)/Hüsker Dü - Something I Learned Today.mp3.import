@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cg83yds3v3o0n"
+path="res://.godot/imported/Hüsker Dü - Something I Learned Today.mp3-f8c1f5613340e9da7bf5ee8ca7d45611.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Hüsker Dü - Something I Learned Today.mp3"
+dest_files=["res://.godot/imported/Hüsker Dü - Something I Learned Today.mp3-f8c1f5613340e9da7bf5ee8ca7d45611.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

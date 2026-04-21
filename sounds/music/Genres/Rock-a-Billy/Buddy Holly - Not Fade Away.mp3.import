@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dekodusifu223"
+path="res://.godot/imported/Buddy Holly - Not Fade Away.mp3-2291a00c14f6de9cf12e3e234f63447f.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rock-a-Billy/Buddy Holly - Not Fade Away.mp3"
+dest_files=["res://.godot/imported/Buddy Holly - Not Fade Away.mp3-2291a00c14f6de9cf12e3e234f63447f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -19,9 +19,14 @@ slide_player:
   mode_attract_started: attract
 
 sound_player:
-  mode_attract_started:
-    16_school_of_rock__teachers_pet:
+  # Attract song toggle:
+  #   on:  mode_attract_started
+  #   off: attract_music_disabled
+  attract_music_disabled:
+    Modern Lovers - Roadrunner:
       bus: music
+      action: replace
+      start_at: 0
       
 timers:
   attract_carousel_timer:

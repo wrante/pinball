@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://2eh0a5ckamdd"
+path="res://.godot/imported/Jethro Tull - Aqualung.mp3-b9a013fddda201649dc83227f21e4052.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Prog Rock/Jethro Tull - Aqualung.mp3"
+dest_files=["res://.godot/imported/Jethro Tull - Aqualung.mp3-b9a013fddda201649dc83227f21e4052.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

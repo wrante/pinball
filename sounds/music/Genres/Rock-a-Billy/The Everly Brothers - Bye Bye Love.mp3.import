@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7wwkdo5wswk7"
+path="res://.godot/imported/The Everly Brothers - Bye Bye Love.mp3-82be4bcc1988f2f458818aae3ae2bdbd.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rock-a-Billy/The Everly Brothers - Bye Bye Love.mp3"
+dest_files=["res://.godot/imported/The Everly Brothers - Bye Bye Love.mp3-82be4bcc1988f2f458818aae3ae2bdbd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

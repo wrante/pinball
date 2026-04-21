@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ds54hm4sxg80p"
+path="res://.godot/imported/Eurythmics - Sweet Dreams (Are Made of This).mp3-274aef12d5827eae1d2b639d3cb59de8.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/New Wave/Eurythmics - Sweet Dreams (Are Made of This).mp3"
+dest_files=["res://.godot/imported/Eurythmics - Sweet Dreams (Are Made of This).mp3-274aef12d5827eae1d2b639d3cb59de8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

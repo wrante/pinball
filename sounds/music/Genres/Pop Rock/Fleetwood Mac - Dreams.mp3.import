@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bvyy27gybs1it"
+path="res://.godot/imported/Fleetwood Mac - Dreams.mp3-a9b2d89e8fca3f4394fe60b74afaaa27.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Pop Rock/Fleetwood Mac - Dreams.mp3"
+dest_files=["res://.godot/imported/Fleetwood Mac - Dreams.mp3-a9b2d89e8fca3f4394fe60b74afaaa27.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

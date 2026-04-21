@@ -5,6 +5,10 @@ enum BusType { SOLO, SEQUENTIAL, SIMULTANEOUS }
 
 signal sound_play(sound_name, settings)
 
+# Emitted before a playing channel is stopped by replacement audio. Song select
+# uses this to capture its resume position before rhythm music takes over.
+signal sound_replacing(bus_name, channel, settings)
+
 var channels: Array[GMCChannel] = []
 var type: BusType = BusType.SIMULTANEOUS
 var queue
@@ -149,6 +153,8 @@ func play(filename: String, settings: Dictionary = {}) -> void:
 			if c.playing and c != available_channel and not c.get_meta("is_stopping", false):
 				# Do not pass the settings, because that includes actions and
 				# fade times that should not apply to the stopping track.
+				# Emit first so listeners can inspect the still-playing stream.
+				self.sound_replacing.emit(self.name, c, settings)
 				c.stop_with_settings()
 
 	if not available_channel:

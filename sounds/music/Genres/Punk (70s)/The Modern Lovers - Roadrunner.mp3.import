@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bymns64ckrt1t"
+path="res://.godot/imported/The Modern Lovers - Roadrunner.mp3-2aa8da0068772ede3b6f3a82c0ca6a7a.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (70s)/The Modern Lovers - Roadrunner.mp3"
+dest_files=["res://.godot/imported/The Modern Lovers - Roadrunner.mp3-2aa8da0068772ede3b6f3a82c0ca6a7a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

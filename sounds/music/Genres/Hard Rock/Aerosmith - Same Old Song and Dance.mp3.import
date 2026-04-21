@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bk6a6u882ypvf"
+path="res://.godot/imported/Aerosmith - Same Old Song and Dance.mp3-0bcc101f6edf99ca310ede72b9341de5.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hard Rock/Aerosmith - Same Old Song and Dance.mp3"
+dest_files=["res://.godot/imported/Aerosmith - Same Old Song and Dance.mp3-0bcc101f6edf99ca310ede72b9341de5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

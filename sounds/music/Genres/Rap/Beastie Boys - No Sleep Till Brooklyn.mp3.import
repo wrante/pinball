@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brwsawssey6uf"
+path="res://.godot/imported/Beastie Boys - No Sleep Till Brooklyn.mp3-f8f7ad1ae20fe0c474ceb6b3106d9184.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rap/Beastie Boys - No Sleep Till Brooklyn.mp3"
+dest_files=["res://.godot/imported/Beastie Boys - No Sleep Till Brooklyn.mp3-f8f7ad1ae20fe0c474ceb6b3106d9184.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

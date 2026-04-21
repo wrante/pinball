@@ -62,6 +62,14 @@ func get_ducking_bus(bus_name: String = "") -> GMCBus:
 		return self.default_duck_bus
 	return self.get_bus(bus_name)
 
+func get_playing_channel(key: String, bus_name: String = "") -> GMCChannel:
+	var bus := self.get_bus(bus_name)
+	for channel in bus.channels:
+		if channel.stream and channel.playing and not channel.get_meta("is_stopping", false):
+			if str(channel.stream.get_meta("key", "")) == key:
+				return channel
+	return null
+
 func play_sounds(s: Dictionary) -> void:
 	assert(typeof(s) == TYPE_DICTIONARY, "Sound player called with non-dict value: %s" % s)
 	self.log.debug("play_sounds called with: %s", s)

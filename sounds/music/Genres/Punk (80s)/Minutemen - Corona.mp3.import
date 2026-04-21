@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://csk1c76rjvrop"
+path="res://.godot/imported/Minutemen - Corona.mp3-5f78e4109bf6c6d9d8447883b3a179f4.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Minutemen - Corona.mp3"
+dest_files=["res://.godot/imported/Minutemen - Corona.mp3-5f78e4109bf6c6d9d8447883b3a179f4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

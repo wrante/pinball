@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bt8vt2vvbn82b"
+path="res://.godot/imported/Little Feat - Dixie Chicken.mp3-ab2265a65e442fce8354df05236b0f25.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Southern Rock/Little Feat - Dixie Chicken.mp3"
+dest_files=["res://.godot/imported/Little Feat - Dixie Chicken.mp3-ab2265a65e442fce8354df05236b0f25.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://cpbbg00g1k81w"]
+
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_2jp88"]
+[ext_resource type="Texture2D" uid="uid://bb1j42ukygpj5" path="res://images/green_chalkboard.jpg" id="2_3761s"]
+[ext_resource type="Script" uid="uid://bswpd4lq455bp" path="res://slides/base_slide.gd" id="3_7jtwj"]
+
+[node name="BaseSlide" type="Control" unique_id=255509203]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_right = 1281.0
+offset_bottom = 1024.0
+script = ExtResource("3_7jtwj")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1397682115]
+custom_minimum_size = Vector2(1280, 1024)
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 1024.0
+texture = ExtResource("2_3761s")
+expand_mode = 2
+
+[node name="player_score" type="Label" parent="TextureRect" unique_id=1625480727]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -76.0
+offset_bottom = 76.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0.9607843, 0.42352942, 0.54509807, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 3
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 2
+theme_override_font_sizes/font_size = 120
+text = "1,234,560"
+horizontal_alignment = 1
+script = ExtResource("2_2jp88")
+variable_name = "score"
+comma_separate = true
+min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="MarginContainer" type="MarginContainer" parent="TextureRect" unique_id=1220819541]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 170.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+
+[node name="HFlowContainer" type="HFlowContainer" parent="TextureRect/MarginContainer" unique_id=1575292608]
+layout_mode = 2
+theme_override_constants/h_separation = 30
+
+[node name="player_number" type="Label" parent="TextureRect/MarginContainer/HFlowContainer" unique_id=1834992143]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22748154, 0.4304675, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "Player 1"
+script = ExtResource("2_2jp88")
+variable_name = "number"
+template_string = "Player %s"
+min_players = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="player_ball" type="Label" parent="TextureRect/MarginContainer/HFlowContainer" unique_id=677266329]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22748154, 0.4304675, 1, 1)
+theme_override_font_sizes/font_size = 60
+text = "Ball 1"
+script = ExtResource("2_2jp88")
+variable_name = "ball"
+template_string = "Ball %s"
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"

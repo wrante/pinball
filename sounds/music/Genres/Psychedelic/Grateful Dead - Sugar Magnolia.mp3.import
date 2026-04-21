@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bv6nw05erbytf"
+path="res://.godot/imported/Grateful Dead - Sugar Magnolia.mp3-7a6f36590e6851dc2dad462de735e021.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Psychedelic/Grateful Dead - Sugar Magnolia.mp3"
+dest_files=["res://.godot/imported/Grateful Dead - Sugar Magnolia.mp3-7a6f36590e6851dc2dad462de735e021.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

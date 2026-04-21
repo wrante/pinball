@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://borwglt2axv8o"
+path="res://.godot/imported/The Drifters - Save the Last Dance for Me.mp3-6990f95f7688ee29623e85152c0a9c7e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Doo Wop/The Drifters - Save the Last Dance for Me.mp3"
+dest_files=["res://.godot/imported/The Drifters - Save the Last Dance for Me.mp3-6990f95f7688ee29623e85152c0a9c7e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

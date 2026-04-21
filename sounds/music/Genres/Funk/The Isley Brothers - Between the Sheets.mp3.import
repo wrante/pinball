@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bn4cwfh27ex2x"
+path="res://.godot/imported/The Isley Brothers - Between the Sheets.mp3-435255e8f3aeab5cbc62a316230828d7.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Funk/The Isley Brothers - Between the Sheets.mp3"
+dest_files=["res://.godot/imported/The Isley Brothers - Between the Sheets.mp3-435255e8f3aeab5cbc62a316230828d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

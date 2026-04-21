@@ -384,7 +384,15 @@ func _thread_poll(_userdata=null) -> void:
 					_send("register_trigger?event=text_input")
 					_send("register_trigger?event=bonus_entry")
 					# Custom events
-					for e in self.registered_events + self.auto_signals:
+					var triggers := []
+					triggers.append_array(self.registered_events)
+					triggers.append_array(self.auto_signals)
+					triggers.append_array(self.registered_handlers.keys())
+					var registered_trigger_names := {}
+					for e in triggers:
+						if registered_trigger_names.has(e):
+							continue
+						registered_trigger_names[e] = true
 						_send("register_trigger?event=%s" % e)
 				"service":
 					service.emit.call_deferred(message)

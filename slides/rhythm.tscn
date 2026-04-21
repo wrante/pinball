@@ -1,0 +1,213 @@
+[gd_scene format=3 uid="uid://cfbkfkb06qfwy"]
+
+[ext_resource type="Script" uid="uid://cypan30n8434i" path="res://slides/rhythm.gd" id="1_v34af"]
+[ext_resource type="FontFile" uid="uid://53krthjdmecr" path="res://fonts/royal-acidbath/Royalacid_o.ttf" id="2_font"]
+[ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="3_var"]
+
+[node name="Rhythm" type="Control" unique_id=505222279]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v34af")
+
+[node name="Backdrop" type="ColorRect" parent="." unique_id=304600812]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0627451, 0.0784314, 0.109804, 1)
+
+[node name="GlowTop" type="ColorRect" parent="." unique_id=992597940]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 300.0
+grow_horizontal = 2
+color = Color(0.117647, 0.164706, 0.25098, 0.9)
+
+[node name="Playfield" type="Control" parent="." unique_id=1773331939]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -418.0
+offset_top = -216.0
+offset_right = 466.0
+offset_bottom = 500.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Hud" type="Control" parent="." unique_id=1228046870]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="Hud" unique_id=825785032]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 38.0
+offset_right = 471.0
+offset_bottom = 113.0
+theme_override_colors/font_color = Color(0.996078, 0.941176, 0.694118, 1)
+theme_override_fonts/font = ExtResource("2_font")
+theme_override_font_sizes/font_size = 56
+text = "Band Practice"
+
+[node name="Intro" type="Label" parent="Hud" unique_id=201710289]
+layout_mode = 0
+offset_left = 62.0
+offset_top = 106.0
+offset_right = 483.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0.831373, 0.866667, 0.898039, 1)
+theme_override_font_sizes/font_size = 22
+text = "Shoot the left lane to start, then use left, action, right"
+
+[node name="ScoreLabel" type="Label" parent="Hud" unique_id=1183476282]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 190.0
+offset_right = 180.0
+offset_bottom = 217.0
+theme_override_colors/font_color = Color(0.996078, 0.941176, 0.694118, 0.8)
+theme_override_font_sizes/font_size = 18
+text = "MODE SCORE"
+
+[node name="ModeScore" type="Label" parent="Hud" unique_id=15177400]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 220.0
+offset_right = 330.0
+offset_bottom = 272.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+text = "0"
+script = ExtResource("3_var")
+variable_name = "rhythm_mode_score"
+comma_separate = true
+initialize_empty = false
+
+[node name="ComboLabel" type="Label" parent="Hud" unique_id=2023479740]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 314.0
+offset_right = 170.0
+offset_bottom = 341.0
+theme_override_colors/font_color = Color(1, 0.560784, 0.239216, 0.85)
+theme_override_font_sizes/font_size = 18
+text = "COMBO"
+
+[node name="Combo" type="Label" parent="Hud" unique_id=2035140925]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 344.0
+offset_right = 200.0
+offset_bottom = 401.0
+theme_override_colors/font_color = Color(1, 0.768627, 0.552941, 1)
+theme_override_font_sizes/font_size = 46
+text = "0"
+script = ExtResource("3_var")
+variable_name = "rhythm_combo"
+initialize_empty = false
+
+[node name="HitsLabel" type="Label" parent="Hud" unique_id=1693489968]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 458.0
+offset_right = 122.0
+offset_bottom = 485.0
+theme_override_colors/font_color = Color(0.584314, 0.956863, 0.423529, 0.9)
+theme_override_font_sizes/font_size = 18
+text = "HITS"
+
+[node name="Hits" type="Label" parent="Hud" unique_id=1767070120]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 488.0
+offset_right = 132.0
+offset_bottom = 523.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 28
+text = "0"
+script = ExtResource("3_var")
+variable_name = "rhythm_hits"
+initialize_empty = false
+
+[node name="MissesLabel" type="Label" parent="Hud" unique_id=170379259]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 554.0
+offset_right = 148.0
+offset_bottom = 581.0
+theme_override_colors/font_color = Color(1, 0.333333, 0.466667, 0.9)
+theme_override_font_sizes/font_size = 18
+text = "MISSES"
+
+[node name="Misses" type="Label" parent="Hud" unique_id=176062589]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 584.0
+offset_right = 132.0
+offset_bottom = 619.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 28
+text = "0"
+script = ExtResource("3_var")
+variable_name = "rhythm_misses"
+initialize_empty = false
+
+[node name="BestLabel" type="Label" parent="Hud" unique_id=386458751]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 650.0
+offset_right = 144.0
+offset_bottom = 677.0
+theme_override_colors/font_color = Color(0.270588, 0.85098, 1, 0.9)
+theme_override_font_sizes/font_size = 18
+text = "BEST"
+
+[node name="BestCombo" type="Label" parent="Hud" unique_id=630323113]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 680.0
+offset_right = 132.0
+offset_bottom = 715.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 28
+text = "0"
+script = ExtResource("3_var")
+variable_name = "rhythm_best_combo"
+initialize_empty = false
+
+[node name="Feedback" type="Label" parent="Hud" unique_id=1674484838]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 170.0
+offset_right = 868.0
+offset_bottom = 246.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_font")
+theme_override_font_sizes/font_size = 54
+horizontal_alignment = 1
+
+[node name="Summary" type="Label" parent="Hud" unique_id=360412993]
+layout_mode = 0
+offset_left = 814.0
+offset_top = 690.0
+offset_right = 1218.0
+offset_bottom = 892.0
+theme_override_colors/font_color = Color(0.996078, 0.941176, 0.694118, 1)
+theme_override_font_sizes/font_size = 30
+text = "Set complete"
+horizontal_alignment = 2

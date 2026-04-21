@@ -1,0 +1,385 @@
+2026-04-20 15:15:33,644 : INFO : root : Loading config.
+2026-04-20 15:15:33,691 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-20 15:15:33,691 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-20 15:15:33,691 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-20 15:15:33,715 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:15:33,716 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-20 15:15:33,716 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:15:33,716 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/cfdfcb64dba57a34ef9374db95e57645.mpf_cache
+2026-04-20 15:15:33,716 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/104947b35f87d581877cdaf02599b463.mpf_cache
+2026-04-20 15:15:33,716 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/bc830d47d6fbb336561cc63e74edf2c9.mpf_cache
+2026-04-20 15:15:33,717 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/4273c698423283a7843ff5c77ef69dc9.mpf_cache
+2026-04-20 15:15:33,717 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/7424f2cce7b15e0b37e570d3514590c8.mpf_cache
+2026-04-20 15:15:33,717 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-04-20 15:15:33,717 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-20-15-15-33-mpf-Wills-MacBook-Pro-M5.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-15-33-mpf-Wills-MacBook-Pro-M5.local.log'}
+2026-04-20 15:15:33,717 : INFO : Machine : MPF path: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf
+2026-04-20 15:15:33,717 : INFO : Machine : Machine path: /Users/willrante/Documents/GitHub/pinball
+2026-04-20 15:15:33,717 : INFO : Machine : Platform: darwin
+2026-04-20 15:15:33,717 : INFO : Machine : Python executable location: /Users/willrante/mpf-env/bin/python3.14
+2026-04-20 15:15:33,717 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-04-20 15:15:33,717 : INFO : Machine : Initializing MPF...
+2026-04-20 15:15:33,744 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,749 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,749 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,749 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,749 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.4.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.4.0', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.4.0: Thu Mar 19 19:33:50 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6050', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-15-33-mpf-Wills-MacBook-Pro-M5.local.log', 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,756 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-20 15:15:33,763 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-20 15:15:33,763 : INFO : SwitchController : Found active switch: (1007, <Platform.Virtual>) <switch.s_trough_1>
+2026-04-20 15:15:33,763 : INFO : SwitchController : Found active switch: (1008, <Platform.Virtual>) <switch.s_trough_2>
+2026-04-20 15:15:33,763 : INFO : SwitchController : Found active switch: (1009, <Platform.Virtual>) <switch.s_trough_3>
+2026-04-20 15:15:33,764 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-04-20 15:15:33,764 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-04-20 15:15:33,767 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-04-20 15:15:33,767 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-04-20 15:15:33,767 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-04-20 15:15:33,767 : INFO : ball_device.bd_plunger : State: idle
+2026-04-20 15:15:33,767 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2026-04-20 15:15:33,767 : INFO : ball_device.bd_trough : State: idle
+2026-04-20 15:15:33,770 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-04-20 15:15:33,771 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-04-20 15:15:33,771 : INFO : BallController : Initial balls found: 3
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_lane'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger_lane'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 31, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 154, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_shots_hurryup'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 326, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 154, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 354, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 357, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-04-20 15:15:33,772 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-04-20 15:15:33,800 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-04-20 15:15:33,800 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-04-20 15:15:33,800 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-04-20 15:15:33,800 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-04-20 15:15:33,800 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-04-20 15:15:33,801 : INFO : Mode.attract : Started. Priority: 10
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-04-20 15:15:33,801 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:15:33,801 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-04-20 15:15:33,862 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-04-20 15:15:33,862 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-04-20 15:15:33,862 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:15:35,985 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:15:36,085 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:15:36,085 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-04-20 15:15:36,085 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.09975662498618476}
+2026-04-20 15:15:36,085 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.09975662498618476}
+2026-04-20 15:15:36,086 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.09975662498618476}
+2026-04-20 15:15:36,086 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2026-04-20 15:15:36,086 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2026-04-20 15:15:36,086 : INFO : Mode.attract : Stopped.
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2026-04-20 15:15:36,087 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:15:36,087 : INFO : Mode.game : Started. Priority: 20
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:36,087 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.09975662498618476}
+2026-04-20 15:15:36,088 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2026-04-20 15:15:36,088 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2026-04-20 15:15:36,088 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('d1fcfaa5-0ea6-499b-8e48-08e115ab4872'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('f614e693-1e3e-46a1-8b1c-2084e1dce885'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2026-04-20 15:15:36,089 : INFO : Mode.game : Player added successfully. Total players: 1
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2026-04-20 15:15:36,089 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:15:36,090 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2026-04-20 15:15:36,090 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:15:36,090 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:15:36,090 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:15:36,091 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:15:36,094 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,094 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,094 : INFO : EventManager : Event: ======'mode_song_select_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,095 : INFO : EventManager : Event: ======'mode_song_select_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,095 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,095 : INFO : EventManager : Event: ======'player_shot_left_lane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:15:36,096 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,096 : INFO : Mode.base : Started. Priority: 100
+2026-04-20 15:15:36,096 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:36,096 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,097 : INFO : EventManager : Event: ======'start_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:15:36,097 : INFO : EventManager : Event: ======'mode_bumpers_will_start'====== Args={'priority': 0}
+2026-04-20 15:15:36,097 : INFO : EventManager : Event: ======'player_shot_bumper_left_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:15:36,097 : INFO : EventManager : Event: ======'player_shot_bumper_right_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:15:36,098 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'unlit'}
+2026-04-20 15:15:36,098 : INFO : EventManager : Event: ======'bumpers_unlit_complete'====== Args={}
+2026-04-20 15:15:36,098 : INFO : EventManager : Event: ======'mode_bumpers_starting'====== Args={'priority': 0}
+2026-04-20 15:15:36,098 : INFO : Mode.bumpers : Started. Priority: 200
+2026-04-20 15:15:36,098 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:36,098 : INFO : EventManager : Event: ======'mode_bumpers_started'====== Args={'priority': 0}
+2026-04-20 15:15:36,099 : INFO : Mode.song_select : Started. Priority: 1500
+2026-04-20 15:15:36,099 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:36,099 : INFO : EventManager : Event: ======'mode_song_select_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,107 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:15:36,108 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2026-04-20 15:15:36,108 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:15:36,108 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2026-04-20 15:15:36,108 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2026-04-20 15:15:36,108 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2026-04-20 15:15:36,108 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2026-04-20 15:15:36,109 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2026-04-20 15:15:36,109 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:15:36,109 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:15:36,109 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2026-04-20 15:15:36,109 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:15:36,109 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:15:36,110 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:15:36,110 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:15:36,110 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:15:36,162 : INFO : EventManager : Event: ======'slide_base_slide_created'====== Args={'_from_bcp': True}
+2026-04-20 15:15:36,162 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:15:36,162 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:15:36,162 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:15:36,179 : INFO : EventManager : Event: ======'slide_song_select_created'====== Args={'_from_bcp': True}
+2026-04-20 15:15:36,179 : INFO : EventManager : Event: ======'slide_base_slide_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2026-04-20 15:15:36,179 : INFO : EventManager : Event: ======'slide_song_select_active'====== Args={'original_context': 'song_select', 'original_calling_context': 'mode_song_select_started', 'priority': 1500.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:15:39,485 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:39,485 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:15:39,485 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 355, 'prev_value': 354, 'change': 1}
+2026-04-20 15:15:39,635 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:39,768 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:39,768 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Soul', 'song_title': "Al Green - Let's Stay Together", 'genre_index': 23, 'genre_count': 24, 'song_index': 1, 'song_count': 11, 'songs_text': "> Al Green - Let's Stay Together\n  Aretha Franklin - Respect\n  Diana Ross & The Supremes - You Can't Hurry Love\n  Gladys Knight and the Pips  Midnight Train To Georgia\n  Isaac Hayes - Tough Guys - 05 - Hung Up on My Baby\n  James Brown - I Got You (I Feel Good)\n  Marvin Gaye - I Heard It Through the Grapevine", 'has_audio': True}
+2026-04-20 15:15:39,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 356, 'prev_value': 355, 'change': 1}
+2026-04-20 15:15:39,918 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:40,252 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:40,252 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:15:40,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 358, 'prev_value': 357, 'change': 1}
+2026-04-20 15:15:40,385 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:40,685 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:40,685 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:15:40,685 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 359, 'prev_value': 358, 'change': 1}
+2026-04-20 15:15:40,851 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:41,251 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:41,252 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:15:41,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 360, 'prev_value': 359, 'change': 1}
+2026-04-20 15:15:41,418 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:41,634 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:41,635 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Brit Invasion', 'song_title': 'Cream - Sunshine Of Your Love', 'genre_index': 3, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': "> Cream - Sunshine Of Your Love\n  The Animals Don't Let Me Be Misunderstood\n  The Beatles - I Want To Hold Your Hand\n  The Kinks- You Really Got Me\n  The Rolling Stones - Start Me Up\n  The Yardbirds - For Your Love", 'has_audio': True}
+2026-04-20 15:15:41,635 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 361, 'prev_value': 360, 'change': 1}
+2026-04-20 15:15:41,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:41,918 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:41,918 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:15:41,918 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 357, 'prev_value': 356, 'change': 1}
+2026-04-20 15:15:42,035 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:42,118 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:42,118 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:15:42,118 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 358, 'prev_value': 357, 'change': 1}
+2026-04-20 15:15:42,217 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:42,318 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:42,319 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:15:42,319 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 359, 'prev_value': 358, 'change': 1}
+2026-04-20 15:15:42,434 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:42,702 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:42,702 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Soul', 'song_title': "Al Green - Let's Stay Together", 'genre_index': 23, 'genre_count': 24, 'song_index': 1, 'song_count': 11, 'songs_text': "> Al Green - Let's Stay Together\n  Aretha Franklin - Respect\n  Diana Ross & The Supremes - You Can't Hurry Love\n  Gladys Knight and the Pips  Midnight Train To Georgia\n  Isaac Hayes - Tough Guys - 05 - Hung Up on My Baby\n  James Brown - I Got You (I Feel Good)\n  Marvin Gaye - I Heard It Through the Grapevine", 'has_audio': True}
+2026-04-20 15:15:42,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 360, 'prev_value': 359, 'change': 1}
+2026-04-20 15:15:42,868 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:43,151 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:43,151 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Rock-a-Billy', 'song_title': 'Buddy Holly - Not Fade Away', 'genre_index': 22, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Buddy Holly - Not Fade Away\n  Carl Perkins - Blue Suede Shoes\n  Eddie Cochran - Summertime Blues\n  Elvis Presley - Hound Dog\n  Gene Vincent - Be-Bop-a-Lula\n  Roy Orbison Oh, Pretty Woman\n  The Everly Brothers - Bye Bye Love', 'has_audio': True}
+2026-04-20 15:15:43,151 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 361, 'prev_value': 360, 'change': 1}
+2026-04-20 15:15:43,251 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:43,318 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:43,318 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Rap', 'song_title': 'Beastie Boys - No Sleep Till Brooklyn', 'genre_index': 21, 'genre_count': 24, 'song_index': 1, 'song_count': 8, 'songs_text': "> Beastie Boys - No Sleep Till Brooklyn\n  Dr. Dre - Nuthin' but a 'G' Thang\n  Geto Boys - Mind Playing Tricks On Me\n  Ice Cube - It Was A Good Day\n  Ice T - New Jack Hustler\n  LL Cool J - 08 - Mama Said Knock You Out\n  Public Enemy - Fight the Power", 'has_audio': True}
+2026-04-20 15:15:43,319 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 362, 'prev_value': 361, 'change': 1}
+2026-04-20 15:15:43,435 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:43,535 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:43,535 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'R+B', 'song_title': 'Bo Diddley - Bo Diddley', 'genre_index': 20, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': "> Bo Diddley - Bo Diddley\n  Chuck Berry - You Never Can Tell\n  Fats Domino - I'm Walkin'\n  Ike & Tina Turner - Glory, Glory\n  Little Richard - Good Golly Miss Molly\n  Ray Charles - What'd I Say, Pt. 1", 'has_audio': True}
+2026-04-20 15:15:43,535 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 363, 'prev_value': 362, 'change': 1}
+2026-04-20 15:15:43,601 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:43,735 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:43,735 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Rap', 'song_title': 'Beastie Boys - No Sleep Till Brooklyn', 'genre_index': 21, 'genre_count': 24, 'song_index': 1, 'song_count': 8, 'songs_text': "> Beastie Boys - No Sleep Till Brooklyn\n  Dr. Dre - Nuthin' but a 'G' Thang\n  Geto Boys - Mind Playing Tricks On Me\n  Ice Cube - It Was A Good Day\n  Ice T - New Jack Hustler\n  LL Cool J - 08 - Mama Said Knock You Out\n  Public Enemy - Fight the Power", 'has_audio': True}
+2026-04-20 15:15:43,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 362, 'prev_value': 361, 'change': 1}
+2026-04-20 15:15:43,869 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:43,968 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:43,968 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Rock-a-Billy', 'song_title': 'Buddy Holly - Not Fade Away', 'genre_index': 22, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Buddy Holly - Not Fade Away\n  Carl Perkins - Blue Suede Shoes\n  Eddie Cochran - Summertime Blues\n  Elvis Presley - Hound Dog\n  Gene Vincent - Be-Bop-a-Lula\n  Roy Orbison Oh, Pretty Woman\n  The Everly Brothers - Bye Bye Love', 'has_audio': True}
+2026-04-20 15:15:43,968 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 363, 'prev_value': 362, 'change': 1}
+2026-04-20 15:15:44,068 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:44,168 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:44,168 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Soul', 'song_title': "Al Green - Let's Stay Together", 'genre_index': 23, 'genre_count': 24, 'song_index': 1, 'song_count': 11, 'songs_text': "> Al Green - Let's Stay Together\n  Aretha Franklin - Respect\n  Diana Ross & The Supremes - You Can't Hurry Love\n  Gladys Knight and the Pips  Midnight Train To Georgia\n  Isaac Hayes - Tough Guys - 05 - Hung Up on My Baby\n  James Brown - I Got You (I Feel Good)\n  Marvin Gaye - I Heard It Through the Grapevine", 'has_audio': True}
+2026-04-20 15:15:44,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 364, 'prev_value': 363, 'change': 1}
+2026-04-20 15:15:44,268 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:44,351 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:44,351 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:15:44,352 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 365, 'prev_value': 364, 'change': 1}
+2026-04-20 15:15:44,451 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:44,568 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:44,568 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:15:44,569 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 366, 'prev_value': 365, 'change': 1}
+2026-04-20 15:15:44,618 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:44,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:44,718 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:15:44,718 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 367, 'prev_value': 366, 'change': 1}
+2026-04-20 15:15:44,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:44,918 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:44,919 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Brit Invasion', 'song_title': 'Cream - Sunshine Of Your Love', 'genre_index': 3, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': "> Cream - Sunshine Of Your Love\n  The Animals Don't Let Me Be Misunderstood\n  The Beatles - I Want To Hold Your Hand\n  The Kinks- You Really Got Me\n  The Rolling Stones - Start Me Up\n  The Yardbirds - For Your Love", 'has_audio': True}
+2026-04-20 15:15:44,919 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 368, 'prev_value': 367, 'change': 1}
+2026-04-20 15:15:45,034 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:45,168 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:45,168 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Disco', 'song_title': "Bee Gees - Stayin' Alive", 'genre_index': 4, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bee Gees - Stayin' Alive\n  Donna Summer - Bad Girls\n  KC and the Sunshine Band - That's the Way (I Like It)\n  Village People - Macho Man", 'has_audio': True}
+2026-04-20 15:15:45,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 369, 'prev_value': 368, 'change': 1}
+2026-04-20 15:15:45,301 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:45,552 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:45,552 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Coasters - Yakety Yak', 'genre_index': 5, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': '> The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:45,552 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 370, 'prev_value': 369, 'change': 1}
+2026-04-20 15:15:45,668 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:45,768 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:45,769 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Folk', 'song_title': "Bob Dylan - The Times They Are A-Changin'", 'genre_index': 6, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bob Dylan - The Times They Are A-Changin'\n  Joan Baez - Silver Dagger\n  Peter, Paul and Mary - Puff, the Magic Dragon\n  The Kingston Trio - Where Have All the Flowers Gone", 'has_audio': True}
+2026-04-20 15:15:45,769 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 371, 'prev_value': 370, 'change': 1}
+2026-04-20 15:15:45,868 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:45,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:45,952 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Folk Rock', 'song_title': 'Bonnie Raitt - Something to Talk About', 'genre_index': 7, 'genre_count': 24, 'song_index': 1, 'song_count': 10, 'songs_text': '> Bonnie Raitt - Something to Talk About\n  Creedence Clearwater Revival - Bad Moon Rising\n  Crosby, Stills & Nash - Suite Judy Blue Eyes\n  Dave Mason - Let It Go, Let It Flow\n  Jackson Browne - Doctor My Eyes\n  Neil Young - Heart of Gold\n  Simon & Garfunkel - Mrs. Robinson', 'has_audio': True}
+2026-04-20 15:15:45,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 372, 'prev_value': 371, 'change': 1}
+2026-04-20 15:15:46,051 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:46,111 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2026-04-20 15:15:46,112 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:15:46,113 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:15:46,113 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:15:46,113 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:15:46,113 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:15:46,114 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:15:46,114 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:15:46,201 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:46,201 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Funk', 'song_title': 'Con Funk Shun - Ffun', 'genre_index': 8, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': '> Con Funk Shun - Ffun\n  Funkadelic - Can You Get To That\n  Parliament - Give Up the Funk (Tear the Roof Off the Sucker)\n  Prince - Raspberry Beret\n  Rick James - Super Freak\n  The Isley Brothers - Between The Sheets', 'has_audio': True}
+2026-04-20 15:15:46,201 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 373, 'prev_value': 372, 'change': 1}
+2026-04-20 15:15:46,368 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:46,668 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:46,669 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Folk Rock', 'song_title': 'Bonnie Raitt - Something to Talk About', 'genre_index': 7, 'genre_count': 24, 'song_index': 1, 'song_count': 10, 'songs_text': '> Bonnie Raitt - Something to Talk About\n  Creedence Clearwater Revival - Bad Moon Rising\n  Crosby, Stills & Nash - Suite Judy Blue Eyes\n  Dave Mason - Let It Go, Let It Flow\n  Jackson Browne - Doctor My Eyes\n  Neil Young - Heart of Gold\n  Simon & Garfunkel - Mrs. Robinson', 'has_audio': True}
+2026-04-20 15:15:46,669 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 364, 'prev_value': 363, 'change': 1}
+2026-04-20 15:15:46,801 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:46,868 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:46,868 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Folk', 'song_title': "Bob Dylan - The Times They Are A-Changin'", 'genre_index': 6, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bob Dylan - The Times They Are A-Changin'\n  Joan Baez - Silver Dagger\n  Peter, Paul and Mary - Puff, the Magic Dragon\n  The Kingston Trio - Where Have All the Flowers Gone", 'has_audio': True}
+2026-04-20 15:15:46,869 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 365, 'prev_value': 364, 'change': 1}
+2026-04-20 15:15:46,968 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:47,052 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:15:47,052 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Coasters - Yakety Yak', 'genre_index': 5, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': '> The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:47,052 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 366, 'prev_value': 365, 'change': 1}
+2026-04-20 15:15:47,185 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:15:48,168 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:15:48,168 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2026-04-20 15:15:48,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 5, 'prev_value': 4, 'change': 1}
+2026-04-20 15:15:48,169 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:15:48,169 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 2}
+2026-04-20 15:15:48,169 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 2>, 'number': 2}
+2026-04-20 15:15:48,169 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 2>, 'num': 2}
+2026-04-20 15:15:48,169 : INFO : Mode.game : Player added successfully. Total players: 2
+2026-04-20 15:15:48,169 : INFO : EventManager : Event: ======'multiplayer_game'====== Args={}
+2026-04-20 15:15:48,170 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 2}
+2026-04-20 15:15:48,170 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 2}
+2026-04-20 15:15:48,170 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 2}
+2026-04-20 15:15:48,301 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:15:49,751 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:15:49,752 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Coasters - Yakety Yak', 'genre_index': 5, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': '> The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:49,752 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 327, 'prev_value': 326, 'change': 1}
+2026-04-20 15:15:49,884 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:15:50,985 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:50,985 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Drifters - Save the Last Dance for Me', 'genre_index': 5, 'genre_count': 24, 'song_index': 2, 'song_count': 4, 'songs_text': '  The Coasters - Yakety Yak\n> The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:50,985 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 374, 'prev_value': 373, 'change': 1}
+2026-04-20 15:15:51,151 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:51,851 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:51,851 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Platters - Only You', 'genre_index': 5, 'genre_count': 24, 'song_index': 3, 'song_count': 4, 'songs_text': '  The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n> The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:51,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 375, 'prev_value': 374, 'change': 1}
+2026-04-20 15:15:51,985 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:52,185 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:15:52,185 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Doo Wop', 'song_title': 'The Temptations - My Girl', 'genre_index': 5, 'genre_count': 24, 'song_index': 4, 'song_count': 4, 'songs_text': '  The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n> The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:15:52,185 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 376, 'prev_value': 375, 'change': 1}
+2026-04-20 15:15:52,335 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:15:52,935 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:15:52,935 : INFO : EventManager : Event: ======'player_selected_song_genre'====== Args={'value': 'Doo Wop', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:15:52,935 : INFO : EventManager : Event: ======'player_selected_song_title'====== Args={'value': 'The Temptations - My Girl', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:15:52,935 : INFO : EventManager : Event: ======'player_selected_song_key'====== Args={'value': 'The Temptations - My Girl', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:15:52,936 : INFO : EventManager : Event: ======'song_select_confirmed'====== Args={'genre': 'Doo Wop', 'song_title': 'The Temptations - My Girl', 'sound_key': 'The Temptations - My Girl', 'has_audio': True, 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:15:52,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 328, 'prev_value': 327, 'change': 1}
+2026-04-20 15:15:53,068 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:15:53,187 : INFO : EventManager : Event: ======'song_select_complete'====== Args={}
+2026-04-20 15:15:53,187 : INFO : EventManager : Event: ======'mode_song_select_will_stop'====== Args={}
+2026-04-20 15:15:53,187 : INFO : EventManager : Event: ======'mode_song_select_stopping'====== Args={}
+2026-04-20 15:15:53,187 : INFO : Mode.song_select : Stopped.
+2026-04-20 15:15:53,187 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:15:53,188 : INFO : EventManager : Event: ======'mode_song_select_stopped'====== Args={}
+2026-04-20 15:15:53,188 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'song_select'}
+2026-04-20 15:15:53,201 : INFO : EventManager : Event: ======'slide_song_select_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:15:53,202 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'_from_bcp': True}
+2026-04-20 15:15:53,203 : INFO : EventManager : Event: ======'slide_song_select_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:15:56,115 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2026-04-20 15:15:56,116 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:15:56,116 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:15:56,117 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:15:56,117 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:15:56,117 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:15:56,117 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:15:56,117 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:16:06,119 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2026-04-20 15:16:06,120 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:16:06,120 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:16:06,120 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:16:06,120 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:16:06,121 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:16:06,121 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:16:06,121 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:16:11,468 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:16:11,469 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 329, 'prev_value': 328, 'change': 1}
+2026-04-20 15:16:11,602 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:16:16,122 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2026-04-20 15:16:16,123 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:16:16,123 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:16:16,123 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:16:16,123 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:16:16,123 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:16:16,124 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:16:16,124 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:16:16,570 : INFO : Machine : Shutting down...
+2026-04-20 15:16:16,570 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_bumpers_will_stop'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_bumpers_stopping'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2026-04-20 15:16:16,571 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:16:16,572 : INFO : Mode.base : Stopped.
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2026-04-20 15:16:16,572 : INFO : Mode.bumpers : Stopped.
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'mode_bumpers_stopped'====== Args={}
+2026-04-20 15:16:16,572 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bumpers'}
+2026-04-20 15:16:16,573 : INFO : Mode.game : Stopped.
+2026-04-20 15:16:16,573 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:16:16,573 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2026-04-20 15:16:16,573 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2026-04-20 15:16:16,574 : INFO : root : MPF run loop ended.

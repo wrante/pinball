@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dihca8wg1ta6c"
+path="res://.godot/imported/Bob Dylan - The Times They Are A-Changin'.mp3-41378bd335ab8b711b434e6d351b4053.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Folk/Bob Dylan - The Times They Are A-Changin'.mp3"
+dest_files=["res://.godot/imported/Bob Dylan - The Times They Are A-Changin'.mp3-41378bd335ab8b711b434e6d351b4053.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

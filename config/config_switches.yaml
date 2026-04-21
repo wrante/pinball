@@ -1,10 +1,23 @@
 #config_version=6
 
 switches:
+  # Playfield Switches
+  s_bumper_left:
+    number:
+  s_bumper_right:
+    number:
+  s_left_lane:
+    number:
   # Cabinet Switches
+  s_start:
+    number:
+    tags: start
   s_flipper_left:
     number:
     tags: left_flipper
+  s_action_button:
+    number:
+    tags: action_button
   s_flipper_right:
     number:
     tags: right_flipper

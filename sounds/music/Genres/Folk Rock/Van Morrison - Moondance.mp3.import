@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bynfc4jpslgeu"
+path="res://.godot/imported/Van Morrison - Moondance.mp3-1a08830fae1626550b1d6f548ba9cd4a.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Folk Rock/Van Morrison - Moondance.mp3"
+dest_files=["res://.godot/imported/Van Morrison - Moondance.mp3-1a08830fae1626550b1d6f548ba9cd4a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

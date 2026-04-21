@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctme0hvi5yslf"
+path="res://.godot/imported/The Go-Go's - We Got the Beat.mp3-cd712cd1b909fbee63feefa8e4374991.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Pop Rock/The Go-Go's - We Got the Beat.mp3"
+dest_files=["res://.godot/imported/The Go-Go's - We Got the Beat.mp3-cd712cd1b909fbee63feefa8e4374991.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

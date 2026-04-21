@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dwgumnuoxmrtb"
+path="res://.godot/imported/The Beatles - I Want To Hold Your Hand.mp3-5eef544e5bf21cd431bfb48b46437559.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Brit Invasion/The Beatles - I Want To Hold Your Hand.mp3"
+dest_files=["res://.godot/imported/The Beatles - I Want To Hold Your Hand.mp3-5eef544e5bf21cd431bfb48b46437559.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

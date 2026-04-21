@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhj6i3gnyfbph"
+path="res://.godot/imported/Grand Funk Railroad - We're An American Band.mp3-85647d5b7cc46575e07debf10fcfe3e7.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hard Rock/Grand Funk Railroad - We're An American Band.mp3"
+dest_files=["res://.godot/imported/Grand Funk Railroad - We're An American Band.mp3-85647d5b7cc46575e07debf10fcfe3e7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

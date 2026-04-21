@@ -1,9 +1,23 @@
 #config_version=6
 
-# Base mode that starts at the beginning of each ball
-# and stops at the end of each ball.
+# Base mode starts after song select on ball 1,
+# then starts normally at the beginning of later balls.
 
 mode:
-  start_events: ball_starting
+  start_events: song_select_complete, ball_starting{ball>1}
   stop_events: ball_will_end
   priority: 100
+
+event_player:
+  mode_base_started:
+    - start_mode_bumpers
+  mode_base_will_stop:
+    - stop_mode_bumpers
+  left_lane_hit: start_mode_rhythm
+
+shots:
+  left_lane:
+    switches: s_left_lane
+
+slide_player:
+  mode_base_started: base_slide

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drqxj0wynk1od"
+path="res://.godot/imported/Stevie Wonder - Superstition.mp3-52d09616e0131a4d1c22914ee5a26141.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Soul/Stevie Wonder - Superstition.mp3"
+dest_files=["res://.godot/imported/Stevie Wonder - Superstition.mp3-52d09616e0131a4d1c22914ee5a26141.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

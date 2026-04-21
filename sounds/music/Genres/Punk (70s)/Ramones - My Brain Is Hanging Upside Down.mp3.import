@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5av2548pchym"
+path="res://.godot/imported/Ramones - My Brain Is Hanging Upside Down.mp3-6aa1d0e56f6f15a36a313f160205159e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (70s)/Ramones - My Brain Is Hanging Upside Down.mp3"
+dest_files=["res://.godot/imported/Ramones - My Brain Is Hanging Upside Down.mp3-6aa1d0e56f6f15a36a313f160205159e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

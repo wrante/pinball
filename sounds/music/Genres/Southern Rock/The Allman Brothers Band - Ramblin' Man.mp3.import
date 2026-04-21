@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5sjao4gjeya3"
+path="res://.godot/imported/The Allman Brothers Band - Ramblin' Man.mp3-fc1923eebb361ca5835576b5eac85027.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Southern Rock/The Allman Brothers Band - Ramblin' Man.mp3"
+dest_files=["res://.godot/imported/The Allman Brothers Band - Ramblin' Man.mp3-fc1923eebb361ca5835576b5eac85027.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

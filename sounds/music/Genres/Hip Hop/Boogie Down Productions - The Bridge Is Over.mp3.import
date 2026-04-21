@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5t4d1ej570n"
+path="res://.godot/imported/Boogie Down Productions - The Bridge Is Over.mp3-a4767e94bb21b38f4fc4fe809f1fcdc1.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hip Hop/Boogie Down Productions - The Bridge Is Over.mp3"
+dest_files=["res://.godot/imported/Boogie Down Productions - The Bridge Is Over.mp3-a4767e94bb21b38f4fc4fe809f1fcdc1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

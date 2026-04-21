@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c4jsmc4n80k3c"
+path="res://.godot/imported/The Beach Boys - I Get Around.mp3-803e28272a079333f793bd541ed11df5.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Pop Rock/The Beach Boys - I Get Around.mp3"
+dest_files=["res://.godot/imported/The Beach Boys - I Get Around.mp3-803e28272a079333f793bd541ed11df5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

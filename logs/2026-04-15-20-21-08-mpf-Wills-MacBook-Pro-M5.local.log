@@ -1,0 +1,37 @@
+2026-04-15 20:21:08,036 : INFO : root : Loading config.
+2026-04-15 20:21:08,087 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-15 20:21:08,088 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-15 20:21:08,088 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-15 20:21:08,103 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-15 20:21:08,104 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-15 20:21:08,105 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-15 20:21:08,106 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/104947b35f87d581877cdaf02599b463.mpf_cache
+2026-04-15 20:21:08,106 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/bc830d47d6fbb336561cc63e74edf2c9.mpf_cache
+2026-04-15 20:21:08,107 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/4273c698423283a7843ff5c77ef69dc9.mpf_cache
+2026-04-15 20:21:08,108 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/7424f2cce7b15e0b37e570d3514590c8.mpf_cache
+2026-04-15 20:21:08,108 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-04-15 20:21:08,108 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-15-20-21-08-mpf-Wills-MacBook-Pro-M5.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'full_logfile_path': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-15-20-21-08-mpf-Wills-MacBook-Pro-M5.local.log'}
+2026-04-15 20:21:08,108 : INFO : Machine : MPF path: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf
+2026-04-15 20:21:08,108 : INFO : Machine : Machine path: /Users/willrante/Documents/GitHub/pinball
+2026-04-15 20:21:08,109 : INFO : Machine : Platform: darwin
+2026-04-15 20:21:08,109 : INFO : Machine : Python executable location: /Users/willrante/mpf-env/bin/python3.14
+2026-04-15 20:21:08,109 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-04-15 20:21:08,112 : INFO : Machine : Initializing MPF...
+2026-04-15 20:21:08,133 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,140 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,141 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,141 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,141 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.3.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.3.0', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.3.0: Wed Jan 28 20:54:38 PST 2026; root:xnu-12377.91.3~2/RELEASE_ARM64_T6050', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-15-20-21-08-mpf-Wills-MacBook-Pro-M5.local.log', 'prev_value': None, 'change': True}
+2026-04-15 20:21:08,153 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-15 20:21:08,163 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-15 20:21:08,164 : INFO : SwitchController : Found active switch: (1006, <Platform.SmartVirtual>) <switch.s_trough_1>
+2026-04-15 20:21:08,164 : INFO : SwitchController : Found active switch: (1007, <Platform.SmartVirtual>) <switch.s_trough_2>
+2026-04-15 20:21:08,164 : INFO : SwitchController : Found active switch: (1008, <Platform.SmartVirtual>) <switch.s_trough_3>
+2026-04-15 20:21:08,165 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-04-15 20:21:08,166 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...

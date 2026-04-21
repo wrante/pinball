@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yi7e2gy23mqa"
+path="res://.godot/imported/Elton John - I'm Still Standing.mp3-6993cccd8c0239e851ef48e5de79d3ce.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Pop Rock/Elton John - I'm Still Standing.mp3"
+dest_files=["res://.godot/imported/Elton John - I'm Still Standing.mp3-6993cccd8c0239e851ef48e5de79d3ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

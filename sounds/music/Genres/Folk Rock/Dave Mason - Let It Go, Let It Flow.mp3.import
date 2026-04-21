@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcq5wq17wrdps"
+path="res://.godot/imported/Dave Mason - Let It Go, Let It Flow.mp3-5f6ab05d7a7b504e8f97160735136751.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Folk Rock/Dave Mason - Let It Go, Let It Flow.mp3"
+dest_files=["res://.godot/imported/Dave Mason - Let It Go, Let It Flow.mp3-5f6ab05d7a7b504e8f97160735136751.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
