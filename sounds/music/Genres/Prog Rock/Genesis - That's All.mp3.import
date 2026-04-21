@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3jquwhgopaln"
+path="res://.godot/imported/Genesis - That's All.mp3-e4ea99f7a65af5489ce616014877fd63.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Prog Rock/Genesis - That's All.mp3"
+dest_files=["res://.godot/imported/Genesis - That's All.mp3-e4ea99f7a65af5489ce616014877fd63.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

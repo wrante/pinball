@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lowixd3dnw06"
+path="res://.godot/imported/Iron Maiden - The Trooper.mp3-3a67185e0c970220ecdf11f4f6123cda.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Heavy Metal/Iron Maiden - The Trooper.mp3"
+dest_files=["res://.godot/imported/Iron Maiden - The Trooper.mp3-3a67185e0c970220ecdf11f4f6123cda.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

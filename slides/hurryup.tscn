@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://dru3usokwlhd3" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_mdrpy"]
 [ext_resource type="FontFile" uid="uid://53krthjdmecr" path="res://fonts/royal-acidbath/Royalacid_o.ttf" id="2_ndsnu"]
+[ext_resource type="FontFile" uid="uid://348350iv2c8h" path="res://fonts/royal-acidbath/Royalacid.ttf" id="2_u4kvt"]
 [ext_resource type="Script" uid="uid://bfvhmv2eirpua" path="res://addons/mpf-gmc/classes/mpf_variable.gd" id="2_vkuta"]
 
 [node name="Hurryup" type="Control" unique_id=587195895]
@@ -19,7 +20,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.72918427, 0.87408215, 0.8384196, 1)
+color = Color(0.43529412, 0.5803922, 0.5137255, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1048417809]
 layout_mode = 1
@@ -33,17 +34,26 @@ alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=786245838]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.9233665, 0, 0.36221924, 1)
-theme_override_fonts/font = ExtResource("2_ndsnu")
-theme_override_font_sizes/font_size = 180
-text = "Hurry Up!!!"
+theme_override_colors/font_color = Color(0.9137255, 0.16862746, 0.19215687, 1)
+theme_override_colors/font_shadow_color = Color(0.12941177, 0.12156863, 0.12941177, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/shadow_offset_x = 5
+theme_override_constants/shadow_offset_y = 5
+theme_override_constants/outline_size = 15
+theme_override_constants/shadow_outline_size = 40
+theme_override_fonts/font = ExtResource("2_u4kvt")
+theme_override_font_sizes/font_size = 200
+text = "Player 1"
 horizontal_alignment = 1
 
 [node name="MPFVariable" type="Label" parent="VBoxContainer" unique_id=852809488]
 layout_mode = 2
+theme_override_colors/font_color = Color(0.95686275, 0.9529412, 0.9607843, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_fonts/font = ExtResource("2_ndsnu")
-theme_override_font_sizes/font_size = 120
-text = "100,000"
+theme_override_font_sizes/font_size = 150
+text = "123,456,700"
 horizontal_alignment = 1
 script = ExtResource("2_vkuta")
 variable_type = 1

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpy3k8mn5k7f1"
+path="res://.godot/imported/Janis Joplin - Piece of My Heart.mp3-035e90bc3d679238557b7a2491764c1d.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Psychedelic/Janis Joplin - Piece of My Heart.mp3"
+dest_files=["res://.godot/imported/Janis Joplin - Piece of My Heart.mp3-035e90bc3d679238557b7a2491764c1d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

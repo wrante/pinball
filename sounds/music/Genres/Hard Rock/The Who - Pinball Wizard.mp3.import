@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2sehoje37le"
+path="res://.godot/imported/The Who - Pinball Wizard.mp3-4b9a792d5e822ed34808bb6cfb051183.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hard Rock/The Who - Pinball Wizard.mp3"
+dest_files=["res://.godot/imported/The Who - Pinball Wizard.mp3-4b9a792d5e822ed34808bb6cfb051183.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

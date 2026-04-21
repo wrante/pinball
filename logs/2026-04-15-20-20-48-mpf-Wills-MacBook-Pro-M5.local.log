@@ -1,0 +1,68 @@
+2026-04-15 20:20:48,074 : INFO : root : Loading config.
+2026-04-15 20:20:48,127 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-15 20:20:48,127 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-15 20:20:48,128 : INFO : ConfigProcessor : Loading config from file /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/mpfconfig.yaml.
+2026-04-15 20:20:48,141 : INFO : ConfigProcessor : Loading config: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/mpfconfig.yaml
+2026-04-15 20:20:48,141 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./config/config.yaml.
+2026-04-15 20:20:48,142 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./config/config.yaml
+2026-04-15 20:20:48,143 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./config/config_ball_devices.yaml
+2026-04-15 20:20:48,143 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./config/config_coils.yaml
+2026-04-15 20:20:48,144 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./config/config_switches.yaml
+2026-04-15 20:20:48,145 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-15 20:20:48,173 : INFO : ConfigProcessor : Loading config from file /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/modes/attract/config/attract.yaml.
+2026-04-15 20:20:48,173 : INFO : ConfigProcessor : Loading config: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/modes/attract/config/attract.yaml
+2026-04-15 20:20:48,173 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./modes/attract/config/attract.yaml.
+2026-04-15 20:20:48,174 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./modes/attract/config/attract.yaml
+2026-04-15 20:20:48,175 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-15 20:20:48,175 : INFO : ConfigProcessor : Loading config from file /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/modes/game/config/game.yaml.
+2026-04-15 20:20:48,176 : INFO : ConfigProcessor : Loading config: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/modes/game/config/game.yaml
+2026-04-15 20:20:48,176 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-15 20:20:48,177 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-15 20:20:48,177 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./modes/base/config/base.yaml.
+2026-04-15 20:20:48,178 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./modes/base/config/base.yaml
+2026-04-15 20:20:48,179 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/104947b35f87d581877cdaf02599b463.mpf_cache
+2026-04-15 20:20:48,179 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./modes/bumpers/config/bumpers.yaml.
+2026-04-15 20:20:48,180 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./modes/bumpers/config/bumpers.yaml
+2026-04-15 20:20:48,181 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/bc830d47d6fbb336561cc63e74edf2c9.mpf_cache
+2026-04-15 20:20:48,181 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./modes/rhythm/config/rhythm.yaml.
+2026-04-15 20:20:48,185 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./modes/rhythm/config/rhythm.yaml
+2026-04-15 20:20:48,185 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/4273c698423283a7843ff5c77ef69dc9.mpf_cache
+2026-04-15 20:20:48,186 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/./modes/hurryup/config/hurryup.yaml.
+2026-04-15 20:20:48,187 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/./modes/hurryup/config/hurryup.yaml
+2026-04-15 20:20:48,188 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/7424f2cce7b15e0b37e570d3514590c8.mpf_cache
+2026-04-15 20:20:48,188 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-04-15 20:20:48,188 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-15-20-20-48-mpf-Wills-MacBook-Pro-M5.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/Users/willrante/Documents/GitHub/pinball/./logs/2026-04-15-20-20-48-mpf-Wills-MacBook-Pro-M5.local.log'}
+2026-04-15 20:20:48,188 : INFO : Machine : MPF path: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf
+2026-04-15 20:20:48,188 : INFO : Machine : Machine path: /Users/willrante/Documents/GitHub/pinball/.
+2026-04-15 20:20:48,188 : INFO : Machine : Platform: darwin
+2026-04-15 20:20:48,188 : INFO : Machine : Python executable location: /Users/willrante/mpf-env/bin/python3.14
+2026-04-15 20:20:48,188 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-04-15 20:20:48,190 : INFO : Machine : Initializing MPF...
+2026-04-15 20:20:48,341 : INFO : Machine : Shutting down...
+2026-04-15 20:20:48,341 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-15 20:20:48,342 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/machine.py", line 688, in initialize_mpf
+    raise init.exception()
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/machine.py", line 250, in initialize
+    await self.initialize_core_and_hardware()
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/machine.py", line 238, in initialize_core_and_hardware
+    self._load_core_modules()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/machine.py", line 470, in _load_core_modules
+    m = Util.string_to_class(module_class)(self)
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/text_ui.py", line 144, in __init__
+    self._create_window()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/mpf/core/text_ui.py", line 370, in _create_window
+    self.screen = Screen.open()
+                  ~~~~~~~~~~~^^
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/asciimatics/screen.py", line 1391, in open
+    screen = _CursesScreen(stdscr, height,
+                           catch_interrupt=catch_interrupt,
+                           unicode_aware=unicode_aware)
+  File "/Users/willrante/mpf-env/lib/python3.14/site-packages/asciimatics/screen.py", line 2340, in __init__
+    curses.curs_set(0)
+    ~~~~~~~~~~~~~~~^^^
+_curses.error: curs_set() returned ERR
+2026-04-15 20:20:48,343 : INFO : root : MPF run loop ended.

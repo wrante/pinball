@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bebtq5x557y67"
+path="res://.godot/imported/The Walkmen - The Rat.mp3-baabc6c8692870b8c9e1a72939692799.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Alternative/The Walkmen - The Rat.mp3"
+dest_files=["res://.godot/imported/The Walkmen - The Rat.mp3-baabc6c8692870b8c9e1a72939692799.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dnhg1csrsxswp"
+path="res://.godot/imported/The Animals - Don't Let Me Be Misunderstood.mp3-bdc10506451ab6ed3231474e0d842c6f.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Brit Invasion/The Animals - Don't Let Me Be Misunderstood.mp3"
+dest_files=["res://.godot/imported/The Animals - Don't Let Me Be Misunderstood.mp3-bdc10506451ab6ed3231474e0d842c6f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

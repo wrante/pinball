@@ -1,0 +1,111 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_rhythm
+  stop_events: stop_mode_rhythm
+  priority: 1200
+  code: rhythm.Rhythm
+
+mode_settings:
+  lead_in_ms: 1800
+  travel_ms: 1600
+  perfect_window_ms: 90
+  good_window_ms: 170
+  finish_hold_ms: 1600
+  song: Deep Purple - Smoke On the Water (Official Music Video)
+  song_bus: music
+  audio_offset_ms: 8000
+  lane_switches:
+    left: s_flipper_left
+    center: s_action_button
+    right: s_flipper_right
+  chart:
+    - time_ms: 2400
+      lane: left
+    - time_ms: 2800
+      lane: center
+    - time_ms: 3200
+      lane: right
+    - time_ms: 3600
+      lane: left
+    - time_ms: 4000
+      lane: center
+    - time_ms: 4000
+      lane: right
+    - time_ms: 4500
+      lane: left
+    - time_ms: 4900
+      lane: center
+      duration_ms: 900
+    - time_ms: 5300
+      lane: right
+    - time_ms: 5700
+      lane: left
+    - time_ms: 6100
+      lane: center
+    - time_ms: 6500
+      lane: right
+    - time_ms: 6900
+      lane: center
+    - time_ms: 7300
+      lane: right
+    - time_ms: 7700
+      lane: left
+    - time_ms: 7700
+      lane: center
+    - time_ms: 8300
+      lane: left
+    - time_ms: 8700
+      lane: center
+    - time_ms: 9100
+      lane: right
+      duration_ms: 700
+    - time_ms: 9500
+      lane: center
+    - time_ms: 9900
+      lane: right
+    - time_ms: 10300
+      lane: left
+    - time_ms: 10700
+      lane: center
+    - time_ms: 10700
+      lane: right
+    - time_ms: 11300
+      lane: left
+    - time_ms: 11700
+      lane: center
+    - time_ms: 12100
+      lane: left
+    - time_ms: 12500
+      lane: right
+    - time_ms: 12900
+      lane: center
+      duration_ms: 700
+    - time_ms: 13300
+      lane: right
+    - time_ms: 13700
+      lane: left
+    - time_ms: 13700
+      lane: center
+    - time_ms: 14300
+      lane: center
+    - time_ms: 14700
+      lane: right
+    - time_ms: 15100
+      lane: left
+      duration_ms: 700
+    - time_ms: 15500
+      lane: center
+    - time_ms: 16100
+      lane: left
+    - time_ms: 16100
+      lane: right
+
+slide_player:
+  mode_rhythm_started: rhythm
+
+sound_player:
+  mode_rhythm_stopping:
+    Deep Purple - Smoke On the Water (Official Music Video):
+      bus: music
+      action: stop

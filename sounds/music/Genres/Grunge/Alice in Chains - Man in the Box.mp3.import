@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://oxhwcgddoxv3"
+path="res://.godot/imported/Alice in Chains - Man in the Box.mp3-ba10e947cd0f0fd7f5707727697cfbee.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Grunge/Alice in Chains - Man in the Box.mp3"
+dest_files=["res://.godot/imported/Alice in Chains - Man in the Box.mp3-ba10e947cd0f0fd7f5707727697cfbee.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2o1o88xeofr"
+path="res://.godot/imported/Rick James - Super Freak.mp3-540546f49f0ff3d3b00bb2a2942a2de1.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Funk/Rick James - Super Freak.mp3"
+dest_files=["res://.godot/imported/Rick James - Super Freak.mp3-540546f49f0ff3d3b00bb2a2942a2de1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,715 @@
+2026-04-20 15:07:29,012 : INFO : root : Loading config.
+2026-04-20 15:07:29,059 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-20 15:07:29,059 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-20 15:07:29,059 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-20 15:07:29,082 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:07:29,083 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-20 15:07:29,083 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:07:29,083 : WARNING : ConfigProcessor : Config file in cache changed: /Users/willrante/Documents/GitHub/pinball/modes/song_select/config/song_select.yaml
+2026-04-20 15:07:29,083 : INFO : ConfigProcessor : Loading config from file /Users/willrante/Documents/GitHub/pinball/modes/song_select/config/song_select.yaml.
+2026-04-20 15:07:29,084 : INFO : ConfigProcessor : Loading config: /Users/willrante/Documents/GitHub/pinball/modes/song_select/config/song_select.yaml
+2026-04-20 15:07:29,084 : INFO : ConfigProcessor : Config file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/cfdfcb64dba57a34ef9374db95e57645.mpf_cache
+2026-04-20 15:07:29,084 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/104947b35f87d581877cdaf02599b463.mpf_cache
+2026-04-20 15:07:29,084 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/bc830d47d6fbb336561cc63e74edf2c9.mpf_cache
+2026-04-20 15:07:29,085 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/4273c698423283a7843ff5c77ef69dc9.mpf_cache
+2026-04-20 15:07:29,085 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/7424f2cce7b15e0b37e570d3514590c8.mpf_cache
+2026-04-20 15:07:29,085 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-04-20 15:07:29,085 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-20-15-07-29-mpf-Wills-MacBook-Pro-M5.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-07-29-mpf-Wills-MacBook-Pro-M5.local.log'}
+2026-04-20 15:07:29,085 : INFO : Machine : MPF path: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf
+2026-04-20 15:07:29,085 : INFO : Machine : Machine path: /Users/willrante/Documents/GitHub/pinball
+2026-04-20 15:07:29,085 : INFO : Machine : Platform: darwin
+2026-04-20 15:07:29,085 : INFO : Machine : Python executable location: /Users/willrante/mpf-env/bin/python3.14
+2026-04-20 15:07:29,085 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-04-20 15:07:29,085 : INFO : Machine : Initializing MPF...
+2026-04-20 15:07:29,111 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,115 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,115 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,115 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,115 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.4.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.4.0', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.4.0: Thu Mar 19 19:33:50 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6050', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-07-29-mpf-Wills-MacBook-Pro-M5.local.log', 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,122 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-20 15:07:29,130 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-20 15:07:29,130 : INFO : SwitchController : Found active switch: (1007, <Platform.Virtual>) <switch.s_trough_1>
+2026-04-20 15:07:29,130 : INFO : SwitchController : Found active switch: (1008, <Platform.Virtual>) <switch.s_trough_2>
+2026-04-20 15:07:29,130 : INFO : SwitchController : Found active switch: (1009, <Platform.Virtual>) <switch.s_trough_3>
+2026-04-20 15:07:29,131 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-04-20 15:07:29,131 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-04-20 15:07:29,134 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-04-20 15:07:29,134 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-04-20 15:07:29,134 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-04-20 15:07:29,134 : INFO : ball_device.bd_plunger : State: idle
+2026-04-20 15:07:29,134 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2026-04-20 15:07:29,134 : INFO : ball_device.bd_trough : State: idle
+2026-04-20 15:07:29,137 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-04-20 15:07:29,138 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-04-20 15:07:29,138 : INFO : BallController : Initial balls found: 3
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bumper_left'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_bumper_right'====== Args={'value': 19, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger_lane'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 26, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 30, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 145, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 144, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_shots_hurryup'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 324, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 145, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 144, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 341, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 327, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-04-20 15:07:29,139 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-04-20 15:07:29,164 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-04-20 15:07:29,164 : INFO : Mode.attract : Started. Priority: 10
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:29,164 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-04-20 15:07:29,165 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-04-20 15:07:29,165 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-04-20 15:07:29,165 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:07:29,165 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-04-20 15:07:29,194 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-04-20 15:07:29,194 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-04-20 15:07:29,194 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:07:31,185 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:07:31,301 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:07:31,301 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-04-20 15:07:31,302 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.11589795799227431}
+2026-04-20 15:07:31,302 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.11589795799227431}
+2026-04-20 15:07:31,303 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.11589795799227431}
+2026-04-20 15:07:31,303 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2026-04-20 15:07:31,303 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2026-04-20 15:07:31,303 : INFO : Mode.attract : Stopped.
+2026-04-20 15:07:31,303 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:31,304 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2026-04-20 15:07:31,304 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2026-04-20 15:07:31,304 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-04-20 15:07:31,304 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:07:31,304 : INFO : Mode.game : Started. Priority: 20
+2026-04-20 15:07:31,304 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:31,304 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.11589795799227431}
+2026-04-20 15:07:31,305 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2026-04-20 15:07:31,305 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2026-04-20 15:07:31,305 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('f723aad0-736e-432c-8ebe-6ce118b811e9'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('0a6dc21a-8be9-47dc-8128-e140e7360fbc'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2026-04-20 15:07:31,305 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2026-04-20 15:07:31,306 : INFO : Mode.game : Player added successfully. Total players: 1
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2026-04-20 15:07:31,306 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:07:31,307 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:07:31,307 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:07:31,307 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:07:31,309 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,310 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,310 : INFO : EventManager : Event: ======'mode_song_select_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,311 : INFO : EventManager : Event: ======'mode_song_select_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,311 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,311 : INFO : EventManager : Event: ======'player_shot_left_lane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:07:31,312 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,312 : INFO : Mode.base : Started. Priority: 100
+2026-04-20 15:07:31,312 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:31,312 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,312 : INFO : EventManager : Event: ======'start_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:07:31,313 : INFO : EventManager : Event: ======'mode_bumpers_will_start'====== Args={'priority': 0}
+2026-04-20 15:07:31,313 : INFO : EventManager : Event: ======'player_shot_bumper_left_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:07:31,313 : INFO : EventManager : Event: ======'player_shot_bumper_right_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:07:31,313 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'unlit'}
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'bumpers_unlit_complete'====== Args={}
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'mode_bumpers_starting'====== Args={'priority': 0}
+2026-04-20 15:07:31,314 : INFO : Mode.bumpers : Started. Priority: 200
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'mode_bumpers_started'====== Args={'priority': 0}
+2026-04-20 15:07:31,314 : INFO : Mode.song_select : Started. Priority: 1500
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:07:31,314 : INFO : EventManager : Event: ======'mode_song_select_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,322 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:07:31,322 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2026-04-20 15:07:31,322 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:07:31,323 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2026-04-20 15:07:31,323 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2026-04-20 15:07:31,323 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2026-04-20 15:07:31,323 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2026-04-20 15:07:31,323 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2026-04-20 15:07:31,324 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:07:31,324 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:07:31,324 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2026-04-20 15:07:31,324 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:07:31,324 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:07:31,324 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:07:31,325 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:07:31,325 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:07:31,362 : INFO : EventManager : Event: ======'slide_base_slide_created'====== Args={'_from_bcp': True}
+2026-04-20 15:07:31,362 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:07:31,363 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:07:31,363 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:07:31,377 : INFO : EventManager : Event: ======'slide_song_select_created'====== Args={'_from_bcp': True}
+2026-04-20 15:07:31,378 : INFO : EventManager : Event: ======'slide_base_slide_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2026-04-20 15:07:31,378 : INFO : EventManager : Event: ======'slide_song_select_active'====== Args={'original_context': 'song_select', 'original_calling_context': 'mode_song_select_started', 'priority': 1500.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:07:32,568 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:32,569 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:07:32,569 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 342, 'prev_value': 341, 'change': 1}
+2026-04-20 15:07:32,752 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:33,418 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:33,418 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:07:33,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 328, 'prev_value': 327, 'change': 1}
+2026-04-20 15:07:33,568 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:33,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:33,718 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:07:33,718 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 329, 'prev_value': 328, 'change': 1}
+2026-04-20 15:07:33,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:34,385 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:34,385 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:07:34,385 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 343, 'prev_value': 342, 'change': 1}
+2026-04-20 15:07:34,518 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:34,818 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:34,818 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:07:34,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 344, 'prev_value': 343, 'change': 1}
+2026-04-20 15:07:34,918 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:35,235 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:35,235 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:07:35,235 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 330, 'prev_value': 329, 'change': 1}
+2026-04-20 15:07:35,384 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:35,634 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:35,635 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:07:35,635 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 331, 'prev_value': 330, 'change': 1}
+2026-04-20 15:07:35,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:35,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:35,835 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Brit Invasion', 'song_title': 'Cream - Sunshine Of Your Love', 'genre_index': 3, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': "> Cream - Sunshine Of Your Love\n  The Animals Don't Let Me Be Misunderstood\n  The Beatles - I Want To Hold Your Hand\n  The Kinks- You Really Got Me\n  The Rolling Stones - Start Me Up\n  The Yardbirds - For Your Love", 'has_audio': True}
+2026-04-20 15:07:35,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 332, 'prev_value': 331, 'change': 1}
+2026-04-20 15:07:35,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:36,018 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:36,018 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Disco', 'song_title': "Bee Gees - Stayin' Alive", 'genre_index': 4, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bee Gees - Stayin' Alive\n  Donna Summer - Bad Girls\n  KC and the Sunshine Band - That's the Way (I Like It)\n  Village People - Macho Man", 'has_audio': True}
+2026-04-20 15:07:36,018 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 333, 'prev_value': 332, 'change': 1}
+2026-04-20 15:07:36,118 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:36,335 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:36,335 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Doo Wop', 'song_title': 'The Coasters - Yakety Yak', 'genre_index': 5, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': '> The Coasters - Yakety Yak\n  The Drifters - Save the Last Dance for Me\n  The Platters - Only You\n  The Temptations - My Girl', 'has_audio': True}
+2026-04-20 15:07:36,335 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 334, 'prev_value': 333, 'change': 1}
+2026-04-20 15:07:36,501 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:36,602 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:36,602 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Folk', 'song_title': "Bob Dylan - The Times They Are A-Changin'", 'genre_index': 6, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bob Dylan - The Times They Are A-Changin'\n  Joan Baez - Silver Dagger\n  Peter, Paul and Mary - Puff, the Magic Dragon\n  The Kingston Trio - Where Have All the Flowers Gone", 'has_audio': True}
+2026-04-20 15:07:36,602 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 335, 'prev_value': 334, 'change': 1}
+2026-04-20 15:07:36,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:36,818 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:36,818 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Folk Rock', 'song_title': 'Bonnie Raitt - Something to Talk About', 'genre_index': 7, 'genre_count': 24, 'song_index': 1, 'song_count': 10, 'songs_text': '> Bonnie Raitt - Something to Talk About\n  Creedence Clearwater Revival - Bad Moon Rising\n  Crosby, Stills & Nash - Suite Judy Blue Eyes\n  Dave Mason - Let It Go, Let It Flow\n  Jackson Browne - Doctor My Eyes\n  Neil Young - Heart of Gold\n  Simon & Garfunkel - Mrs. Robinson', 'has_audio': True}
+2026-04-20 15:07:36,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 336, 'prev_value': 335, 'change': 1}
+2026-04-20 15:07:36,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:37,318 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:37,318 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Funk', 'song_title': 'Con Funk Shun - Ffun', 'genre_index': 8, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': '> Con Funk Shun - Ffun\n  Funkadelic - Can You Get To That\n  Parliament - Give Up the Funk (Tear the Roof Off the Sucker)\n  Prince - Raspberry Beret\n  Rick James - Super Freak\n  The Isley Brothers - Between The Sheets', 'has_audio': True}
+2026-04-20 15:07:37,318 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 337, 'prev_value': 336, 'change': 1}
+2026-04-20 15:07:37,468 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:37,818 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:37,818 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Glitter:Glam', 'song_title': "Alice Cooper - School's Out", 'genre_index': 9, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': "> Alice Cooper - School's Out\n  David Bowie - Suffragette City\n  KISS - I Was Made For Loving You\n  Roxy Music - More Than This\n  T. Rex - Bang a Gong (Get It On)", 'has_audio': True}
+2026-04-20 15:07:37,818 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 338, 'prev_value': 337, 'change': 1}
+2026-04-20 15:07:37,968 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:38,068 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:38,068 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:07:38,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 339, 'prev_value': 338, 'change': 1}
+2026-04-20 15:07:38,184 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:38,301 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:38,301 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Hard Rock', 'song_title': 'AC:DC - Back In Black', 'genre_index': 11, 'genre_count': 24, 'song_index': 1, 'song_count': 9, 'songs_text': "> AC:DC - Back In Black\n  Aerosmith - Same Old Song and Dance\n  Deep Purple - Smoke On The Water\n  Grand Funk Railroad - We're An American Band\n  Heart - Barracuda\n  Led Zeppelin - Immigrant Song\n  Ted Nugent - Stranglehold", 'has_audio': True}
+2026-04-20 15:07:38,302 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 340, 'prev_value': 339, 'change': 1}
+2026-04-20 15:07:38,418 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:38,768 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:38,768 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:07:38,768 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 345, 'prev_value': 344, 'change': 1}
+2026-04-20 15:07:38,851 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:38,951 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:38,951 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Glitter:Glam', 'song_title': "Alice Cooper - School's Out", 'genre_index': 9, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': "> Alice Cooper - School's Out\n  David Bowie - Suffragette City\n  KISS - I Was Made For Loving You\n  Roxy Music - More Than This\n  T. Rex - Bang a Gong (Get It On)", 'has_audio': True}
+2026-04-20 15:07:38,952 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 346, 'prev_value': 345, 'change': 1}
+2026-04-20 15:07:39,085 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:40,551 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:40,551 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Funk', 'song_title': 'Con Funk Shun - Ffun', 'genre_index': 8, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': '> Con Funk Shun - Ffun\n  Funkadelic - Can You Get To That\n  Parliament - Give Up the Funk (Tear the Roof Off the Sucker)\n  Prince - Raspberry Beret\n  Rick James - Super Freak\n  The Isley Brothers - Between The Sheets', 'has_audio': True}
+2026-04-20 15:07:40,551 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 347, 'prev_value': 346, 'change': 1}
+2026-04-20 15:07:40,701 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:41,068 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:41,068 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Folk Rock', 'song_title': 'Bonnie Raitt - Something to Talk About', 'genre_index': 7, 'genre_count': 24, 'song_index': 1, 'song_count': 10, 'songs_text': '> Bonnie Raitt - Something to Talk About\n  Creedence Clearwater Revival - Bad Moon Rising\n  Crosby, Stills & Nash - Suite Judy Blue Eyes\n  Dave Mason - Let It Go, Let It Flow\n  Jackson Browne - Doctor My Eyes\n  Neil Young - Heart of Gold\n  Simon & Garfunkel - Mrs. Robinson', 'has_audio': True}
+2026-04-20 15:07:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 348, 'prev_value': 347, 'change': 1}
+2026-04-20 15:07:41,218 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:41,325 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2026-04-20 15:07:41,326 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:07:41,326 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:07:41,326 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:07:41,326 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:07:41,326 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:07:41,327 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:07:41,327 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:07:41,551 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:41,552 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Folk', 'song_title': "Bob Dylan - The Times They Are A-Changin'", 'genre_index': 6, 'genre_count': 24, 'song_index': 1, 'song_count': 4, 'songs_text': "> Bob Dylan - The Times They Are A-Changin'\n  Joan Baez - Silver Dagger\n  Peter, Paul and Mary - Puff, the Magic Dragon\n  The Kingston Trio - Where Have All the Flowers Gone", 'has_audio': True}
+2026-04-20 15:07:41,552 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 349, 'prev_value': 348, 'change': 1}
+2026-04-20 15:07:41,718 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:41,834 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:41,835 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Folk Rock', 'song_title': 'Bonnie Raitt - Something to Talk About', 'genre_index': 7, 'genre_count': 24, 'song_index': 1, 'song_count': 10, 'songs_text': '> Bonnie Raitt - Something to Talk About\n  Creedence Clearwater Revival - Bad Moon Rising\n  Crosby, Stills & Nash - Suite Judy Blue Eyes\n  Dave Mason - Let It Go, Let It Flow\n  Jackson Browne - Doctor My Eyes\n  Neil Young - Heart of Gold\n  Simon & Garfunkel - Mrs. Robinson', 'has_audio': True}
+2026-04-20 15:07:41,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 341, 'prev_value': 340, 'change': 1}
+2026-04-20 15:07:41,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:42,051 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:42,051 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Funk', 'song_title': 'Con Funk Shun - Ffun', 'genre_index': 8, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': '> Con Funk Shun - Ffun\n  Funkadelic - Can You Get To That\n  Parliament - Give Up the Funk (Tear the Roof Off the Sucker)\n  Prince - Raspberry Beret\n  Rick James - Super Freak\n  The Isley Brothers - Between The Sheets', 'has_audio': True}
+2026-04-20 15:07:42,051 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 342, 'prev_value': 341, 'change': 1}
+2026-04-20 15:07:42,168 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:42,269 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:42,269 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Glitter:Glam', 'song_title': "Alice Cooper - School's Out", 'genre_index': 9, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': "> Alice Cooper - School's Out\n  David Bowie - Suffragette City\n  KISS - I Was Made For Loving You\n  Roxy Music - More Than This\n  T. Rex - Bang a Gong (Get It On)", 'has_audio': True}
+2026-04-20 15:07:42,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 343, 'prev_value': 342, 'change': 1}
+2026-04-20 15:07:42,401 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:42,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:42,835 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:07:42,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 344, 'prev_value': 343, 'change': 1}
+2026-04-20 15:07:42,968 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:43,268 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:43,268 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Hard Rock', 'song_title': 'AC:DC - Back In Black', 'genre_index': 11, 'genre_count': 24, 'song_index': 1, 'song_count': 9, 'songs_text': "> AC:DC - Back In Black\n  Aerosmith - Same Old Song and Dance\n  Deep Purple - Smoke On The Water\n  Grand Funk Railroad - We're An American Band\n  Heart - Barracuda\n  Led Zeppelin - Immigrant Song\n  Ted Nugent - Stranglehold", 'has_audio': True}
+2026-04-20 15:07:43,268 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 345, 'prev_value': 344, 'change': 1}
+2026-04-20 15:07:43,401 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:43,551 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:07:43,551 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Heavy Metal', 'song_title': 'Black Sabbath - Paranoid', 'genre_index': 12, 'genre_count': 24, 'song_index': 1, 'song_count': 6, 'songs_text': '> Black Sabbath - Paranoid\n  Dio - Rainbow In the Dark\n  Iron Maiden - The Trooper\n  Judas Priest - Breaking The Law\n  Metallica - The Wait\n  Motorhead - Ace of Spades', 'has_audio': True}
+2026-04-20 15:07:43,552 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 346, 'prev_value': 345, 'change': 1}
+2026-04-20 15:07:43,701 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:07:44,235 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:44,235 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Hard Rock', 'song_title': 'AC:DC - Back In Black', 'genre_index': 11, 'genre_count': 24, 'song_index': 1, 'song_count': 9, 'songs_text': "> AC:DC - Back In Black\n  Aerosmith - Same Old Song and Dance\n  Deep Purple - Smoke On The Water\n  Grand Funk Railroad - We're An American Band\n  Heart - Barracuda\n  Led Zeppelin - Immigrant Song\n  Ted Nugent - Stranglehold", 'has_audio': True}
+2026-04-20 15:07:44,235 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 350, 'prev_value': 349, 'change': 1}
+2026-04-20 15:07:44,401 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:45,101 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:07:45,102 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:07:45,102 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 351, 'prev_value': 350, 'change': 1}
+2026-04-20 15:07:45,251 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:07:51,328 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2026-04-20 15:07:51,329 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:07:51,329 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:07:51,329 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:07:51,330 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:07:51,330 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:07:51,330 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:07:51,330 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:07:52,585 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:07:52,585 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2026-04-20 15:07:52,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 4, 'prev_value': 3, 'change': 1}
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 2}
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 2>, 'number': 2}
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 2>, 'num': 2}
+2026-04-20 15:07:52,588 : INFO : Mode.game : Player added successfully. Total players: 2
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'multiplayer_game'====== Args={}
+2026-04-20 15:07:52,588 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 2}
+2026-04-20 15:07:52,589 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 2}
+2026-04-20 15:07:52,589 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 2}
+2026-04-20 15:07:52,668 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:08:01,051 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:08:01,051 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:01,052 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 325, 'prev_value': 324, 'change': 1}
+2026-04-20 15:08:01,185 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:08:01,332 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2026-04-20 15:08:01,333 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:08:01,333 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:08:01,333 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:08:01,333 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:08:01,333 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:08:01,334 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:08:01,334 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:08:02,168 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:02,168 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Mudhoney - Overblown', 'genre_index': 10, 'genre_count': 24, 'song_index': 2, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n> Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:02,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 347, 'prev_value': 346, 'change': 1}
+2026-04-20 15:08:02,335 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:02,834 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:02,835 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Nirvana - Smells Like Teen Spirit', 'genre_index': 10, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n> Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:02,835 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 348, 'prev_value': 347, 'change': 1}
+2026-04-20 15:08:03,018 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:03,751 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:03,752 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Pearl Jam - Even Flow', 'genre_index': 10, 'genre_count': 24, 'song_index': 4, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n> Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:03,752 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 349, 'prev_value': 348, 'change': 1}
+2026-04-20 15:08:03,901 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:06,168 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:06,168 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Soundgarden - Spoonman', 'genre_index': 10, 'genre_count': 24, 'song_index': 5, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n> Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:06,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 350, 'prev_value': 349, 'change': 1}
+2026-04-20 15:08:06,351 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:06,751 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:06,751 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:06,751 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 351, 'prev_value': 350, 'change': 1}
+2026-04-20 15:08:06,951 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:07,418 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:07,418 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Mudhoney - Overblown', 'genre_index': 10, 'genre_count': 24, 'song_index': 2, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n> Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:07,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 352, 'prev_value': 351, 'change': 1}
+2026-04-20 15:08:07,584 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:08,268 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:08,268 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Nirvana - Smells Like Teen Spirit', 'genre_index': 10, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n> Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:08,269 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 353, 'prev_value': 352, 'change': 1}
+2026-04-20 15:08:08,418 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:08,585 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:08,585 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Pearl Jam - Even Flow', 'genre_index': 10, 'genre_count': 24, 'song_index': 4, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n> Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:08,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 354, 'prev_value': 353, 'change': 1}
+2026-04-20 15:08:08,701 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:08,918 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:08:08,918 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Nirvana - Smells Like Teen Spirit', 'genre_index': 10, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n> Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:08,918 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 352, 'prev_value': 351, 'change': 1}
+2026-04-20 15:08:09,051 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:08:09,468 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:08:09,468 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Mudhoney - Overblown', 'genre_index': 10, 'genre_count': 24, 'song_index': 2, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n> Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:09,469 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 353, 'prev_value': 352, 'change': 1}
+2026-04-20 15:08:09,634 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:08:10,668 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:08:10,668 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Alice in Chains - Man in the Box', 'genre_index': 10, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:10,668 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 354, 'prev_value': 353, 'change': 1}
+2026-04-20 15:08:10,834 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:08:10,918 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:10,918 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Mudhoney - Overblown', 'genre_index': 10, 'genre_count': 24, 'song_index': 2, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n> Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:10,918 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 355, 'prev_value': 354, 'change': 1}
+2026-04-20 15:08:11,051 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:11,135 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:11,135 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Nirvana - Smells Like Teen Spirit', 'genre_index': 10, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n> Nirvana - Smells Like Teen Spirit\n  Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:11,135 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 356, 'prev_value': 355, 'change': 1}
+2026-04-20 15:08:11,235 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:11,336 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2026-04-20 15:08:11,337 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:08:11,337 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:08:11,337 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:08:11,337 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:08:11,337 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:08:11,338 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:08:11,338 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:08:11,351 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:08:11,351 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genre': 'Grunge', 'song_title': 'Pearl Jam - Even Flow', 'genre_index': 10, 'genre_count': 24, 'song_index': 4, 'song_count': 5, 'songs_text': '  Alice in Chains - Man in the Box\n  Mudhoney - Overblown\n  Nirvana - Smells Like Teen Spirit\n> Pearl Jam - Even Flow\n  Soundgarden - Spoonman', 'has_audio': True}
+2026-04-20 15:08:11,351 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 357, 'prev_value': 356, 'change': 1}
+2026-04-20 15:08:11,451 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:08:12,001 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:08:12,002 : INFO : EventManager : Event: ======'player_selected_song_genre'====== Args={'value': 'Grunge', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:08:12,002 : INFO : EventManager : Event: ======'player_selected_song_title'====== Args={'value': 'Pearl Jam - Even Flow', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:08:12,002 : INFO : EventManager : Event: ======'player_selected_song_key'====== Args={'value': 'Pearl Jam - Even Flow', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:08:12,002 : INFO : EventManager : Event: ======'song_select_confirmed'====== Args={'genre': 'Grunge', 'song_title': 'Pearl Jam - Even Flow', 'sound_key': 'Pearl Jam - Even Flow', 'has_audio': True}
+2026-04-20 15:08:12,002 : INFO : EventManager : Event: ======'song_select_complete'====== Args={}
+2026-04-20 15:08:12,003 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 326, 'prev_value': 325, 'change': 1}
+2026-04-20 15:08:12,003 : INFO : EventManager : Event: ======'mode_song_select_will_stop'====== Args={}
+2026-04-20 15:08:12,003 : INFO : EventManager : Event: ======'mode_song_select_stopping'====== Args={}
+2026-04-20 15:08:12,004 : INFO : Mode.song_select : Stopped.
+2026-04-20 15:08:12,004 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:08:12,004 : INFO : EventManager : Event: ======'mode_song_select_stopped'====== Args={}
+2026-04-20 15:08:12,004 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'song_select'}
+2026-04-20 15:08:12,062 : INFO : EventManager : Event: ======'slide_song_select_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:08:12,062 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'_from_bcp': True}
+2026-04-20 15:08:12,062 : INFO : EventManager : Event: ======'slide_song_select_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:08:12,135 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:08:21,339 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2026-04-20 15:08:21,340 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:08:21,340 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2026-04-20 15:08:21,340 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:08:21,340 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:08:21,341 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2026-04-20 15:08:21,341 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:08:21,341 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:08:31,318 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:31,318 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:31,318 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:31,318 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:31,318 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 145, 'prev_value': 144, 'change': 1}
+2026-04-20 15:08:31,319 : INFO : EventManager : Event: ======'player_shot_bumper_right'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 145, 'prev_value': 144, 'change': 1}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumper_right_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumper_right_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'bumpers_unlit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:31,320 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 0, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:31,342 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2026-04-20 15:08:31,343 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:08:31,343 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2026-04-20 15:08:31,343 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:08:31,344 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:08:31,344 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2026-04-20 15:08:31,344 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:08:31,344 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:08:31,401 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:32,284 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:32,285 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:32,285 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:32,285 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:32,285 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2026-04-20 15:08:32,285 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,286 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 2000, 'prev_value': 1000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:32,368 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:32,468 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:32,468 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:32,468 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:32,468 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:32,468 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,469 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 3000, 'prev_value': 2000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:32,518 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:32,618 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:32,618 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:32,618 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:32,618 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:32,618 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,619 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 4000, 'prev_value': 3000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:32,669 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:32,735 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:32,735 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:32,735 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:32,735 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:32,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2026-04-20 15:08:32,735 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:32,736 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 5000, 'prev_value': 4000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:32,818 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:32,868 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:32,868 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:32,868 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:32,868 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:32,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2026-04-20 15:08:32,869 : INFO : EventManager : Event: ======'player_shot_bumper_left'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:08:32,869 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2026-04-20 15:08:32,869 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumper_left_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumper_left_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'lit'}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumpers_lit_complete'====== Args={}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'bumpers_unlit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:32,870 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 6000, 'prev_value': 5000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:32,951 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,018 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,018 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,018 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,018 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,018 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,019 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 7000, 'prev_value': 6000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,101 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,168 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,168 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,168 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,168 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,168 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,169 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 8000, 'prev_value': 7000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,251 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,318 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,318 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,318 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,318 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,319 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2026-04-20 15:08:33,320 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,321 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 9000, 'prev_value': 8000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,335 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:33,335 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:33,335 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,335 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:33,335 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 150, 'prev_value': 149, 'change': 1}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 150, 'prev_value': 149, 'change': 1}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,337 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 10000, 'prev_value': 9000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,352 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:33,384 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,417 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:33,418 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:33,418 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,418 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:33,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 151, 'prev_value': 150, 'change': 1}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 151, 'prev_value': 150, 'change': 1}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,419 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 11000, 'prev_value': 10000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,468 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:33,501 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,502 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,502 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,502 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,502 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 150, 'prev_value': 149, 'change': 1}
+2026-04-20 15:08:33,502 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 150, 'prev_value': 149, 'change': 1}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,503 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 12000, 'prev_value': 11000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,584 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:33,585 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:33,585 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,585 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:33,585 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2026-04-20 15:08:33,585 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,586 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 13000, 'prev_value': 12000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,634 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,734 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:33,735 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,735 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,735 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,735 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,735 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 151, 'prev_value': 150, 'change': 1}
+2026-04-20 15:08:33,735 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 151, 'prev_value': 150, 'change': 1}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,736 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 14000, 'prev_value': 13000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,851 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:33,851 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:33,851 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,851 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:33,851 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 153, 'prev_value': 152, 'change': 1}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 153, 'prev_value': 152, 'change': 1}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:33,852 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 15000, 'prev_value': 14000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:33,868 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:33,951 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:33,968 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:33,968 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:33,968 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:33,968 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:33,968 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 152, 'prev_value': 151, 'change': 1}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:33,969 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 16000, 'prev_value': 15000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:34,084 : INFO : SwitchController : <<<<<<< 's_bumper_right' active >>>>>>>
+2026-04-20 15:08:34,084 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_right'}
+2026-04-20 15:08:34,085 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:34,085 : INFO : EventManager : Event: ======'s_bumper_right_active'====== Args={}
+2026-04-20 15:08:34,085 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 154, 'prev_value': 153, 'change': 1}
+2026-04-20 15:08:34,085 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 154, 'prev_value': 153, 'change': 1}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumper_right_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumper_right_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumper_right_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumper_right_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_right'}
+2026-04-20 15:08:34,086 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 17000, 'prev_value': 16000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:34,101 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:34,234 : INFO : SwitchController : <<<<<<< 's_bumper_right' inactive >>>>>>>
+2026-04-20 15:08:34,251 : INFO : SwitchController : <<<<<<< 's_bumper_left' active >>>>>>>
+2026-04-20 15:08:34,251 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'bumper_left'}
+2026-04-20 15:08:34,251 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:08:34,251 : INFO : EventManager : Event: ======'s_bumper_left_active'====== Args={}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 153, 'prev_value': 152, 'change': 1}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 153, 'prev_value': 152, 'change': 1}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumper_left_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumper_left_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumper_left_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumper_left_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumpers_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:34,252 : INFO : EventManager : Event: ======'bumpers_lit_hit'====== Args={'shot': 'bumper_left'}
+2026-04-20 15:08:34,253 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 18000, 'prev_value': 17000, 'change': 1000, 'player_num': 1, 'source': 'bumpers'}
+2026-04-20 15:08:34,334 : INFO : SwitchController : <<<<<<< 's_bumper_left' inactive >>>>>>>
+2026-04-20 15:08:41,345 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2026-04-20 15:08:41,346 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:08:41,346 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2026-04-20 15:08:41,347 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:08:41,347 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:08:41,347 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2026-04-20 15:08:41,347 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:08:41,347 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:08:42,768 : INFO : Machine : Shutting down...
+2026-04-20 15:08:42,768 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_bumpers_will_stop'====== Args={}
+2026-04-20 15:08:42,769 : INFO : EventManager : Event: ======'mode_bumpers_stopping'====== Args={}
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:08:42,770 : INFO : Mode.bumpers : Stopped.
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'mode_bumpers_stopped'====== Args={}
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bumpers'}
+2026-04-20 15:08:42,770 : INFO : Mode.base : Stopped.
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2026-04-20 15:08:42,770 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2026-04-20 15:08:42,770 : INFO : Mode.game : Stopped.
+2026-04-20 15:08:42,771 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:08:42,771 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2026-04-20 15:08:42,771 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2026-04-20 15:08:42,771 : INFO : root : MPF run loop ended.

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://i5re4yfivd5v"
+path="res://.godot/imported/The Yardbirds - For Your Love.mp3-dbd6d6e214197e80c97b2eee7757c19d.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Brit Invasion/The Yardbirds - For Your Love.mp3"
+dest_files=["res://.godot/imported/The Yardbirds - For Your Love.mp3-dbd6d6e214197e80c97b2eee7757c19d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

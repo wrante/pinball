@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b81cwyl01rdl7"
+path="res://.godot/imported/Black Oak Arkansas - Hot And Nasty.mp3-eb3cd9fd504693b81ef953e51d23aabd.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Southern Rock/Black Oak Arkansas - Hot And Nasty.mp3"
+dest_files=["res://.godot/imported/Black Oak Arkansas - Hot And Nasty.mp3-eb3cd9fd504693b81ef953e51d23aabd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

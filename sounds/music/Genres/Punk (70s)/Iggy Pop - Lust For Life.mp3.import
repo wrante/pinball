@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dl4gg6ivmx8y5"
+path="res://.godot/imported/Iggy Pop - Lust For Life.mp3-5fec48d6c199d1f154c39e0187b4381b.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (70s)/Iggy Pop - Lust For Life.mp3"
+dest_files=["res://.godot/imported/Iggy Pop - Lust For Life.mp3-5fec48d6c199d1f154c39e0187b4381b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

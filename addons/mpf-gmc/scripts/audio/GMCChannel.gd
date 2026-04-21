@@ -31,8 +31,28 @@ func _process(_delta: float) -> void:
 	if not remaining_markers:
 		set_process(false)
 
+func get_playback_position_with_latency() -> float:
+	# Resume timing should match what the player hears, not only the raw stream
+	# cursor, so include Godot's mix/output latency correction.
+	var playback_time := self.get_playback_position() + AudioServer.get_time_since_last_mix() - AudioServer.get_output_latency()
+	if playback_time < 0.0:
+		return 0.0
+	return playback_time
+
 func load_stream(filepath: String) -> AudioStream:
-	self.stream = ResourceLoader.load(filepath, "AudioStreamOGGVorbis" if filepath.get_extension() == "ogg" else "AudioStreamSample") as AudioStream
+	# Direct res:// music previews load more reliably when ResourceLoader gets
+	# an explicit audio stream type hint based on the file extension.
+	var type_hint := ""
+	match filepath.get_extension().to_lower():
+		"mp3":
+			type_hint = "AudioStreamMP3"
+		"ogg":
+			type_hint = "AudioStreamOggVorbis"
+		"wav":
+			type_hint = "AudioStreamWAV"
+	self.stream = ResourceLoader.load(filepath, type_hint) as AudioStream
+	if not self.stream and type_hint:
+		self.stream = ResourceLoader.load(filepath) as AudioStream
 	return self.stream
 
 func play_with_settings(settings: Dictionary) -> AudioStream:

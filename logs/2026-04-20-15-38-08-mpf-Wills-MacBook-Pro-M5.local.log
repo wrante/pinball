@@ -1,0 +1,1226 @@
+2026-04-20 15:38:08,262 : INFO : root : Loading config.
+2026-04-20 15:38:08,311 : INFO : ConfigProcessor : Config spec file cache created: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/config_spec.mpf_cache
+2026-04-20 15:38:08,311 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-20 15:38:08,311 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b334f8a4e2121184f8a617378a4d1625.mpf_cache
+2026-04-20 15:38:08,336 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:38:08,336 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/b8625db2ee8ad38c42d4f1c72235edc8.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/63da12c4cec82227b4c3859bbf3c7cd4.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/cfdfcb64dba57a34ef9374db95e57645.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/104947b35f87d581877cdaf02599b463.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/bc830d47d6fbb336561cc63e74edf2c9.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/4273c698423283a7843ff5c77ef69dc9.mpf_cache
+2026-04-20 15:38:08,337 : INFO : ConfigProcessor : Loading config from cache: /var/folders/nw/6blj94p12ldcym3fj104vzlm0000gn/T/7424f2cce7b15e0b37e570d3514590c8.mpf_cache
+2026-04-20 15:38:08,338 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev13
+2026-04-20 15:38:08,338 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-20-15-38-08-mpf-Wills-MacBook-Pro-M5.local.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-38-08-mpf-Wills-MacBook-Pro-M5.local.log'}
+2026-04-20 15:38:08,338 : INFO : Machine : MPF path: /Users/willrante/mpf-env/lib/python3.14/site-packages/mpf
+2026-04-20 15:38:08,338 : INFO : Machine : Machine path: /Users/willrante/Documents/GitHub/pinball
+2026-04-20 15:38:08,338 : INFO : Machine : Platform: darwin
+2026-04-20 15:38:08,338 : INFO : Machine : Python executable location: /Users/willrante/mpf-env/bin/python3.14
+2026-04-20 15:38:08,338 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-04-20 15:38:08,338 : INFO : Machine : Initializing MPF...
+2026-04-20 15:38:08,365 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,369 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,369 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,369 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev13, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,370 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'macOS-26.4.1-arm64-arm-64bit-Mach-O', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '25.4.0', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 25.4.0: Thu Mar 19 19:33:50 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6050', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'arm64', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/Users/willrante/Documents/GitHub/pinball/logs/2026-04-20-15-38-08-mpf-Wills-MacBook-Pro-M5.local.log', 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,377 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-20 15:38:08,387 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-04-20 15:38:08,387 : INFO : SwitchController : Found active switch: (1007, <Platform.Virtual>) <switch.s_trough_1>
+2026-04-20 15:38:08,387 : INFO : SwitchController : Found active switch: (1008, <Platform.Virtual>) <switch.s_trough_2>
+2026-04-20 15:38:08,387 : INFO : SwitchController : Found active switch: (1009, <Platform.Virtual>) <switch.s_trough_3>
+2026-04-20 15:38:08,387 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-04-20 15:38:08,388 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-04-20 15:38:08,391 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-04-20 15:38:08,391 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-04-20 15:38:08,391 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-04-20 15:38:08,391 : INFO : ball_device.bd_plunger : State: idle
+2026-04-20 15:38:08,391 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2026-04-20 15:38:08,391 : INFO : ball_device.bd_trough : State: idle
+2026-04-20 15:38:08,394 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-04-20 15:38:08,395 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-04-20 15:38:08,395 : INFO : BallController : Initial balls found: 3
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_plunger_lane'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_1'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_2'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_3'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 0, 'top': [], 'total': 0}, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_left'====== Args={'value': 182, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_bumper_right'====== Args={'value': 184, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_hurryup'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 361, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_left'====== Args={'value': 182, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_bumper_right'====== Args={'value': 184, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 425, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 489, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-04-20 15:38:08,396 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-04-20 15:38:08,410 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-04-20 15:38:08,410 : INFO : Mode.attract : Started. Priority: 10
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:08,410 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-04-20 15:38:08,411 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-04-20 15:38:08,411 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-04-20 15:38:08,411 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:38:08,411 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-04-20 15:38:08,448 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-04-20 15:38:08,448 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-04-20 15:38:08,448 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:38:10,957 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:38:11,107 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:38:11,107 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2026-04-20 15:38:11,108 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.15005024999845773}
+2026-04-20 15:38:11,108 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.15005024999845773}
+2026-04-20 15:38:11,109 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.15005024999845773}
+2026-04-20 15:38:11,109 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2026-04-20 15:38:11,109 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2026-04-20 15:38:11,109 : INFO : Mode.attract : Stopped.
+2026-04-20 15:38:11,109 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:11,109 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2026-04-20 15:38:11,110 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2026-04-20 15:38:11,110 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-04-20 15:38:11,110 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-04-20 15:38:11,110 : INFO : Mode.game : Started. Priority: 20
+2026-04-20 15:38:11,110 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:11,110 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.15005024999845773}
+2026-04-20 15:38:11,111 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2026-04-20 15:38:11,111 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2026-04-20 15:38:11,112 : INFO : EventManager : Unordered handler for class <Auditor> on event game_ended with priority 1. Handlers: [RegisteredHandler(callback=<bound method Auditor.disable of <Auditor>>, priority=1, kwargs={}, key=UUID('3a78d240-668b-4977-86fe-7b00b9220757'), condition=None, blocking_facility=None), RegisteredHandler(callback=<bound method Auditor._save_audits of <Auditor>>, priority=1, kwargs={}, key=UUID('d71a49a6-c072-4138-95a8-65a597a3f528'), condition=None, blocking_facility=None)]. The order of those handlers is not defined and they will be executed in random order. This might lead to race conditions and potential bugs.
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2026-04-20 15:38:11,112 : INFO : Mode.game : Player added successfully. Total players: 1
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:11,112 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:11,113 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2026-04-20 15:38:11,113 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:38:11,113 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:38:11,113 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:11,114 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2026-04-20 15:38:11,118 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,118 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,118 : INFO : EventManager : Event: ======'mode_song_select_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,118 : INFO : EventManager : Event: ======'mode_song_select_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,119 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,119 : INFO : EventManager : Event: ======'player_shot_left_lane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:11,120 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,120 : INFO : Mode.base : Started. Priority: 100
+2026-04-20 15:38:11,120 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:11,120 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,120 : INFO : EventManager : Event: ======'start_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:38:11,120 : INFO : EventManager : Event: ======'mode_bumpers_will_start'====== Args={'priority': 0}
+2026-04-20 15:38:11,121 : INFO : EventManager : Event: ======'player_shot_bumper_left_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:11,121 : INFO : EventManager : Event: ======'player_shot_bumper_right_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:11,121 : INFO : EventManager : Event: ======'bumpers_complete'====== Args={'state': 'unlit'}
+2026-04-20 15:38:11,121 : INFO : EventManager : Event: ======'bumpers_unlit_complete'====== Args={}
+2026-04-20 15:38:11,122 : INFO : EventManager : Event: ======'mode_bumpers_starting'====== Args={'priority': 0}
+2026-04-20 15:38:11,122 : INFO : Mode.bumpers : Started. Priority: 200
+2026-04-20 15:38:11,122 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:11,122 : INFO : EventManager : Event: ======'mode_bumpers_started'====== Args={'priority': 0}
+2026-04-20 15:38:11,122 : INFO : Mode.song_select : Started. Priority: 1500
+2026-04-20 15:38:11,122 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:11,122 : INFO : EventManager : Event: ======'mode_song_select_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,147 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:11,147 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2026-04-20 15:38:11,147 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2026-04-20 15:38:11,147 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2026-04-20 15:38:11,148 : INFO : EventManager : Event: ======'ball_start_target'====== Args={'target': 'playfield'}
+2026-04-20 15:38:11,148 : INFO : ball_device.bd_trough : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2026-04-20 15:38:11,148 : INFO : ball_device.bd_trough : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2026-04-20 15:38:11,148 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2026-04-20 15:38:11,148 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:38:11,148 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:38:11,148 : INFO : ball_device.bd_plunger : State: waiting_for_ball
+2026-04-20 15:38:11,149 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:38:11,149 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:38:11,149 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 0}
+2026-04-20 15:38:11,149 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:38:11,149 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:38:11,156 : INFO : EventManager : Event: ======'slide_base_slide_created'====== Args={'_from_bcp': True}
+2026-04-20 15:38:11,157 : INFO : EventManager : Event: ======'slide_attract_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:38:11,157 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'original_context': 'base', 'original_calling_context': 'mode_base_started', 'priority': 100.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:38:11,157 : INFO : EventManager : Event: ======'slide_attract_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:38:11,173 : INFO : EventManager : Event: ======'slide_song_select_created'====== Args={'_from_bcp': True}
+2026-04-20 15:38:11,173 : INFO : EventManager : Event: ======'slide_base_slide_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2026-04-20 15:38:11,173 : INFO : EventManager : Event: ======'slide_song_select_active'====== Args={'original_context': 'song_select', 'original_calling_context': 'mode_song_select_started', 'priority': 1500.0, 'queue': '<QueuedEvent>', 'player': 1.0, 'ball': 1.0, 'balls_remaining': 2.0, 'is_extra_ball': False, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:38:12,639 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:12,639 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Southern Rock', 'song_title': 'Black Oak Arkansas - Hot And Nasty', 'genre_index': 24, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': "> Black Oak Arkansas - Hot And Nasty\n  Little Feat - Dixie Chicken\n  Lynyrd Skynyrd - Sweet Home Alabama\n  Molly Hatchet - Flirtin' with Disaster\n  The Allman Brothers Band - Ramblin' Man\n  The Ozark Mountain Daredevils - Jackie Blue\n  ZZ Top - La Grange", 'has_audio': True}
+2026-04-20 15:38:12,640 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 426, 'prev_value': 425, 'change': 1}
+2026-04-20 15:38:12,756 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:12,991 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:12,991 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:12,991 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 490, 'prev_value': 489, 'change': 1}
+2026-04-20 15:38:13,091 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:13,223 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:13,223 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': 'Alternative', 'song_title': 'Green Day - Basket Case', 'genre_index': 2, 'genre_count': 24, 'song_index': 1, 'song_count': 7, 'songs_text': '> Green Day - Basket Case\n  Radiohead - Creep\n  Red Hot Chili Peppers - Give It Away\n  The Black Keys - Set You Free\n  The Strokes - Last Nite\n  The Walkmen - The Rat\n  The White Stripes - Fell In Love With a Girl', 'has_audio': True}
+2026-04-20 15:38:13,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 491, 'prev_value': 490, 'change': 1}
+2026-04-20 15:38:13,273 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:13,922 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:13,922 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'genre', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:13,922 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 427, 'prev_value': 426, 'change': 1}
+2026-04-20 15:38:14,073 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:14,573 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2026-04-20 15:38:14,573 : INFO : EventManager : Event: ======'sw_start'====== Args={}
+2026-04-20 15:38:14,573 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 8, 'prev_value': 7, 'change': 1}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 2}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 2>, 'number': 2}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 2>, 'num': 2}
+2026-04-20 15:38:14,574 : INFO : Mode.game : Player added successfully. Total players: 2
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'multiplayer_game'====== Args={}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 2}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 2, 'prev_value': 2, 'change': 0, 'player_num': 2}
+2026-04-20 15:38:14,574 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 2}
+2026-04-20 15:38:14,673 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2026-04-20 15:38:15,723 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:15,723 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'CAN - Vitamin C', 'genre_index': 1, 'genre_count': 24, 'song_index': 1, 'song_count': 5, 'songs_text': '> CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:15,723 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 362, 'prev_value': 361, 'change': 1}
+2026-04-20 15:38:15,856 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:16,689 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:16,690 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Captain Beefheart - Muffin Man', 'genre_index': 1, 'genre_count': 24, 'song_index': 2, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n> Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:16,690 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 492, 'prev_value': 491, 'change': 1}
+2026-04-20 15:38:16,890 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:17,824 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:17,824 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'genre_index': 1, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n> Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:17,824 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 493, 'prev_value': 492, 'change': 1}
+2026-04-20 15:38:17,972 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:20,525 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:20,525 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Frank Zappa - Willie the Pimp', 'genre_index': 1, 'genre_count': 24, 'song_index': 4, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n> Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:20,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 494, 'prev_value': 493, 'change': 1}
+2026-04-20 15:38:20,691 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:20,823 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:20,823 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'genre_index': 1, 'genre_count': 24, 'song_index': 5, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n> Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:20,823 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 495, 'prev_value': 494, 'change': 1}
+2026-04-20 15:38:20,991 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:21,151 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 1}
+2026-04-20 15:38:21,151 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:38:21,152 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:38:21,152 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:38:21,152 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:38:21,152 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 1}
+2026-04-20 15:38:21,153 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:38:21,153 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:38:21,224 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:21,224 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Frank Zappa - Willie the Pimp', 'genre_index': 1, 'genre_count': 24, 'song_index': 4, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n  Captain Beefheart - Too Much Time\n> Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:21,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 428, 'prev_value': 427, 'change': 1}
+2026-04-20 15:38:21,356 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:21,490 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:21,490 : INFO : EventManager : Event: ======'song_select_updated'====== Args={'stage': 'song', 'genres': ['?', 'Alternative', 'Brit Invasion', 'Disco', 'Doo Wop', 'Folk', 'Folk Rock', 'Funk', 'Glitter:Glam', 'Grunge', 'Hard Rock', 'Heavy Metal', 'Hip Hop', 'New Wave', 'Pop Rock', 'Prog Rock', 'Psychedelic', 'Punk (70s)', 'Punk (80s)', 'R+B', 'Rap', 'Rock-a-Billy', 'Soul', 'Southern Rock'], 'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'genre_index': 1, 'genre_count': 24, 'song_index': 3, 'song_count': 5, 'songs_text': '  CAN - Vitamin C\n  Captain Beefheart - Muffin Man\n> Captain Beefheart - Too Much Time\n  Frank Zappa - Willie the Pimp\n  Frank Zappa, Captain Beefheart, the Mothers - Her Eyes Are A Blue Million Miles', 'has_audio': True}
+2026-04-20 15:38:21,490 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 429, 'prev_value': 428, 'change': 1}
+2026-04-20 15:38:21,641 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:28,090 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:28,090 : INFO : EventManager : Event: ======'player_selected_song_genre'====== Args={'value': '?', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:38:28,091 : INFO : EventManager : Event: ======'player_selected_song_title'====== Args={'value': 'Captain Beefheart - Too Much Time', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:38:28,091 : INFO : EventManager : Event: ======'player_selected_song_key'====== Args={'value': 'Captain Beefheart - Too Much Time', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:38:28,091 : INFO : EventManager : Event: ======'player_selected_song_path'====== Args={'value': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:38:28,091 : INFO : EventManager : Event: ======'player_selected_song_bus'====== Args={'value': 'music', 'prev_value': 0, 'change': True, 'player_num': 1}
+2026-04-20 15:38:28,091 : INFO : EventManager : Event: ======'player_selected_song_start_at'====== Args={'value': 0.0, 'prev_value': 0, 'change': 0.0, 'player_num': 1}
+2026-04-20 15:38:28,092 : INFO : EventManager : Event: ======'song_select_confirmed'====== Args={'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'sound_key': 'Captain Beefheart - Too Much Time', 'audio_path': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'has_audio': True, 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:38:28,092 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 363, 'prev_value': 362, 'change': 1}
+2026-04-20 15:38:28,125 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:28,343 : INFO : EventManager : Event: ======'song_select_complete'====== Args={}
+2026-04-20 15:38:28,343 : INFO : EventManager : Event: ======'mode_song_select_will_stop'====== Args={}
+2026-04-20 15:38:28,343 : INFO : EventManager : Event: ======'mode_song_select_stopping'====== Args={}
+2026-04-20 15:38:28,343 : INFO : Mode.song_select : Stopped.
+2026-04-20 15:38:28,343 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:28,343 : INFO : EventManager : Event: ======'mode_song_select_stopped'====== Args={}
+2026-04-20 15:38:28,344 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'song_select'}
+2026-04-20 15:38:28,373 : INFO : EventManager : Event: ======'slide_song_select_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:38:28,374 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'_from_bcp': True}
+2026-04-20 15:38:28,374 : INFO : EventManager : Event: ======'slide_song_select_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:38:31,154 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 2}
+2026-04-20 15:38:31,155 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:38:31,156 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:38:31,156 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:38:31,156 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:38:31,156 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 2}
+2026-04-20 15:38:31,157 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:38:31,157 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:38:41,158 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 3}
+2026-04-20 15:38:41,159 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:38:41,159 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:38:41,160 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:38:41,160 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:38:41,160 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 3}
+2026-04-20 15:38:41,160 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:38:41,160 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:38:48,705 : INFO : SwitchController : <<<<<<< 's_left_lane' active >>>>>>>
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_lane'}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'hurryup'}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'s_left_lane_active'====== Args={}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 44, 'prev_value': 43, 'change': 1}
+2026-04-20 15:38:48,706 : INFO : EventManager : Event: ======'player_shot_left_lane'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 44, 'prev_value': 43, 'change': 1}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'left_lane_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'left_lane_default_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'left_lane_default_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'left_lane_unlit_hit'====== Args={'profile': 'default', 'state': 'unlit', 'advancing': True}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'start_mode_rhythm'====== Args={'priority': 0}
+2026-04-20 15:38:48,707 : INFO : EventManager : Event: ======'mode_rhythm_will_start'====== Args={'priority': 0}
+2026-04-20 15:38:48,710 : INFO : EventManager : Event: ======'mode_rhythm_starting'====== Args={'priority': 0}
+2026-04-20 15:38:48,710 : INFO : Mode.rhythm : Started. Priority: 1200
+2026-04-20 15:38:48,710 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:38:48,710 : INFO : EventManager : Event: ======'mode_rhythm_started'====== Args={'priority': 0}
+2026-04-20 15:38:48,711 : INFO : EventManager : Event: ======'selected_song_pause_for_rhythm'====== Args={'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'sound_key': 'Captain Beefheart - Too Much Time', 'audio_path': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:38:48,711 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,711 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,711 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,712 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,712 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,712 : INFO : EventManager : Event: ======'player_rhythm_notes_total'====== Args={'value': 38, 'prev_value': 0, 'change': 38, 'player_num': 1}
+2026-04-20 15:38:48,712 : INFO : EventManager : Event: ======'player_rhythm_accuracy'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2026-04-20 15:38:48,712 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:48,763 : INFO : EventManager : Event: ======'rhythm_chart_started'====== Args={'total_notes': 38, 'travel_ms': 1600, 'perfect_window_ms': 90, 'good_window_ms': 170, 'lead_in_ms': 1800, 'chart_started_delay_ms': 50, 'song_key': 'Deep Purple - Smoke On the Water (Official Music Video)', 'song_bus': 'music', 'audio_offset_ms': 0}
+2026-04-20 15:38:48,768 : INFO : EventManager : Event: ======'slide_rhythm_created'====== Args={'_from_bcp': True}
+2026-04-20 15:38:48,768 : INFO : EventManager : Event: ======'slide_base_slide_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2026-04-20 15:38:48,768 : INFO : EventManager : Event: ======'slide_rhythm_active'====== Args={'original_context': 'rhythm', 'original_calling_context': 'mode_rhythm_started', 'priority': 1200.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:38:48,805 : INFO : SwitchController : <<<<<<< 's_left_lane' inactive >>>>>>>
+2026-04-20 15:38:49,513 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 0, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 2400, 'duration_ms': 0, 'end_time_ms': 2400}
+2026-04-20 15:38:49,913 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 1, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 2800, 'duration_ms': 0, 'end_time_ms': 2800}
+2026-04-20 15:38:50,313 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 2, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 3200, 'duration_ms': 0, 'end_time_ms': 3200}
+2026-04-20 15:38:50,714 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 3, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 3600, 'duration_ms': 0, 'end_time_ms': 3600}
+2026-04-20 15:38:51,114 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 4, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 4000, 'duration_ms': 0, 'end_time_ms': 4000}
+2026-04-20 15:38:51,114 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 5, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 4000, 'duration_ms': 0, 'end_time_ms': 4000}
+2026-04-20 15:38:51,156 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:51,157 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:51,157 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,157 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,157 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,158 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 20000, 'prev_value': 0, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,158 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 20000, 'prev_value': 0, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,158 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 0, 'lane': 'left', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 46, 'total_score': 20000, 'is_hold': False}
+2026-04-20 15:38:51,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 430, 'prev_value': 429, 'change': 1}
+2026-04-20 15:38:51,161 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 4}
+2026-04-20 15:38:51,162 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:38:51,162 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:38:51,162 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:38:51,162 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:38:51,162 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 4}
+2026-04-20 15:38:51,163 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:38:51,163 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:38:51,323 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:51,523 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:51,523 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:51,523 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,524 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,524 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,524 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 40000, 'prev_value': 20000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,525 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 40000, 'prev_value': 20000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,525 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 1, 'lane': 'center', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 12, 'total_score': 40000, 'is_hold': False}
+2026-04-20 15:38:51,525 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 364, 'prev_value': 363, 'change': 1}
+2026-04-20 15:38:51,614 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 6, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 4500, 'duration_ms': 0, 'end_time_ms': 4500}
+2026-04-20 15:38:51,706 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:51,856 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:51,856 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:51,856 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 60000, 'prev_value': 40000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 60000, 'prev_value': 40000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 2, 'lane': 'right', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 55, 'total_score': 60000, 'is_hold': False}
+2026-04-20 15:38:51,857 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 496, 'prev_value': 495, 'change': 1}
+2026-04-20 15:38:52,006 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:52,013 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 7, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 4900, 'duration_ms': 900, 'end_time_ms': 5800}
+2026-04-20 15:38:52,373 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:52,373 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:52,373 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,373 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,374 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,374 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 80000, 'prev_value': 60000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,374 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 80000, 'prev_value': 60000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,374 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 3, 'lane': 'left', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 62, 'total_score': 80000, 'is_hold': False}
+2026-04-20 15:38:52,374 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 431, 'prev_value': 430, 'change': 1}
+2026-04-20 15:38:52,413 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 8, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 5300, 'duration_ms': 0, 'end_time_ms': 5300}
+2026-04-20 15:38:52,523 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:52,723 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:52,724 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:52,724 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,725 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,725 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,725 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 100000, 'prev_value': 80000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,725 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100000, 'prev_value': 80000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,726 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 4, 'lane': 'center', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 13, 'total_score': 100000, 'is_hold': False}
+2026-04-20 15:38:52,726 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 365, 'prev_value': 364, 'change': 1}
+2026-04-20 15:38:52,773 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:52,773 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:52,774 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,774 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,774 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:52,774 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 120000, 'prev_value': 100000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,774 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 120000, 'prev_value': 100000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:52,775 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 5, 'lane': 'right', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 62, 'total_score': 120000, 'is_hold': False}
+2026-04-20 15:38:52,775 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 497, 'prev_value': 496, 'change': 1}
+2026-04-20 15:38:52,813 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 9, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 5700, 'duration_ms': 0, 'end_time_ms': 5700}
+2026-04-20 15:38:52,955 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:52,956 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:53,214 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 10, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 6100, 'duration_ms': 0, 'end_time_ms': 6100}
+2026-04-20 15:38:53,240 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:53,240 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:53,240 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:53,240 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:53,241 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:53,241 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 140000, 'prev_value': 120000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:53,241 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 140000, 'prev_value': 120000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:53,241 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 6, 'lane': 'left', 'judgment': 'perfect', 'combo': 7, 'multiplier': 1, 'award': 20000, 'delta_ms': 29, 'total_score': 140000, 'is_hold': False}
+2026-04-20 15:38:53,241 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 432, 'prev_value': 431, 'change': 1}
+2026-04-20 15:38:53,390 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:53,614 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 11, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 6500, 'duration_ms': 0, 'end_time_ms': 6500}
+2026-04-20 15:38:53,623 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:53,623 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:53,623 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 7, 'lane': 'center', 'judgment': 'perfect', 'delta_ms': 12, 'duration_ms': 900, 'end_time_ms': 5800, 'remaining_ms': 888}
+2026-04-20 15:38:53,623 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 366, 'prev_value': 365, 'change': 1}
+2026-04-20 15:38:54,013 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 12, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 6900, 'duration_ms': 0, 'end_time_ms': 6900}
+2026-04-20 15:38:54,056 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 160000, 'prev_value': 140000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 160000, 'prev_value': 140000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,057 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 8, 'lane': 'right', 'judgment': 'perfect', 'combo': 8, 'multiplier': 1, 'award': 20000, 'delta_ms': 46, 'total_score': 160000, 'is_hold': False}
+2026-04-20 15:38:54,058 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 498, 'prev_value': 497, 'change': 1}
+2026-04-20 15:38:54,339 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:54,414 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 13, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 7300, 'duration_ms': 0, 'end_time_ms': 7300}
+2026-04-20 15:38:54,423 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:54,423 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 8, 'change': -8, 'player_num': 1}
+2026-04-20 15:38:54,424 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,424 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 7, 'lane': 'center', 'total_misses': 1, 'is_hold': True}
+2026-04-20 15:38:54,490 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:54,490 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:54,490 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,490 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,491 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 180000, 'prev_value': 160000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,491 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 180000, 'prev_value': 160000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,491 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 9, 'lane': 'left', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 79, 'total_score': 180000, 'is_hold': False}
+2026-04-20 15:38:54,491 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 433, 'prev_value': 432, 'change': 1}
+2026-04-20 15:38:54,557 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:54,557 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:54,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 367, 'prev_value': 366, 'change': 1}
+2026-04-20 15:38:54,573 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:54,790 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:54,813 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 14, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 7700, 'duration_ms': 0, 'end_time_ms': 7700}
+2026-04-20 15:38:54,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 15, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 7700, 'duration_ms': 0, 'end_time_ms': 7700}
+2026-04-20 15:38:54,856 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:54,856 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:54,857 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,857 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:54,857 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 200000, 'prev_value': 180000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,857 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200000, 'prev_value': 180000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:54,858 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 10, 'lane': 'center', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 46, 'total_score': 200000, 'is_hold': False}
+2026-04-20 15:38:54,858 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 368, 'prev_value': 367, 'change': 1}
+2026-04-20 15:38:55,072 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:55,157 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:55,157 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:55,157 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,157 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 11, 'prev_value': 10, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,158 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 220000, 'prev_value': 200000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:55,158 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 220000, 'prev_value': 200000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:55,158 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 11, 'lane': 'right', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 54, 'total_score': 220000, 'is_hold': False}
+2026-04-20 15:38:55,158 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 499, 'prev_value': 498, 'change': 1}
+2026-04-20 15:38:55,373 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:55,413 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 16, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 8300, 'duration_ms': 0, 'end_time_ms': 8300}
+2026-04-20 15:38:55,489 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:55,490 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:55,490 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,490 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 12, 'prev_value': 11, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,490 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 230000, 'prev_value': 220000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:38:55,491 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 230000, 'prev_value': 220000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:38:55,491 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 12, 'lane': 'center', 'judgment': 'good', 'combo': 4, 'multiplier': 1, 'award': 10000, 'delta_ms': 121, 'total_score': 230000, 'is_hold': False}
+2026-04-20 15:38:55,491 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 369, 'prev_value': 368, 'change': 1}
+2026-04-20 15:38:55,756 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:55,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 17, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 8700, 'duration_ms': 0, 'end_time_ms': 8700}
+2026-04-20 15:38:55,956 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:55,956 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:55,957 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,957 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 13, 'prev_value': 12, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:55,957 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 250000, 'prev_value': 230000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:55,958 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 250000, 'prev_value': 230000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:55,958 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 13, 'lane': 'right', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 55, 'total_score': 250000, 'is_hold': False}
+2026-04-20 15:38:55,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 500, 'prev_value': 499, 'change': 1}
+2026-04-20 15:38:56,106 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:56,214 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 18, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 9100, 'duration_ms': 700, 'end_time_ms': 9800}
+2026-04-20 15:38:56,357 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:56,357 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:56,357 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:56,357 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 14, 'prev_value': 13, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:56,358 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 270000, 'prev_value': 250000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:56,358 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 270000, 'prev_value': 250000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:56,358 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 14, 'lane': 'left', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 54, 'total_score': 270000, 'is_hold': False}
+2026-04-20 15:38:56,358 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 434, 'prev_value': 433, 'change': 1}
+2026-04-20 15:38:56,376 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:56,376 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:56,376 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:56,376 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 15, 'prev_value': 14, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:56,377 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 290000, 'prev_value': 270000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:56,377 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 290000, 'prev_value': 270000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:56,377 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 15, 'lane': 'center', 'judgment': 'perfect', 'combo': 7, 'multiplier': 1, 'award': 20000, 'delta_ms': 35, 'total_score': 290000, 'is_hold': False}
+2026-04-20 15:38:56,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 370, 'prev_value': 369, 'change': 1}
+2026-04-20 15:38:56,556 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:56,573 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:56,614 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 19, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 9500, 'duration_ms': 0, 'end_time_ms': 9500}
+2026-04-20 15:38:57,006 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:57,006 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:57,006 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,006 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 16, 'prev_value': 15, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,006 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 310000, 'prev_value': 290000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:57,006 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 310000, 'prev_value': 290000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:57,007 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 16, 'lane': 'left', 'judgment': 'perfect', 'combo': 8, 'multiplier': 1, 'award': 20000, 'delta_ms': 5, 'total_score': 310000, 'is_hold': False}
+2026-04-20 15:38:57,007 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 435, 'prev_value': 434, 'change': 1}
+2026-04-20 15:38:57,013 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 20, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 9900, 'duration_ms': 0, 'end_time_ms': 9900}
+2026-04-20 15:38:57,157 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:57,414 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 21, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 10300, 'duration_ms': 0, 'end_time_ms': 10300}
+2026-04-20 15:38:57,456 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:57,456 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:57,456 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,456 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 17, 'prev_value': 16, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 350000, 'prev_value': 310000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 350000, 'prev_value': 310000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 17, 'lane': 'center', 'judgment': 'perfect', 'combo': 9, 'multiplier': 2, 'award': 40000, 'delta_ms': 45, 'total_score': 350000, 'is_hold': False}
+2026-04-20 15:38:57,457 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 371, 'prev_value': 370, 'change': 1}
+2026-04-20 15:38:57,558 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:57,790 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:57,790 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:57,790 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 18, 'lane': 'right', 'judgment': 'perfect', 'delta_ms': 21, 'duration_ms': 700, 'end_time_ms': 9800, 'remaining_ms': 721}
+2026-04-20 15:38:57,790 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 501, 'prev_value': 500, 'change': 1}
+2026-04-20 15:38:57,813 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 22, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 10700, 'duration_ms': 0, 'end_time_ms': 10700}
+2026-04-20 15:38:57,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 23, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 10700, 'duration_ms': 0, 'end_time_ms': 10700}
+2026-04-20 15:38:58,291 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:58,291 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:58,291 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,291 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,291 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 18, 'prev_value': 17, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,291 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 390000, 'prev_value': 350000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:38:58,292 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 390000, 'prev_value': 350000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:38:58,292 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 19, 'lane': 'center', 'judgment': 'perfect', 'combo': 10, 'multiplier': 2, 'award': 40000, 'delta_ms': 80, 'total_score': 390000, 'is_hold': False}
+2026-04-20 15:38:58,292 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 372, 'prev_value': 371, 'change': 1}
+2026-04-20 15:38:58,323 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:58,323 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 10, 'change': -10, 'player_num': 1}
+2026-04-20 15:38:58,324 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,324 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2026-04-20 15:38:58,324 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 18, 'lane': 'right', 'total_misses': 2, 'is_hold': True}
+2026-04-20 15:38:58,414 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 24, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 11300, 'duration_ms': 0, 'end_time_ms': 11300}
+2026-04-20 15:38:58,525 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:58,676 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:58,676 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:58,676 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,676 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 19, 'prev_value': 18, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,677 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 410000, 'prev_value': 390000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:58,677 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 410000, 'prev_value': 390000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:58,677 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 20, 'lane': 'right', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 65, 'total_score': 410000, 'is_hold': False}
+2026-04-20 15:38:58,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 502, 'prev_value': 501, 'change': 1}
+2026-04-20 15:38:58,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 25, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 11700, 'duration_ms': 0, 'end_time_ms': 11700}
+2026-04-20 15:38:58,839 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:38:58,990 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:38:58,990 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:38:58,990 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,990 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 20, 'prev_value': 19, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:58,990 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 430000, 'prev_value': 410000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:58,990 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 430000, 'prev_value': 410000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:58,991 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 21, 'lane': 'left', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 21, 'total_score': 430000, 'is_hold': False}
+2026-04-20 15:38:58,991 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 436, 'prev_value': 435, 'change': 1}
+2026-04-20 15:38:59,175 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:38:59,215 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 26, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 12100, 'duration_ms': 0, 'end_time_ms': 12100}
+2026-04-20 15:38:59,439 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 21, 'prev_value': 20, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 450000, 'prev_value': 430000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 450000, 'prev_value': 430000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 23, 'lane': 'right', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 29, 'total_score': 450000, 'is_hold': False}
+2026-04-20 15:38:59,440 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 503, 'prev_value': 502, 'change': 1}
+2026-04-20 15:38:59,473 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:38:59,473 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 22, 'prev_value': 21, 'change': 1, 'player_num': 1}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 470000, 'prev_value': 450000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 470000, 'prev_value': 450000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 22, 'lane': 'center', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 62, 'total_score': 470000, 'is_hold': False}
+2026-04-20 15:38:59,474 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 373, 'prev_value': 372, 'change': 1}
+2026-04-20 15:38:59,614 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 27, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 12500, 'duration_ms': 0, 'end_time_ms': 12500}
+2026-04-20 15:38:59,656 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:38:59,675 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:00,014 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 28, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 12900, 'duration_ms': 700, 'end_time_ms': 13600}
+2026-04-20 15:39:00,056 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:00,057 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:00,057 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,057 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 23, 'prev_value': 22, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,057 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 490000, 'prev_value': 470000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,057 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 490000, 'prev_value': 470000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,058 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 24, 'lane': 'left', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 46, 'total_score': 490000, 'is_hold': False}
+2026-04-20 15:39:00,058 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 437, 'prev_value': 436, 'change': 1}
+2026-04-20 15:39:00,223 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:00,406 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:00,406 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:00,406 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,406 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 24, 'prev_value': 23, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,407 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 510000, 'prev_value': 490000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,407 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 510000, 'prev_value': 490000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,407 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 25, 'lane': 'center', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 5, 'total_score': 510000, 'is_hold': False}
+2026-04-20 15:39:00,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 374, 'prev_value': 373, 'change': 1}
+2026-04-20 15:39:00,413 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 29, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 13300, 'duration_ms': 0, 'end_time_ms': 13300}
+2026-04-20 15:39:00,573 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:00,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 30, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 13700, 'duration_ms': 0, 'end_time_ms': 13700}
+2026-04-20 15:39:00,814 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 31, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 13700, 'duration_ms': 0, 'end_time_ms': 13700}
+2026-04-20 15:39:00,823 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:00,823 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:00,823 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,824 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 25, 'prev_value': 24, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:00,824 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 530000, 'prev_value': 510000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,824 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 530000, 'prev_value': 510000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:00,824 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 26, 'lane': 'left', 'judgment': 'perfect', 'combo': 7, 'multiplier': 1, 'award': 20000, 'delta_ms': 12, 'total_score': 530000, 'is_hold': False}
+2026-04-20 15:39:00,824 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 438, 'prev_value': 437, 'change': 1}
+2026-04-20 15:39:00,973 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:01,164 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 5}
+2026-04-20 15:39:01,164 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:01,164 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2026-04-20 15:39:01,165 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:01,165 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:01,165 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 5}
+2026-04-20 15:39:01,165 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:01,166 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:01,223 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:01,223 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:01,223 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:01,224 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 26, 'prev_value': 25, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:01,224 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 550000, 'prev_value': 530000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:01,227 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 550000, 'prev_value': 530000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:01,228 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 27, 'lane': 'right', 'judgment': 'perfect', 'combo': 8, 'multiplier': 1, 'award': 20000, 'delta_ms': 12, 'total_score': 550000, 'is_hold': False}
+2026-04-20 15:39:01,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 504, 'prev_value': 503, 'change': 1}
+2026-04-20 15:39:01,373 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:01,413 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 32, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 14300, 'duration_ms': 0, 'end_time_ms': 14300}
+2026-04-20 15:39:01,659 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:01,659 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:01,659 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 28, 'lane': 'center', 'judgment': 'perfect', 'delta_ms': 48, 'duration_ms': 700, 'end_time_ms': 13600, 'remaining_ms': 652}
+2026-04-20 15:39:01,659 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 375, 'prev_value': 374, 'change': 1}
+2026-04-20 15:39:01,807 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:01,807 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 8, 'change': -8, 'player_num': 1}
+2026-04-20 15:39:01,807 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:01,808 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 28, 'lane': 'center', 'total_misses': 3, 'is_hold': True}
+2026-04-20 15:39:01,813 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 33, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 14700, 'duration_ms': 0, 'end_time_ms': 14700}
+2026-04-20 15:39:01,973 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:01,974 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:01,974 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:01,974 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 27, 'prev_value': 26, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:01,974 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 570000, 'prev_value': 550000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:01,975 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 570000, 'prev_value': 550000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:01,975 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 29, 'lane': 'right', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 37, 'total_score': 570000, 'is_hold': False}
+2026-04-20 15:39:01,975 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 505, 'prev_value': 504, 'change': 1}
+2026-04-20 15:39:02,214 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 34, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 15100, 'duration_ms': 700, 'end_time_ms': 15800}
+2026-04-20 15:39:02,223 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:02,392 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:02,392 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:02,392 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:02,393 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 28, 'prev_value': 27, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:02,393 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 590000, 'prev_value': 570000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:02,393 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 590000, 'prev_value': 570000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:02,393 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 30, 'lane': 'left', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 19, 'total_score': 590000, 'is_hold': False}
+2026-04-20 15:39:02,393 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 439, 'prev_value': 438, 'change': 1}
+2026-04-20 15:39:02,540 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:02,573 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:02,573 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:02,573 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:02,574 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 29, 'prev_value': 28, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:02,574 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 600000, 'prev_value': 590000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:02,574 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 600000, 'prev_value': 590000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:02,574 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 31, 'lane': 'center', 'judgment': 'good', 'combo': 3, 'multiplier': 1, 'award': 10000, 'delta_ms': 162, 'total_score': 600000, 'is_hold': False}
+2026-04-20 15:39:02,574 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 376, 'prev_value': 375, 'change': 1}
+2026-04-20 15:39:02,613 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 35, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 15500, 'duration_ms': 0, 'end_time_ms': 15500}
+2026-04-20 15:39:02,640 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:02,640 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:02,640 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 440, 'prev_value': 439, 'change': 1}
+2026-04-20 15:39:02,706 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:02,723 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:03,140 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:03,140 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:03,140 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:03,140 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 30, 'prev_value': 29, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:03,140 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 610000, 'prev_value': 600000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:03,141 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 610000, 'prev_value': 600000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:03,141 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 32, 'lane': 'center', 'judgment': 'good', 'combo': 4, 'multiplier': 1, 'award': 10000, 'delta_ms': 129, 'total_score': 610000, 'is_hold': False}
+2026-04-20 15:39:03,141 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 377, 'prev_value': 376, 'change': 1}
+2026-04-20 15:39:03,214 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 36, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 16100, 'duration_ms': 0, 'end_time_ms': 16100}
+2026-04-20 15:39:03,214 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 37, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 16100, 'duration_ms': 0, 'end_time_ms': 16100}
+2026-04-20 15:39:03,256 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:03,392 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:03,392 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:03,392 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:03,392 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 31, 'prev_value': 30, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:03,392 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 630000, 'prev_value': 610000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:03,393 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 630000, 'prev_value': 610000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:03,393 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 33, 'lane': 'right', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 19, 'total_score': 630000, 'is_hold': False}
+2026-04-20 15:39:03,393 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 506, 'prev_value': 505, 'change': 1}
+2026-04-20 15:39:03,541 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:03,823 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:03,823 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:03,823 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 34, 'lane': 'left', 'judgment': 'perfect', 'delta_ms': 12, 'duration_ms': 700, 'end_time_ms': 15800, 'remaining_ms': 688}
+2026-04-20 15:39:03,823 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 441, 'prev_value': 440, 'change': 1}
+2026-04-20 15:39:03,989 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:03,990 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 5, 'change': -5, 'player_num': 1}
+2026-04-20 15:39:03,990 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:03,991 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 34, 'lane': 'left', 'total_misses': 4, 'is_hold': True}
+2026-04-20 15:39:04,306 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:04,306 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 32, 'prev_value': 31, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 640000, 'prev_value': 630000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 640000, 'prev_value': 630000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 35, 'lane': 'center', 'judgment': 'good', 'combo': 1, 'multiplier': 1, 'award': 10000, 'delta_ms': 96, 'total_score': 640000, 'is_hold': False}
+2026-04-20 15:39:04,307 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 378, 'prev_value': 377, 'change': 1}
+2026-04-20 15:39:04,423 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:04,839 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:04,839 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:04,839 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,839 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 33, 'prev_value': 32, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,839 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 660000, 'prev_value': 640000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:04,840 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 660000, 'prev_value': 640000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:04,840 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 36, 'lane': 'left', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 28, 'total_score': 660000, 'is_hold': False}
+2026-04-20 15:39:04,840 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 442, 'prev_value': 441, 'change': 1}
+2026-04-20 15:39:04,872 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:04,872 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2026-04-20 15:39:04,873 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:04,873 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,873 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 34, 'prev_value': 33, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:04,873 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 680000, 'prev_value': 660000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:04,873 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 680000, 'prev_value': 660000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:04,874 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 37, 'lane': 'right', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 62, 'total_score': 680000, 'is_hold': False}
+2026-04-20 15:39:04,874 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 507, 'prev_value': 506, 'change': 1}
+2026-04-20 15:39:04,973 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:04,973 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2026-04-20 15:39:04,989 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:04,989 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2026-04-20 15:39:05,234 : INFO : EventManager : Event: ======'player_rhythm_accuracy'====== Args={'value': 89, 'prev_value': 0, 'change': 89, 'player_num': 1}
+2026-04-20 15:39:05,234 : INFO : EventManager : Event: ======'rhythm_mode_finished'====== Args={'total_notes': 38, 'hits': 34, 'misses': 4, 'best_combo': 10, 'accuracy': 89, 'total_score': 680000}
+2026-04-20 15:39:06,835 : INFO : EventManager : Event: ======'mode_rhythm_will_stop'====== Args={}
+2026-04-20 15:39:06,836 : INFO : EventManager : Event: ======'mode_rhythm_stopping'====== Args={}
+2026-04-20 15:39:06,836 : INFO : Mode.rhythm : Stopped.
+2026-04-20 15:39:06,836 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:06,836 : INFO : EventManager : Event: ======'mode_rhythm_stopped'====== Args={}
+2026-04-20 15:39:06,837 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'rhythm'}
+2026-04-20 15:39:06,837 : INFO : EventManager : Event: ======'selected_song_resume_after_rhythm'====== Args={'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'sound_key': 'Captain Beefheart - Too Much Time', 'audio_path': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:39:06,857 : INFO : EventManager : Event: ======'slide_rhythm_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:39:06,857 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'_from_bcp': True}
+2026-04-20 15:39:06,858 : INFO : EventManager : Event: ======'slide_rhythm_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:39:11,166 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 6}
+2026-04-20 15:39:11,167 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:11,167 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2026-04-20 15:39:11,167 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:11,167 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:11,167 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 6}
+2026-04-20 15:39:11,168 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:11,168 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:21,169 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 7}
+2026-04-20 15:39:21,170 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:21,170 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2026-04-20 15:39:21,171 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:21,171 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:21,171 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 7}
+2026-04-20 15:39:21,171 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:21,171 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:21,239 : INFO : SwitchController : <<<<<<< 's_left_lane' active >>>>>>>
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'left_lane'}
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'hurryup'}
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'s_left_lane_active'====== Args={}
+2026-04-20 15:39:21,239 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_lane'====== Args={'value': 45, 'prev_value': 44, 'change': 1}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'machine_var_audits_shots_left_lane'====== Args={'value': 45, 'prev_value': 44, 'change': 1}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'left_lane_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'left_lane_default_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'left_lane_default_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'left_lane_lit_hit'====== Args={'profile': 'default', 'state': 'lit', 'advancing': False}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'start_mode_rhythm'====== Args={'priority': 0}
+2026-04-20 15:39:21,240 : INFO : EventManager : Event: ======'mode_rhythm_will_start'====== Args={'priority': 0}
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'mode_rhythm_starting'====== Args={'priority': 0}
+2026-04-20 15:39:21,243 : INFO : Mode.rhythm : Started. Priority: 1200
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'mode_rhythm_started'====== Args={'priority': 0}
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'selected_song_pause_for_rhythm'====== Args={'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'sound_key': 'Captain Beefheart - Too Much Time', 'audio_path': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 0, 'prev_value': 680000, 'change': -680000, 'player_num': 1}
+2026-04-20 15:39:21,243 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 3, 'change': -3, 'player_num': 1}
+2026-04-20 15:39:21,244 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 0, 'prev_value': 10, 'change': -10, 'player_num': 1}
+2026-04-20 15:39:21,244 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 0, 'prev_value': 34, 'change': -34, 'player_num': 1}
+2026-04-20 15:39:21,244 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 0, 'prev_value': 4, 'change': -4, 'player_num': 1}
+2026-04-20 15:39:21,244 : INFO : EventManager : Event: ======'player_rhythm_accuracy'====== Args={'value': 0, 'prev_value': 89, 'change': -89, 'player_num': 1}
+2026-04-20 15:39:21,258 : INFO : EventManager : Event: ======'slide_rhythm_created'====== Args={'_from_bcp': True}
+2026-04-20 15:39:21,259 : INFO : EventManager : Event: ======'slide_base_slide_inactive'====== Args={'is_removing': False, '_from_bcp': True}
+2026-04-20 15:39:21,259 : INFO : EventManager : Event: ======'slide_rhythm_active'====== Args={'original_context': 'rhythm', 'original_calling_context': 'mode_rhythm_started', 'priority': 1200.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-04-20 15:39:21,295 : INFO : EventManager : Event: ======'rhythm_chart_started'====== Args={'total_notes': 38, 'travel_ms': 1600, 'perfect_window_ms': 90, 'good_window_ms': 170, 'lead_in_ms': 1800, 'chart_started_delay_ms': 50, 'song_key': 'Deep Purple - Smoke On the Water (Official Music Video)', 'song_bus': 'music', 'audio_offset_ms': 0}
+2026-04-20 15:39:21,389 : INFO : SwitchController : <<<<<<< 's_left_lane' inactive >>>>>>>
+2026-04-20 15:39:22,045 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 0, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 2400, 'duration_ms': 0, 'end_time_ms': 2400}
+2026-04-20 15:39:22,445 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 1, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 2800, 'duration_ms': 0, 'end_time_ms': 2800}
+2026-04-20 15:39:22,846 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 2, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 3200, 'duration_ms': 0, 'end_time_ms': 3200}
+2026-04-20 15:39:23,245 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 3, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 3600, 'duration_ms': 0, 'end_time_ms': 3600}
+2026-04-20 15:39:23,645 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 4, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 4000, 'duration_ms': 0, 'end_time_ms': 4000}
+2026-04-20 15:39:23,646 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 5, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 4000, 'duration_ms': 0, 'end_time_ms': 4000}
+2026-04-20 15:39:23,706 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 20000, 'prev_value': 0, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:23,707 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 700000, 'prev_value': 680000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:23,708 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 0, 'lane': 'left', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 63, 'total_score': 20000, 'is_hold': False}
+2026-04-20 15:39:23,708 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 443, 'prev_value': 442, 'change': 1}
+2026-04-20 15:39:23,840 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:24,090 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:24,090 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:24,090 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 40000, 'prev_value': 20000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 720000, 'prev_value': 700000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 1, 'lane': 'center', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 47, 'total_score': 40000, 'is_hold': False}
+2026-04-20 15:39:24,091 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 379, 'prev_value': 378, 'change': 1}
+2026-04-20 15:39:24,145 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 6, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 4500, 'duration_ms': 0, 'end_time_ms': 4500}
+2026-04-20 15:39:24,239 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:24,439 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 60000, 'prev_value': 40000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,440 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 740000, 'prev_value': 720000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,441 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 2, 'lane': 'right', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 3, 'total_score': 60000, 'is_hold': False}
+2026-04-20 15:39:24,441 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 508, 'prev_value': 507, 'change': 1}
+2026-04-20 15:39:24,545 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 7, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 4900, 'duration_ms': 900, 'end_time_ms': 5800}
+2026-04-20 15:39:24,608 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:24,890 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:24,890 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:24,890 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,890 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,890 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:24,891 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 80000, 'prev_value': 60000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,891 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 760000, 'prev_value': 740000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:24,891 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 3, 'lane': 'left', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 47, 'total_score': 80000, 'is_hold': False}
+2026-04-20 15:39:24,891 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 444, 'prev_value': 443, 'change': 1}
+2026-04-20 15:39:24,944 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 8, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 5300, 'duration_ms': 0, 'end_time_ms': 5300}
+2026-04-20 15:39:25,007 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:25,240 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:25,240 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:25,240 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 100000, 'prev_value': 80000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 780000, 'prev_value': 760000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 4, 'lane': 'center', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 3, 'total_score': 100000, 'is_hold': False}
+2026-04-20 15:39:25,241 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 380, 'prev_value': 379, 'change': 1}
+2026-04-20 15:39:25,256 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:25,257 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:25,257 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,257 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,257 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,257 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 120000, 'prev_value': 100000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:25,258 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 800000, 'prev_value': 780000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:25,258 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 5, 'lane': 'right', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 13, 'total_score': 120000, 'is_hold': False}
+2026-04-20 15:39:25,258 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 509, 'prev_value': 508, 'change': 1}
+2026-04-20 15:39:25,344 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 9, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 5700, 'duration_ms': 0, 'end_time_ms': 5700}
+2026-04-20 15:39:25,723 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:25,740 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:25,745 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 10, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 6100, 'duration_ms': 0, 'end_time_ms': 6100}
+2026-04-20 15:39:25,840 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:25,840 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:25,840 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 130000, 'prev_value': 120000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 810000, 'prev_value': 800000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 6, 'lane': 'left', 'judgment': 'good', 'combo': 7, 'multiplier': 1, 'award': 10000, 'delta_ms': 97, 'total_score': 130000, 'is_hold': False}
+2026-04-20 15:39:25,841 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 445, 'prev_value': 444, 'change': 1}
+2026-04-20 15:39:26,007 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:26,140 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:26,140 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:26,140 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 7, 'lane': 'center', 'judgment': 'perfect', 'delta_ms': 3, 'duration_ms': 900, 'end_time_ms': 5800, 'remaining_ms': 903}
+2026-04-20 15:39:26,140 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 381, 'prev_value': 380, 'change': 1}
+2026-04-20 15:39:26,145 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 11, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 6500, 'duration_ms': 0, 'end_time_ms': 6500}
+2026-04-20 15:39:26,545 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 12, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 6900, 'duration_ms': 0, 'end_time_ms': 6900}
+2026-04-20 15:39:26,557 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:26,557 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:26,557 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,557 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,558 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,558 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 150000, 'prev_value': 130000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:26,558 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 830000, 'prev_value': 810000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:26,558 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 8, 'lane': 'right', 'judgment': 'perfect', 'combo': 8, 'multiplier': 1, 'award': 20000, 'delta_ms': 14, 'total_score': 150000, 'is_hold': False}
+2026-04-20 15:39:26,559 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 510, 'prev_value': 509, 'change': 1}
+2026-04-20 15:39:26,575 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:26,575 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 8, 'change': -8, 'player_num': 1}
+2026-04-20 15:39:26,575 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,575 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 7, 'lane': 'center', 'total_misses': 1, 'is_hold': True}
+2026-04-20 15:39:26,775 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:26,857 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:26,857 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:26,857 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,858 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:26,858 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 170000, 'prev_value': 150000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:26,858 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 850000, 'prev_value': 830000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:26,858 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 9, 'lane': 'left', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 86, 'total_score': 170000, 'is_hold': False}
+2026-04-20 15:39:26,858 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 446, 'prev_value': 445, 'change': 1}
+2026-04-20 15:39:26,945 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 13, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 7300, 'duration_ms': 0, 'end_time_ms': 7300}
+2026-04-20 15:39:27,023 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:27,292 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:27,292 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:27,292 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:27,292 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:27,292 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 190000, 'prev_value': 170000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:27,293 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 870000, 'prev_value': 850000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:27,293 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 10, 'lane': 'center', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 51, 'total_score': 190000, 'is_hold': False}
+2026-04-20 15:39:27,293 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 382, 'prev_value': 381, 'change': 1}
+2026-04-20 15:39:27,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 14, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 7700, 'duration_ms': 0, 'end_time_ms': 7700}
+2026-04-20 15:39:27,346 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 15, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 7700, 'duration_ms': 0, 'end_time_ms': 7700}
+2026-04-20 15:39:27,458 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:27,607 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:27,607 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:27,607 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:27,608 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 11, 'prev_value': 10, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:27,608 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 200000, 'prev_value': 190000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:27,608 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 880000, 'prev_value': 870000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:27,608 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 11, 'lane': 'right', 'judgment': 'good', 'combo': 3, 'multiplier': 1, 'award': 10000, 'delta_ms': 136, 'total_score': 200000, 'is_hold': False}
+2026-04-20 15:39:27,608 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 511, 'prev_value': 510, 'change': 1}
+2026-04-20 15:39:27,792 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:27,945 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 16, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 8300, 'duration_ms': 0, 'end_time_ms': 8300}
+2026-04-20 15:39:28,075 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:28,075 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:28,075 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,076 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 12, 'prev_value': 11, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,076 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 220000, 'prev_value': 200000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,076 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 900000, 'prev_value': 880000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,076 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 12, 'lane': 'center', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 68, 'total_score': 220000, 'is_hold': False}
+2026-04-20 15:39:28,076 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 383, 'prev_value': 382, 'change': 1}
+2026-04-20 15:39:28,223 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:28,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 17, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 8700, 'duration_ms': 0, 'end_time_ms': 8700}
+2026-04-20 15:39:28,456 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:28,456 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:28,456 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,456 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 13, 'prev_value': 12, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,457 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 240000, 'prev_value': 220000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,457 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 920000, 'prev_value': 900000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,457 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 13, 'lane': 'right', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 87, 'total_score': 240000, 'is_hold': False}
+2026-04-20 15:39:28,457 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 512, 'prev_value': 511, 'change': 1}
+2026-04-20 15:39:28,656 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:28,745 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 18, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 9100, 'duration_ms': 700, 'end_time_ms': 9800}
+2026-04-20 15:39:28,892 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:28,892 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:28,892 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,892 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 14, 'prev_value': 13, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,892 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 260000, 'prev_value': 240000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 940000, 'prev_value': 920000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 15, 'lane': 'center', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 51, 'total_score': 260000, 'is_hold': False}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 384, 'prev_value': 383, 'change': 1}
+2026-04-20 15:39:28,893 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 15, 'prev_value': 14, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:28,893 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 280000, 'prev_value': 260000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,894 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 960000, 'prev_value': 940000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:28,894 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 14, 'lane': 'left', 'judgment': 'perfect', 'combo': 7, 'multiplier': 1, 'award': 20000, 'delta_ms': 50, 'total_score': 280000, 'is_hold': False}
+2026-04-20 15:39:28,894 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 447, 'prev_value': 446, 'change': 1}
+2026-04-20 15:39:29,073 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:29,073 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:29,145 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 19, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 9500, 'duration_ms': 0, 'end_time_ms': 9500}
+2026-04-20 15:39:29,425 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 16, 'prev_value': 15, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 290000, 'prev_value': 280000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 970000, 'prev_value': 960000, 'change': 10000, 'player_num': 1}
+2026-04-20 15:39:29,426 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 16, 'lane': 'left', 'judgment': 'good', 'combo': 8, 'multiplier': 1, 'award': 10000, 'delta_ms': 118, 'total_score': 290000, 'is_hold': False}
+2026-04-20 15:39:29,427 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 448, 'prev_value': 447, 'change': 1}
+2026-04-20 15:39:29,545 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 20, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 9900, 'duration_ms': 0, 'end_time_ms': 9900}
+2026-04-20 15:39:29,573 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:29,907 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:29,907 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:29,907 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,907 : INFO : EventManager : Event: ======'player_rhythm_best_combo'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 17, 'prev_value': 16, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 330000, 'prev_value': 290000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1010000, 'prev_value': 970000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 17, 'lane': 'center', 'judgment': 'perfect', 'combo': 9, 'multiplier': 2, 'award': 40000, 'delta_ms': 36, 'total_score': 330000, 'is_hold': False}
+2026-04-20 15:39:29,908 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 385, 'prev_value': 384, 'change': 1}
+2026-04-20 15:39:29,945 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 21, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 10300, 'duration_ms': 0, 'end_time_ms': 10300}
+2026-04-20 15:39:30,056 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:30,223 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:30,223 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:30,224 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 18, 'lane': 'right', 'judgment': 'good', 'delta_ms': 120, 'duration_ms': 700, 'end_time_ms': 9800, 'remaining_ms': 820}
+2026-04-20 15:39:30,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 513, 'prev_value': 512, 'change': 1}
+2026-04-20 15:39:30,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 22, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 10700, 'duration_ms': 0, 'end_time_ms': 10700}
+2026-04-20 15:39:30,346 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 23, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 10700, 'duration_ms': 0, 'end_time_ms': 10700}
+2026-04-20 15:39:30,823 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:30,823 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 9, 'change': -9, 'player_num': 1}
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 18, 'lane': 'right', 'total_misses': 2, 'is_hold': True}
+2026-04-20 15:39:30,824 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:30,824 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 18, 'prev_value': 17, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:30,825 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 350000, 'prev_value': 330000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:30,825 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1030000, 'prev_value': 1010000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:30,825 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 19, 'lane': 'center', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 81, 'total_score': 350000, 'is_hold': False}
+2026-04-20 15:39:30,825 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 386, 'prev_value': 385, 'change': 1}
+2026-04-20 15:39:30,944 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 24, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 11300, 'duration_ms': 0, 'end_time_ms': 11300}
+2026-04-20 15:39:31,039 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:31,172 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 8}
+2026-04-20 15:39:31,172 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:31,173 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 8}
+2026-04-20 15:39:31,173 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:31,173 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:31,173 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 8}
+2026-04-20 15:39:31,173 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:31,173 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:31,190 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:31,190 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:31,190 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,191 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 19, 'prev_value': 18, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,191 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 370000, 'prev_value': 350000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,191 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1050000, 'prev_value': 1030000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,191 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 20, 'lane': 'right', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 47, 'total_score': 370000, 'is_hold': False}
+2026-04-20 15:39:31,191 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 514, 'prev_value': 513, 'change': 1}
+2026-04-20 15:39:31,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 25, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 11700, 'duration_ms': 0, 'end_time_ms': 11700}
+2026-04-20 15:39:31,406 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:31,623 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:31,624 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:31,624 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,624 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 20, 'prev_value': 19, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,624 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 390000, 'prev_value': 370000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,625 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1070000, 'prev_value': 1050000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,625 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 21, 'lane': 'left', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 80, 'total_score': 390000, 'is_hold': False}
+2026-04-20 15:39:31,625 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 449, 'prev_value': 448, 'change': 1}
+2026-04-20 15:39:31,745 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 26, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 12100, 'duration_ms': 0, 'end_time_ms': 12100}
+2026-04-20 15:39:31,745 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:31,941 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:31,941 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:31,941 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,942 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 21, 'prev_value': 20, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,942 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 410000, 'prev_value': 390000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,942 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1090000, 'prev_value': 1070000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,942 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 23, 'lane': 'right', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 2, 'total_score': 410000, 'is_hold': False}
+2026-04-20 15:39:31,942 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 515, 'prev_value': 514, 'change': 1}
+2026-04-20 15:39:31,943 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 22, 'prev_value': 21, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 430000, 'prev_value': 410000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1110000, 'prev_value': 1090000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 22, 'lane': 'center', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 1, 'total_score': 430000, 'is_hold': False}
+2026-04-20 15:39:31,943 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 387, 'prev_value': 386, 'change': 1}
+2026-04-20 15:39:32,145 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 27, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 12500, 'duration_ms': 0, 'end_time_ms': 12500}
+2026-04-20 15:39:32,157 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:32,175 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:32,506 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:32,506 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:32,507 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:32,507 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 23, 'prev_value': 22, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:32,507 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 450000, 'prev_value': 430000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:32,507 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1130000, 'prev_value': 1110000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:32,508 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 24, 'lane': 'left', 'judgment': 'perfect', 'combo': 6, 'multiplier': 1, 'award': 20000, 'delta_ms': 37, 'total_score': 450000, 'is_hold': False}
+2026-04-20 15:39:32,508 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 450, 'prev_value': 449, 'change': 1}
+2026-04-20 15:39:32,544 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 28, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 12900, 'duration_ms': 700, 'end_time_ms': 13600}
+2026-04-20 15:39:32,675 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:32,945 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 29, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 13300, 'duration_ms': 0, 'end_time_ms': 13300}
+2026-04-20 15:39:32,973 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:32,973 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:32,973 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:32,974 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 24, 'prev_value': 23, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:32,974 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 470000, 'prev_value': 450000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:32,974 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1150000, 'prev_value': 1130000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:32,974 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 25, 'lane': 'center', 'judgment': 'perfect', 'combo': 7, 'multiplier': 1, 'award': 20000, 'delta_ms': 30, 'total_score': 470000, 'is_hold': False}
+2026-04-20 15:39:32,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 388, 'prev_value': 387, 'change': 1}
+2026-04-20 15:39:33,092 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:33,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 30, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 13700, 'duration_ms': 0, 'end_time_ms': 13700}
+2026-04-20 15:39:33,346 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 31, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 13700, 'duration_ms': 0, 'end_time_ms': 13700}
+2026-04-20 15:39:33,423 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:33,423 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:33,423 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:33,424 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 25, 'prev_value': 24, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:33,424 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 490000, 'prev_value': 470000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:33,424 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1170000, 'prev_value': 1150000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:33,424 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 26, 'lane': 'left', 'judgment': 'perfect', 'combo': 8, 'multiplier': 1, 'award': 20000, 'delta_ms': 80, 'total_score': 490000, 'is_hold': False}
+2026-04-20 15:39:33,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 451, 'prev_value': 450, 'change': 1}
+2026-04-20 15:39:33,557 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:33,690 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:33,690 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:33,691 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:33,691 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 26, 'prev_value': 25, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:33,691 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:33,692 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 530000, 'prev_value': 490000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:39:33,692 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1210000, 'prev_value': 1170000, 'change': 40000, 'player_num': 1}
+2026-04-20 15:39:33,692 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 27, 'lane': 'right', 'judgment': 'perfect', 'combo': 9, 'multiplier': 2, 'award': 40000, 'delta_ms': 53, 'total_score': 530000, 'is_hold': False}
+2026-04-20 15:39:33,692 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 516, 'prev_value': 515, 'change': 1}
+2026-04-20 15:39:33,891 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:33,945 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 32, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 14300, 'duration_ms': 0, 'end_time_ms': 14300}
+2026-04-20 15:39:34,242 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:34,242 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:34,242 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 28, 'lane': 'center', 'judgment': 'good', 'delta_ms': 99, 'duration_ms': 700, 'end_time_ms': 13600, 'remaining_ms': 601}
+2026-04-20 15:39:34,243 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 389, 'prev_value': 388, 'change': 1}
+2026-04-20 15:39:34,345 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 33, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 14700, 'duration_ms': 0, 'end_time_ms': 14700}
+2026-04-20 15:39:34,508 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:34,508 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 9, 'change': -9, 'player_num': 1}
+2026-04-20 15:39:34,508 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,508 : INFO : EventManager : Event: ======'player_rhythm_multiplier'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2026-04-20 15:39:34,509 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 28, 'lane': 'center', 'total_misses': 3, 'is_hold': True}
+2026-04-20 15:39:34,556 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:34,556 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:34,556 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,556 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 27, 'prev_value': 26, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,556 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 550000, 'prev_value': 530000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,557 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1230000, 'prev_value': 1210000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,557 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 29, 'lane': 'right', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 13, 'total_score': 550000, 'is_hold': False}
+2026-04-20 15:39:34,557 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 517, 'prev_value': 516, 'change': 1}
+2026-04-20 15:39:34,706 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:34,745 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 34, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 15100, 'duration_ms': 700, 'end_time_ms': 15800}
+2026-04-20 15:39:34,956 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:34,956 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:34,956 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,956 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 28, 'prev_value': 27, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,957 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 570000, 'prev_value': 550000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,957 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1250000, 'prev_value': 1230000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,957 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 30, 'lane': 'left', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 13, 'total_score': 570000, 'is_hold': False}
+2026-04-20 15:39:34,957 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 452, 'prev_value': 451, 'change': 1}
+2026-04-20 15:39:34,973 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:34,973 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:34,973 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,974 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 29, 'prev_value': 28, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:34,974 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 590000, 'prev_value': 570000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,974 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1270000, 'prev_value': 1250000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:34,974 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 31, 'lane': 'center', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 30, 'total_score': 590000, 'is_hold': False}
+2026-04-20 15:39:34,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 390, 'prev_value': 389, 'change': 1}
+2026-04-20 15:39:35,073 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:35,090 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:35,145 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 35, 'lane': 'center', 'travel_ms': 1600, 'hit_time_ms': 15500, 'duration_ms': 0, 'end_time_ms': 15500}
+2026-04-20 15:39:35,556 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:35,557 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:35,557 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:35,557 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 30, 'prev_value': 29, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:35,557 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 610000, 'prev_value': 590000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:35,557 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1290000, 'prev_value': 1270000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:35,558 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 32, 'lane': 'center', 'judgment': 'perfect', 'combo': 4, 'multiplier': 1, 'award': 20000, 'delta_ms': 13, 'total_score': 610000, 'is_hold': False}
+2026-04-20 15:39:35,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 391, 'prev_value': 390, 'change': 1}
+2026-04-20 15:39:35,725 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:35,745 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 36, 'lane': 'left', 'travel_ms': 1600, 'hit_time_ms': 16100, 'duration_ms': 0, 'end_time_ms': 16100}
+2026-04-20 15:39:35,746 : INFO : EventManager : Event: ======'rhythm_note_spawned'====== Args={'note_id': 37, 'lane': 'right', 'travel_ms': 1600, 'hit_time_ms': 16100, 'duration_ms': 0, 'end_time_ms': 16100}
+2026-04-20 15:39:35,923 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:35,923 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:35,924 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:35,924 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 31, 'prev_value': 30, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:35,924 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 630000, 'prev_value': 610000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:35,924 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1310000, 'prev_value': 1290000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:35,925 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 33, 'lane': 'right', 'judgment': 'perfect', 'combo': 5, 'multiplier': 1, 'award': 20000, 'delta_ms': 20, 'total_score': 630000, 'is_hold': False}
+2026-04-20 15:39:35,925 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 518, 'prev_value': 517, 'change': 1}
+2026-04-20 15:39:36,090 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:36,239 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:36,240 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:36,240 : INFO : EventManager : Event: ======'rhythm_hold_started'====== Args={'note_id': 34, 'lane': 'left', 'judgment': 'good', 'delta_ms': 103, 'duration_ms': 700, 'end_time_ms': 15800, 'remaining_ms': 803}
+2026-04-20 15:39:36,240 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 453, 'prev_value': 452, 'change': 1}
+2026-04-20 15:39:36,390 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:36,390 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 0, 'prev_value': 5, 'change': -5, 'player_num': 1}
+2026-04-20 15:39:36,391 : INFO : EventManager : Event: ======'player_rhythm_misses'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:36,391 : INFO : EventManager : Event: ======'rhythm_note_missed'====== Args={'note_id': 34, 'lane': 'left', 'total_misses': 4, 'is_hold': True}
+2026-04-20 15:39:36,741 : INFO : SwitchController : <<<<<<< 's_action_button' active >>>>>>>
+2026-04-20 15:39:36,741 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'center'}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 32, 'prev_value': 31, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 650000, 'prev_value': 630000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1330000, 'prev_value': 1310000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 35, 'lane': 'center', 'judgment': 'perfect', 'combo': 1, 'multiplier': 1, 'award': 20000, 'delta_ms': 2, 'total_score': 650000, 'is_hold': False}
+2026-04-20 15:39:36,742 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 392, 'prev_value': 391, 'change': 1}
+2026-04-20 15:39:36,907 : INFO : SwitchController : <<<<<<< 's_action_button' inactive >>>>>>>
+2026-04-20 15:39:37,322 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-04-20 15:39:37,322 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'right'}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 33, 'prev_value': 32, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 670000, 'prev_value': 650000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1350000, 'prev_value': 1330000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 37, 'lane': 'right', 'judgment': 'perfect', 'combo': 2, 'multiplier': 1, 'award': 20000, 'delta_ms': 21, 'total_score': 670000, 'is_hold': False}
+2026-04-20 15:39:37,323 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 519, 'prev_value': 518, 'change': 1}
+2026-04-20 15:39:37,324 : INFO : SwitchController : <<<<<<< 's_flipper_left' active >>>>>>>
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'rhythm_lane_pressed'====== Args={'lane': 'left'}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'player_rhythm_combo'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'player_rhythm_hits'====== Args={'value': 34, 'prev_value': 33, 'change': 1, 'player_num': 1}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'player_rhythm_mode_score'====== Args={'value': 690000, 'prev_value': 670000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1370000, 'prev_value': 1350000, 'change': 20000, 'player_num': 1}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'rhythm_note_hit'====== Args={'note_id': 36, 'lane': 'left', 'judgment': 'perfect', 'combo': 3, 'multiplier': 1, 'award': 20000, 'delta_ms': 19, 'total_score': 690000, 'is_hold': False}
+2026-04-20 15:39:37,324 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 454, 'prev_value': 453, 'change': 1}
+2026-04-20 15:39:37,439 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-04-20 15:39:37,440 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={'triggering_group': 2, 'triggering_switch': 's_flipper_right'}
+2026-04-20 15:39:37,440 : INFO : SwitchController : <<<<<<< 's_flipper_left' inactive >>>>>>>
+2026-04-20 15:39:37,440 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={'triggering_group': 1, 'triggering_switch': 's_flipper_left'}
+2026-04-20 15:39:37,765 : INFO : EventManager : Event: ======'player_rhythm_accuracy'====== Args={'value': 89, 'prev_value': 0, 'change': 89, 'player_num': 1}
+2026-04-20 15:39:37,766 : INFO : EventManager : Event: ======'rhythm_mode_finished'====== Args={'total_notes': 38, 'hits': 34, 'misses': 4, 'best_combo': 9, 'accuracy': 89, 'total_score': 690000}
+2026-04-20 15:39:39,367 : INFO : EventManager : Event: ======'mode_rhythm_will_stop'====== Args={}
+2026-04-20 15:39:39,367 : INFO : EventManager : Event: ======'mode_rhythm_stopping'====== Args={}
+2026-04-20 15:39:39,367 : INFO : Mode.rhythm : Stopped.
+2026-04-20 15:39:39,368 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:39,368 : INFO : EventManager : Event: ======'mode_rhythm_stopped'====== Args={}
+2026-04-20 15:39:39,368 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'rhythm'}
+2026-04-20 15:39:39,368 : INFO : EventManager : Event: ======'selected_song_resume_after_rhythm'====== Args={'genre': '?', 'song_title': 'Captain Beefheart - Too Much Time', 'sound_key': 'Captain Beefheart - Too Much Time', 'audio_path': 'res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3', 'song_bus': 'music', 'song_start_at': 0.0}
+2026-04-20 15:39:39,393 : INFO : EventManager : Event: ======'slide_rhythm_inactive'====== Args={'is_removing': True, '_from_bcp': True}
+2026-04-20 15:39:39,393 : INFO : EventManager : Event: ======'slide_base_slide_active'====== Args={'_from_bcp': True}
+2026-04-20 15:39:39,393 : INFO : EventManager : Event: ======'slide_rhythm_removed'====== Args={'_from_bcp': True}
+2026-04-20 15:39:41,175 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 9}
+2026-04-20 15:39:41,175 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:41,176 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 9}
+2026-04-20 15:39:41,176 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:41,176 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:41,176 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 9}
+2026-04-20 15:39:41,176 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:41,176 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:51,178 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_failed'====== Args={'target': <ball_device.bd_plunger>, 'balls': 1, 'retry': True, 'num_attempts': 10}
+2026-04-20 15:39:51,178 : INFO : ball_device.bd_trough : State: waiting_for_target_ready
+2026-04-20 15:39:51,178 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 10}
+2026-04-20 15:39:51,179 : INFO : ball_device.bd_trough : State: ejecting
+2026-04-20 15:39:51,179 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2026-04-20 15:39:51,179 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': False, 'num_attempts': 10}
+2026-04-20 15:39:51,179 : INFO : ball_device.bd_trough : Wait for ball to leave device
+2026-04-20 15:39:51,179 : INFO : coil.c_trough_eject : Pulsing Driver for 10ms (1.0 pulse_power)
+2026-04-20 15:39:51,190 : INFO : Machine : Shutting down...
+2026-04-20 15:39:51,190 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-20 15:39:51,190 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2026-04-20 15:39:51,190 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2026-04-20 15:39:51,190 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2026-04-20 15:39:51,190 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'mode_bumpers_will_stop'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'mode_bumpers_stopping'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'stop_mode_bumpers'====== Args={'priority': 0}
+2026-04-20 15:39:51,191 : INFO : Mode.bumpers : Stopped.
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'mode_bumpers_stopped'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'bumpers'}
+2026-04-20 15:39:51,191 : INFO : Mode.base : Stopped.
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2026-04-20 15:39:51,191 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2026-04-20 15:39:51,192 : INFO : Mode.game : Stopped.
+2026-04-20 15:39:51,192 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-04-20 15:39:51,192 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2026-04-20 15:39:51,192 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2026-04-20 15:39:51,194 : INFO : root : MPF run loop ended.

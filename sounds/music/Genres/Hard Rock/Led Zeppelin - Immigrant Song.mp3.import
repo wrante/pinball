@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkrpgccr0r3th"
+path="res://.godot/imported/Led Zeppelin - Immigrant Song.mp3-f7e926413fc42e1b0a768a872fa53d4a.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hard Rock/Led Zeppelin - Immigrant Song.mp3"
+dest_files=["res://.godot/imported/Led Zeppelin - Immigrant Song.mp3-f7e926413fc42e1b0a768a872fa53d4a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

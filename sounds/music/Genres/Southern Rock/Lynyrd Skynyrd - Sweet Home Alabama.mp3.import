@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de6a4khgvahly"
+path="res://.godot/imported/Lynyrd Skynyrd - Sweet Home Alabama.mp3-c177e96745c1c6c34937d4f8090650df.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Southern Rock/Lynyrd Skynyrd - Sweet Home Alabama.mp3"
+dest_files=["res://.godot/imported/Lynyrd Skynyrd - Sweet Home Alabama.mp3-c177e96745c1c6c34937d4f8090650df.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

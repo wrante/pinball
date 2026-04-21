@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nod6i2sd2n0o"
+path="res://.godot/imported/Geto Boys - Mind Playing Tricks On Me.mp3-160cac07dfb5d457a74be3146d6f0c50.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rap/Geto Boys - Mind Playing Tricks On Me.mp3"
+dest_files=["res://.godot/imported/Geto Boys - Mind Playing Tricks On Me.mp3-160cac07dfb5d457a74be3146d6f0c50.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

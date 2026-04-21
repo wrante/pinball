@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b0lbeumgvf4lb"
+path="res://.godot/imported/Aretha Franklin - Respect.mp3-4d87f797cfa87a7c8581b329a0bf001e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Soul/Aretha Franklin - Respect.mp3"
+dest_files=["res://.godot/imported/Aretha Franklin - Respect.mp3-4d87f797cfa87a7c8581b329a0bf001e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

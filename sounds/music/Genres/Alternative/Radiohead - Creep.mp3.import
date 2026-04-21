@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://tvqu3c4o3ps"
+path="res://.godot/imported/Radiohead - Creep.mp3-f6d40baadabdb8e46520b6c8f35cc629.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Alternative/Radiohead - Creep.mp3"
+dest_files=["res://.godot/imported/Radiohead - Creep.mp3-f6d40baadabdb8e46520b6c8f35cc629.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

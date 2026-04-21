@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bein2k5mbmjtb"
+path="res://.godot/imported/Isaac Hayes - Hung Up on My Baby.mp3-73393975bd214cff8953c08ced26a9b2.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Soul/Isaac Hayes - Hung Up on My Baby.mp3"
+dest_files=["res://.godot/imported/Isaac Hayes - Hung Up on My Baby.mp3-73393975bd214cff8953c08ced26a9b2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

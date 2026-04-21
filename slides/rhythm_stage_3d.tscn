@@ -1,0 +1,221 @@
+[gd_scene format=3 uid="uid://cr1bsh021aa67"]
+
+[ext_resource type="Script" uid="uid://bcf563ftek5b3" path="res://slides/rhythm_stage_3d.gd" id="1_stage"]
+
+[sub_resource type="StandardMaterial3D" id="LeftLaneMaterial"]
+albedo_color = Color(0.66, 0.370117, 0.157883, 1)
+metallic = 0.25
+roughness = 0.42
+emission_enabled = true
+emission = Color(1, 0.582745, 0.277255, 1)
+emission_energy_multiplier = 0.08
+
+[sub_resource type="BoxMesh" id="LaneSurfaceMesh"]
+size = Vector3(1.55, 0.08, 15.8)
+
+[sub_resource type="BoxMesh" id="RailMesh"]
+size = Vector3(0.08, 0.14, 15.8)
+
+[sub_resource type="StandardMaterial3D" id="LeftGlowMaterial"]
+albedo_color = Color(1, 0.560784, 0.239216, 1)
+roughness = 0.12
+emission_enabled = true
+emission = Color(1, 0.639843, 0.376157, 1)
+emission_energy_multiplier = 0.16
+
+[sub_resource type="BoxMesh" id="LaneGlowMesh"]
+size = Vector3(1.12, 0.02, 15.4)
+
+[sub_resource type="StandardMaterial3D" id="LeftPadMaterial"]
+albedo_color = Color(1, 0.582745, 0.277255, 1)
+metallic = 0.08
+roughness = 0.24
+emission_enabled = true
+emission = Color(1, 0.639843, 0.376157, 1)
+emission_energy_multiplier = 0.55
+
+[sub_resource type="CylinderMesh" id="HitPadMesh"]
+top_radius = 0.84
+bottom_radius = 0.94
+height = 0.16
+
+[sub_resource type="CylinderMesh" id="HitPadCapMesh"]
+top_radius = 0.72
+bottom_radius = 0.76
+height = 0.08
+
+[sub_resource type="StandardMaterial3D" id="CenterLaneMaterial"]
+albedo_color = Color(0.66, 0.559059, 0.191529, 1)
+metallic = 0.25
+roughness = 0.42
+emission_enabled = true
+emission = Color(1, 0.854706, 0.325686, 1)
+emission_energy_multiplier = 0.08
+
+[sub_resource type="StandardMaterial3D" id="CenterGlowMaterial"]
+albedo_color = Color(1, 0.847059, 0.290196, 1)
+roughness = 0.12
+emission_enabled = true
+emission = Color(1, 0.874588, 0.417961, 1)
+emission_energy_multiplier = 0.16
+
+[sub_resource type="StandardMaterial3D" id="CenterPadMaterial"]
+albedo_color = Color(1, 0.854706, 0.325686, 1)
+metallic = 0.08
+roughness = 0.24
+emission_enabled = true
+emission = Color(1, 0.874588, 0.417961, 1)
+emission_energy_multiplier = 0.55
+
+[sub_resource type="StandardMaterial3D" id="RightLaneMaterial"]
+albedo_color = Color(0.178588, 0.561647, 0.66, 1)
+metallic = 0.25
+roughness = 0.42
+emission_enabled = true
+emission = Color(0.307059, 0.858431, 1, 1)
+emission_energy_multiplier = 0.08
+
+[sub_resource type="StandardMaterial3D" id="RightGlowMaterial"]
+albedo_color = Color(0.270588, 0.85098, 1, 1)
+roughness = 0.12
+emission_enabled = true
+emission = Color(0.401882, 0.877804, 1, 1)
+emission_energy_multiplier = 0.16
+
+[sub_resource type="StandardMaterial3D" id="RightPadMaterial"]
+albedo_color = Color(0.307059, 0.858431, 1, 1)
+metallic = 0.08
+roughness = 0.24
+emission_enabled = true
+emission = Color(0.401882, 0.877804, 1, 1)
+emission_energy_multiplier = 0.55
+
+[node name="RhythmStage3D" type="Node3D" unique_id=1963144763]
+script = ExtResource("1_stage")
+
+[node name="CameraTarget" type="Marker3D" parent="." unique_id=568085115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24, 2)
+
+[node name="NotePathStart" type="Marker3D" parent="." unique_id=1917721435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, -8.2)
+
+[node name="NotePathEnd" type="Marker3D" parent="." unique_id=175306286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 4.2)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=712911333]
+transform = Transform3D(1, 0, 0, 0, 0.8499027, 0.52693963, 0, -0.52693963, 0.8499027, 0, 5.2, 10)
+current = true
+fov = 54.0
+
+[node name="KeyLight" type="DirectionalLight3D" parent="." unique_id=1246936838]
+transform = Transform3D(0.9135454, -0.34493223, 0.21553758, 0, 0.52991927, 0.8480481, -0.40673664, -0.77473044, 0.48410532, 0, 0, 0)
+light_energy = 3.0
+shadow_enabled = true
+
+[node name="FillLight" type="OmniLight3D" parent="." unique_id=1887883159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 7.5)
+light_color = Color(0.811765, 0.878431, 1, 1)
+light_energy = 1.6
+omni_range = 20.0
+
+[node name="Lanes" type="Node3D" parent="." unique_id=1626946945]
+
+[node name="LeftLane" type="Node3D" parent="Lanes" unique_id=220240495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.05, 0, 0)
+
+[node name="Surface" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=866409005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+material_override = SubResource("LeftLaneMaterial")
+mesh = SubResource("LaneSurfaceMesh")
+
+[node name="RailLeft" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=600275990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.08, -1)
+material_override = SubResource("LeftLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="RailRight" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=670357914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.08, -1)
+material_override = SubResource("LeftLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="Glow" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=21014637]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, -1)
+material_override = SubResource("LeftGlowMaterial")
+mesh = SubResource("LaneGlowMesh")
+
+[node name="HitPad" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=1166852660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 4.35)
+material_override = SubResource("LeftPadMaterial")
+mesh = SubResource("HitPadMesh")
+
+[node name="HitPadCap" type="MeshInstance3D" parent="Lanes/LeftLane" unique_id=112352290]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26, 4.35)
+material_override = SubResource("LeftPadMaterial")
+mesh = SubResource("HitPadCapMesh")
+
+[node name="CenterLane" type="Node3D" parent="Lanes" unique_id=191961851]
+
+[node name="Surface" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=895974658]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+material_override = SubResource("CenterLaneMaterial")
+mesh = SubResource("LaneSurfaceMesh")
+
+[node name="RailLeft" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=1558493338]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.08, -1)
+material_override = SubResource("CenterLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="RailRight" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=708170489]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.08, -1)
+material_override = SubResource("CenterLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="Glow" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=2008188241]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, -1)
+material_override = SubResource("CenterGlowMaterial")
+mesh = SubResource("LaneGlowMesh")
+
+[node name="HitPad" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=1499390067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 4.35)
+material_override = SubResource("CenterPadMaterial")
+mesh = SubResource("HitPadMesh")
+
+[node name="HitPadCap" type="MeshInstance3D" parent="Lanes/CenterLane" unique_id=515195981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26, 4.35)
+material_override = SubResource("CenterPadMaterial")
+mesh = SubResource("HitPadCapMesh")
+
+[node name="RightLane" type="Node3D" parent="Lanes" unique_id=215140508]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.05, 0, 0)
+
+[node name="Surface" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=247985309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1)
+material_override = SubResource("RightLaneMaterial")
+mesh = SubResource("LaneSurfaceMesh")
+
+[node name="RailLeft" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=1454098619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 0.08, -1)
+material_override = SubResource("RightLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="RailRight" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=1052606441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8, 0.08, -1)
+material_override = SubResource("RightLaneMaterial")
+mesh = SubResource("RailMesh")
+
+[node name="Glow" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=2039415608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06, -1)
+material_override = SubResource("RightGlowMaterial")
+mesh = SubResource("LaneGlowMesh")
+
+[node name="HitPad" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=2145309101]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16, 4.35)
+material_override = SubResource("RightPadMaterial")
+mesh = SubResource("HitPadMesh")
+
+[node name="HitPadCap" type="MeshInstance3D" parent="Lanes/RightLane" unique_id=1191698049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26, 4.35)
+material_override = SubResource("RightPadMaterial")
+mesh = SubResource("HitPadCapMesh")
+
+[node name="Notes" type="Node3D" parent="." unique_id=1957170378]

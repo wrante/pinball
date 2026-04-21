@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://buasayg2oqgh3"
+path="res://.godot/imported/Butthole Surfers - Human Cannonball.mp3-f3b5aedfd82a46c0d1db6135a9c0176a.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Butthole Surfers - Human Cannonball.mp3"
+dest_files=["res://.godot/imported/Butthole Surfers - Human Cannonball.mp3-f3b5aedfd82a46c0d1db6135a9c0176a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

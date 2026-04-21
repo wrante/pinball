@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ysdo5t8i0k7e"
+path="res://.godot/imported/Residents - Constantinople.mp3-87488dfc7d3c4c5e3d12e8e9faff6ab5.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Prog Rock/Residents - Constantinople.mp3"
+dest_files=["res://.godot/imported/Residents - Constantinople.mp3-87488dfc7d3c4c5e3d12e8e9faff6ab5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

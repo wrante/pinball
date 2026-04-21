@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://lberys6w0de"
+path="res://.godot/imported/Siouxsie and the Banshees - Hong Kong Garden.mp3-63114adb5edd2bd563b51375c243b226.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (70s)/Siouxsie and the Banshees - Hong Kong Garden.mp3"
+dest_files=["res://.godot/imported/Siouxsie and the Banshees - Hong Kong Garden.mp3-63114adb5edd2bd563b51375c243b226.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

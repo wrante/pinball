@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/Users/willrante/mpf-env/bin/python",
+  "python.analysis.extraPaths": [
+    "/Users/willrante/mpf-env/lib/python3.14/site-packages"
+  ],
+  "python.terminal.activateEnvironment": true
+}

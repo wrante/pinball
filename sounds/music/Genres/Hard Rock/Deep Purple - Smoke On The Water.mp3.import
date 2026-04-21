@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bguro3voycnn5"
+path="res://.godot/imported/Deep Purple - Smoke On The Water.mp3-a3160eacfb8fc3562b1a3c9236e6eff0.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Hard Rock/Deep Purple - Smoke On The Water.mp3"
+dest_files=["res://.godot/imported/Deep Purple - Smoke On The Water.mp3-a3160eacfb8fc3562b1a3c9236e6eff0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvbfvbihwtpvo"
+path="res://.godot/imported/Dead Kennedys - California Über Alles.mp3-6bc29d5c1735289796dce1c57fded9cf.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Dead Kennedys - California Über Alles.mp3"
+dest_files=["res://.godot/imported/Dead Kennedys - California Über Alles.mp3-6bc29d5c1735289796dce1c57fded9cf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

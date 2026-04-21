@@ -15,6 +15,9 @@ switches:
   s_flipper_left:
     number:
     tags: left_flipper
+  s_action_button:
+    number:
+    tags: action_button
   s_flipper_right:
     number:
     tags: right_flipper

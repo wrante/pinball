@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ddanp4yyvh5s1"
+path="res://.godot/imported/ZZ Top - La Grange.mp3-79525d90afbe86820aa37de931e54295.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Southern Rock/ZZ Top - La Grange.mp3"
+dest_files=["res://.godot/imported/ZZ Top - La Grange.mp3-79525d90afbe86820aa37de931e54295.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

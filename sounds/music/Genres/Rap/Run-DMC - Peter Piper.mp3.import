@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://t4ciawyb6s58"
+path="res://.godot/imported/Run-DMC - Peter Piper.mp3-0c1ef213ee30e1a0dae049fd22f74105.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Rap/Run-DMC - Peter Piper.mp3"
+dest_files=["res://.godot/imported/Run-DMC - Peter Piper.mp3-0c1ef213ee30e1a0dae049fd22f74105.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

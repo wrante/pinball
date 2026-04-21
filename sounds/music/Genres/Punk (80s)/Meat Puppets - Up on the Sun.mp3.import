@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dgfrkhubtr0gq"
+path="res://.godot/imported/Meat Puppets - Up on the Sun.mp3-46028f36d3a70c323f5d9ff821713c69.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (80s)/Meat Puppets - Up on the Sun.mp3"
+dest_files=["res://.godot/imported/Meat Puppets - Up on the Sun.mp3-46028f36d3a70c323f5d9ff821713c69.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

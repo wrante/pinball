@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bp7pnlmgxlfcj"
+path="res://.godot/imported/Captain Beefheart - Too Much Time.mp3-098401124f010965c0a0c51c8ac5c0d7.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/?/Captain Beefheart - Too Much Time.mp3"
+dest_files=["res://.godot/imported/Captain Beefheart - Too Much Time.mp3-098401124f010965c0a0c51c8ac5c0d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

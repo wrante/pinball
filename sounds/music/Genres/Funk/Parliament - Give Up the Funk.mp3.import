@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://k5on5u2snhwh"
+path="res://.godot/imported/Parliament - Give Up the Funk.mp3-2d501883ac4dbca865d179a96d0d4a75.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Funk/Parliament - Give Up the Funk.mp3"
+dest_files=["res://.godot/imported/Parliament - Give Up the Funk.mp3-2d501883ac4dbca865d179a96d0d4a75.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

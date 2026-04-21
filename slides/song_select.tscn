@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://lqm3c3o3274r"]
+
+[ext_resource type="Script" uid="uid://dwaw4sb6tqhmi" path="res://slides/song_select.gd" id="2_hguvq"]
+[ext_resource type="Texture2D" uid="uid://bb1j42ukygpj5" path="res://images/green_chalkboard.jpg" id="2_nbyu5"]
+[ext_resource type="FontFile" uid="uid://1dftvuomxo8p" path="res://fonts/Chalkduster.ttf" id="2_ud660"]
+
+[node name="SongSelect" type="Control" unique_id=318613390]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_hguvq")
+metadata/_custom_type_script = "uid://dru3usokwlhd3"
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=474102300]
+custom_minimum_size = Vector2(1280, 1024)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_nbyu5")
+expand_mode = 2
+
+[node name="Panel" type="Control" parent="." unique_id=1559694913]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 70.0
+offset_top = 64.0
+offset_right = -70.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Genre" type="Label" parent="Panel" unique_id=260124548]
+layout_mode = 0
+offset_left = 2.0
+offset_top = -26.0
+offset_right = 1142.0
+offset_bottom = 73.0
+theme_override_colors/font_color = Color(0.96, 0.73, 0.28, 1)
+theme_override_fonts/font = ExtResource("2_ud660")
+theme_override_font_sizes/font_size = 72
+text = "PICK A GENRE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Genres" type="GridContainer" parent="Panel" unique_id=666462550]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 106.0
+offset_right = 1140.0
+offset_bottom = 908.0
+theme_override_constants/h_separation = 24
+theme_override_constants/v_separation = 5
+columns = 2
+
+[node name="Songs" type="VBoxContainer" parent="Panel" unique_id=306273214]
+layout_mode = 0
+offset_left = 14.0
+offset_top = 122.0
+offset_right = 1142.0
+offset_bottom = 908.0
+theme_override_constants/separation = 0

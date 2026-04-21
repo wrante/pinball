@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cl5640hdbread"
+path="res://.godot/imported/Alice Cooper - School's Out.mp3-a895eecc80f5c6901546854651afa094.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Glitter:Glam/Alice Cooper - School's Out.mp3"
+dest_files=["res://.godot/imported/Alice Cooper - School's Out.mp3-a895eecc80f5c6901546854651afa094.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

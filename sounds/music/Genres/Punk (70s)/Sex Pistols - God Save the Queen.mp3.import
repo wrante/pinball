@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ws70ehytt6mf"
+path="res://.godot/imported/Sex Pistols - God Save the Queen.mp3-185becc196387d020428ed46725e3a7d.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Punk (70s)/Sex Pistols - God Save the Queen.mp3"
+dest_files=["res://.godot/imported/Sex Pistols - God Save the Queen.mp3-185becc196387d020428ed46725e3a7d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

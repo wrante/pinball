@@ -13,20 +13,26 @@ config_version=5
 config/name="pinball"
 run/main_scene="uid://ds4gduf8660uj"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://images/icon.svg"
 
 [autoload]
 
 MPF="*uid://c05iybd1a77mc"
+DisplayFlow="*res://scripts/display_flow.gd"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=1024
+window/stretch/mode="viewport"
 
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/mpf-gmc/plugin.cfg")
+
+[gui]
+
+theme/custom_font="uid://1dftvuomxo8p"
 
 [physics]
 

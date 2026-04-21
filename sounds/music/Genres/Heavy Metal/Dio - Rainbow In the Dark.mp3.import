@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b16vcdql5eh74"
+path="res://.godot/imported/Dio - Rainbow In the Dark.mp3-49dda5168f88bd5e371d5ee1fc7fb22e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Heavy Metal/Dio - Rainbow In the Dark.mp3"
+dest_files=["res://.godot/imported/Dio - Rainbow In the Dark.mp3-49dda5168f88bd5e371d5ee1fc7fb22e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di4op3yx658d1"
+path="res://.godot/imported/The Psychedelic Furs - Love My Way.mp3-06418dfb09db1a6ebc95f0594fe47203.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/Psychedelic/The Psychedelic Furs - Love My Way.mp3"
+dest_files=["res://.godot/imported/The Psychedelic Furs - Love My Way.mp3-06418dfb09db1a6ebc95f0594fe47203.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

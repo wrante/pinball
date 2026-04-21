@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhydfmh2vewbr"
+path="res://.godot/imported/The B-52's - Rock Lobster.mp3-0c9ae72859812c469c32defface433ba.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/Genres/New Wave/The B-52's - Rock Lobster.mp3"
+dest_files=["res://.godot/imported/The B-52's - Rock Lobster.mp3-0c9ae72859812c469c32defface433ba.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
