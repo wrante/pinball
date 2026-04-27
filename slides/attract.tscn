@@ -7,14 +7,18 @@
 [ext_resource type="Texture2D" uid="uid://dounln3l35d26" path="res://addons/mpf-gmc/images/logo_mpf.png" id="4_f161n"]
 
 [node name="Attract" type="Control" unique_id=532832071]
-custom_minimum_size = Vector2(1280, 1024)
+custom_minimum_size = Vector2(1366, 768)
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_r1mnt")
 metadata/_custom_type_script = "uid://dru3usokwlhd3"
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=2095211072]
-custom_minimum_size = Vector2(1280, 1024)
+custom_minimum_size = Vector2(1366, 768)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -38,9 +42,9 @@ metadata/_custom_type_script = "uid://dpe3dq8axt3g7"
 [node name="title" type="Label" parent="MPFCarousel" unique_id=732737122]
 visible = false
 layout_mode = 0
-offset_right = 1280.0
-offset_bottom = 1022.0
-theme_override_font_sizes/font_size = 80
+offset_right = 1366.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 76
 text = "Welcome to Pinball!"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -48,9 +52,9 @@ vertical_alignment = 1
 [node name="credits" type="Label" parent="MPFCarousel" unique_id=224826079]
 visible = false
 layout_mode = 0
-offset_right = 1281.0
-offset_bottom = 1024.0
-theme_override_font_sizes/font_size = 80
+offset_right = 1366.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 76
 text = "SAMPLE TEXT"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -62,16 +66,16 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="mpf_logo" type="Sprite2D" parent="MPFCarousel" unique_id=103322399]
 visible = false
-position = Vector2(640, 520)
+position = Vector2(683, 384)
 texture = ExtResource("4_f161n")
 
 [node name="last_scores_1p" type="Node2D" parent="MPFCarousel" unique_id=673796730]
 visible = false
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_1p" unique_id=1987102647]
-offset_right = 1285.0
-offset_bottom = 1023.0
-theme_override_font_sizes/font_size = 80
+offset_right = 1366.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 76
 text = "123,456"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -85,9 +89,9 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 [node name="last_scores_2p" type="Node2D" parent="MPFCarousel" unique_id=344220273]
 
 [node name="player1_score" type="Label" parent="MPFCarousel/last_scores_2p" unique_id=286918589]
-offset_right = 1285.0
-offset_bottom = 558.0
-theme_override_font_sizes/font_size = 80
+offset_right = 1366.0
+offset_bottom = 384.0
+theme_override_font_sizes/font_size = 76
 text = "123,456"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -100,10 +104,10 @@ metadata/_custom_type_script = "uid://bfvhmv2eirpua"
 
 [node name="player2_score" type="Label" parent="MPFCarousel/last_scores_2p" unique_id=248235802]
 offset_left = 2.0
-offset_top = 468.0
-offset_right = 1287.0
-offset_bottom = 1026.0
-theme_override_font_sizes/font_size = 80
+offset_top = 384.0
+offset_right = 1366.0
+offset_bottom = 768.0
+theme_override_font_sizes/font_size = 76
 text = "123,456"
 horizontal_alignment = 1
 vertical_alignment = 1

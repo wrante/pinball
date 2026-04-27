@@ -269,13 +269,16 @@ class SongSelect(Mode):
         genre_index, song_index = self._random_selection()
         self.genre_index = genre_index
         self.song_index = song_index
-        self._confirm_song(genre_index, song_index)
+        self._confirm_song(genre_index, song_index, random_selected=True)
 
-    def _confirm_song(self, genre_index, song_index):
+    def _confirm_song(self, genre_index, song_index, random_selected=False):
         genre = self.genres[genre_index]
         song = genre["songs"][song_index]
         self._store_selected_song(genre, song)
-        self.machine.events.post("song_select_confirmed", **self._confirmed_song_payload(genre, song))
+        self.machine.events.post(
+            "song_select_confirmed",
+            **self._confirmed_song_payload(genre, song, random_selected),
+        )
         self.stage = "confirmed"
         self.delay.add(ms=250, callback=self._complete_selection, name="song_select_complete")
 
@@ -359,13 +362,14 @@ class SongSelect(Mode):
             "random_selected": False,
         }
 
-    def _confirmed_song_payload(self, genre, song):
+    def _confirmed_song_payload(self, genre, song, random_selected=False):
         # Confirmation keeps readable metadata for logs and any future scoring
         # or display code that wants to know the final choice.
         payload = self._audio_payload(song)
         payload.update({
             "genre": genre["name"],
             "song_title": song["title"],
+            "random_selected": bool(random_selected),
         })
         return payload
 

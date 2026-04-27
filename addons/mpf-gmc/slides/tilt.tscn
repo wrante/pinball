@@ -13,9 +13,12 @@ grow_vertical = 2
 script = ExtResource("1_gc685")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_right = 2880.0
-offset_bottom = 864.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
@@ -34,7 +37,7 @@ grow_vertical = 2
 
 [node name="MPFVariable - Text" type="Label" parent="CenterContainer"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 250
+theme_override_font_sizes/font_size = 220
 text = "TILT"
 script = ExtResource("2_tuxrv")
 variable_type = 1

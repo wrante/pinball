@@ -39,6 +39,7 @@ signal game_started
 signal machine_update(variable_name, value)
 signal player_update(variable_name, value)
 signal player_added(total_players)
+signal player_turn_started(player_number)
 signal credits
 signal volume(bus, value, change)
 
@@ -101,6 +102,7 @@ func retrieve_preloaded_scene(path: String) -> PackedScene:
 func start_player_turn(kwargs: Dictionary) -> void:
 	# Player nums are 1-based, so subtract 1
 	player = players[kwargs.player_num - 1]
+	player_turn_started.emit(kwargs.player_num)
 
 func update_machine(kwargs: Dictionary) -> void:
 	var var_name: String = kwargs.get("name")

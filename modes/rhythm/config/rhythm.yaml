@@ -12,7 +12,7 @@ mode_settings:
   perfect_window_ms: 90
   good_window_ms: 170
   finish_hold_ms: 1600
-  song: Deep Purple - Smoke On the Water (Official Music Video)
+  song: Deep Purple - Smoke On The Water
   song_bus: music
   audio_offset_ms: 8000
   lane_switches:
@@ -106,6 +106,6 @@ slide_player:
 
 sound_player:
   mode_rhythm_stopping:
-    Deep Purple - Smoke On the Water (Official Music Video):
+    Deep Purple - Smoke On The Water:
       bus: music
       action: stop

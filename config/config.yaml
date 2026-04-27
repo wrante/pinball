@@ -17,12 +17,10 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left
-    enable_events: machine_reset_phase_3
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
-    enable_events: machine_reset_phase_3
 
 modes:
   - attract
@@ -34,8 +32,12 @@ modes:
 
 playfields:
   playfield:
-    default_source_device: bd_trough
+    default_source_device: bd_plunger
     tags: default
+
+smart_virtual:
+  simulate_manual_plunger: true
+  simulate_manual_plunger_timeout: 500ms
 
 virtual_platform_start_active_switches:
   - s_trough_1

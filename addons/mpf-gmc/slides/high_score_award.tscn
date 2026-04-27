@@ -5,16 +5,20 @@
 
 [node name="HighScoreAward" type="Control"]
 layout_mode = 3
-anchors_preset = 0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_8uavx")
 
 [node name="MPFVariable - Award" type="Label" parent="."]
 layout_mode = 0
-offset_left = 236.0
-offset_top = -11.0
-offset_right = 941.0
-offset_bottom = 194.0
-theme_override_font_sizes/font_size = 150
+offset_left = 40.0
+offset_top = 56.0
+offset_right = 1326.0
+offset_bottom = 206.0
+theme_override_font_sizes/font_size = 118
 text = "Award!"
 horizontal_alignment = 1
 script = ExtResource("2_8uavx")
@@ -24,11 +28,11 @@ metadata/_custom_type_script = "uid://cm7sg7wq6hq8s"
 
 [node name="MPFVariable - Player Name" type="Label" parent="."]
 layout_mode = 0
-offset_left = 236.0
-offset_top = 187.0
-offset_right = 941.0
-offset_bottom = 392.0
-theme_override_font_sizes/font_size = 150
+offset_left = 40.0
+offset_top = 286.0
+offset_right = 1326.0
+offset_bottom = 436.0
+theme_override_font_sizes/font_size = 118
 text = "NO1"
 horizontal_alignment = 1
 script = ExtResource("2_8uavx")
@@ -38,11 +42,11 @@ metadata/_custom_type_script = "uid://cm7sg7wq6hq8s"
 
 [node name="MPFVariable - Value" type="Label" parent="."]
 layout_mode = 0
-offset_left = 225.0
-offset_top = 390.0
-offset_right = 930.0
-offset_bottom = 595.0
-theme_override_font_sizes/font_size = 150
+offset_left = 40.0
+offset_top = 516.0
+offset_right = 1326.0
+offset_bottom = 666.0
+theme_override_font_sizes/font_size = 118
 text = "1,000,000"
 horizontal_alignment = 1
 script = ExtResource("2_8uavx")

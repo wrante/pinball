@@ -4,8 +4,10 @@ ball_devices:
   bd_plunger:
     ball_switches: s_plunger_lane
     mechanical_eject: true
+    eject_timeouts: 3s
   bd_trough:
     ball_switches: s_trough_1, s_trough_2, s_trough_3
     eject_coil: c_trough_eject
     eject_targets: bd_plunger
+    eject_timeouts: 3s
     tags: trough, home, drain

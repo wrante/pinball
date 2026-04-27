@@ -26,7 +26,7 @@ color = Color(0.0627451, 0.0784314, 0.109804, 1)
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
-offset_bottom = 300.0
+offset_bottom = 230.0
 grow_horizontal = 2
 color = Color(0.117647, 0.164706, 0.25098, 0.9)
 
@@ -37,10 +37,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -418.0
-offset_top = -216.0
-offset_right = 466.0
-offset_bottom = 500.0
+offset_left = -300.0
+offset_top = -278.0
+offset_right = 460.0
+offset_bottom = 332.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -68,7 +68,7 @@ text = "Band Practice"
 layout_mode = 0
 offset_left = 62.0
 offset_top = 106.0
-offset_right = 483.0
+offset_right = 660.0
 offset_bottom = 142.0
 theme_override_colors/font_color = Color(0.831373, 0.866667, 0.898039, 1)
 theme_override_font_sizes/font_size = 22
@@ -192,10 +192,10 @@ initialize_empty = false
 
 [node name="Feedback" type="Label" parent="Hud" unique_id=1674484838]
 layout_mode = 0
-offset_left = 410.0
-offset_top = 170.0
-offset_right = 868.0
-offset_bottom = 246.0
+offset_left = 454.0
+offset_top = 146.0
+offset_right = 912.0
+offset_bottom = 222.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("2_font")
 theme_override_font_sizes/font_size = 54
@@ -203,11 +203,11 @@ horizontal_alignment = 1
 
 [node name="Summary" type="Label" parent="Hud" unique_id=360412993]
 layout_mode = 0
-offset_left = 814.0
-offset_top = 690.0
-offset_right = 1218.0
-offset_bottom = 892.0
+offset_left = 918.0
+offset_top = 608.0
+offset_right = 1306.0
+offset_bottom = 740.0
 theme_override_colors/font_color = Color(0.996078, 0.941176, 0.694118, 1)
-theme_override_font_sizes/font_size = 30
+theme_override_font_sizes/font_size = 28
 text = "Set complete"
 horizontal_alignment = 2

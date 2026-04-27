@@ -1,24 +1,25 @@
 extends MPFSlide
 
 const GENRE_COLUMNS := 2
-const GENRE_CELL_SIZE := Vector2(540, 58)
+const GENRE_CELL_SIZE := Vector2(590, 41)
 const SELECTED_GENRE_COLOR := Color(0.96, 0.73, 0.28, 1)
 const DIM_GENRE_COLOR := Color(0.67, 0.76, 0.7, 1)
 const HEADER_DIM_COLOR := Color(0.82, 0.88, 0.84, 1)
-const SELECTED_GENRE_SIZE := 50
-const DIM_GENRE_SIZE := 40
-const HEADER_SELECTED_SIZE := 72
-const HEADER_DIM_SIZE := 58
+const SELECTED_GENRE_SIZE := 36
+const DIM_GENRE_SIZE := 30
+const HEADER_SELECTED_SIZE := 56
+const HEADER_DIM_SIZE := 48
 const HEADER_GENRE_TEXT := "PICK A GENRE"
 const HEADER_SONG_TEXT := "PICK A SONG"
-const SONG_CELL_MIN_HEIGHT := 54
-const SONG_CELL_FALLBACK_WIDTH := 1128.0
+const SONG_CELL_MIN_HEIGHT := 44
+const SONG_CELL_FALLBACK_WIDTH := 1238.0
 const SONG_ROW_SPACING := 0
 const SONG_MAX_LINES := 1
 const SELECTED_SONG_CONTEXT := "selected_song_music"
 const PREVIEW_ENDED_EVENT := "song_select_preview_ended"
 const HIGHLIGHT_WAVE_PIXELS := 4.0
 const HIGHLIGHT_WAVE_SECONDS := 0.55
+const INTRO_VIDEO_PATH := "res://videos/chalkboard_clip.ogv"
 
 # MPF events are registered manually because this slide is shown by a display
 # flow autoload instead of a normal mode slide_player entry.
@@ -33,8 +34,14 @@ var _preview_channel: GMCChannel = null
 var _preview_finished_callable := Callable()
 var _header_base_y := 0.0
 var _header_wave_tween: Tween = null
+var _intro_active := false
+var _intro_video: VideoStreamPlayer = null
+var _pending_update_payload := {}
+var _pending_confirm_payload := {}
 
+@onready var _background: TextureRect = $TextureRect2
 @onready var _genre_label: Label = $Panel/Genre
+@onready var _panel: Control = $Panel
 @onready var _genres_grid: GridContainer = $Panel/Genres
 @onready var _songs_list: VBoxContainer = $Panel/Songs
 
@@ -44,16 +51,24 @@ func _ready() -> void:
 	_header_base_y = _genre_label.position.y
 	for event_name in _handlers.keys():
 		MPF.server.add_event_handler(event_name, Callable(self, _handlers[event_name]))
+	_start_intro_video()
 
 
 func _exit_tree() -> void:
 	_clear_preview_end_watch()
+	if _intro_video and is_instance_valid(_intro_video):
+		if _intro_video.finished.is_connected(_on_intro_video_finished):
+			_intro_video.finished.disconnect(_on_intro_video_finished)
 	for event_name in _handlers.keys():
 		MPF.server.remove_event_handler(event_name, Callable(self, _handlers[event_name]))
 
 
 # MPF event handlers that update the visible selection state.
 func _on_song_select_updated(payload: Dictionary) -> void:
+	if _intro_active:
+		_pending_update_payload = payload.duplicate(true)
+		return
+
 	var selecting_genre := str(payload.get("stage", "genre")) == "genre"
 	_show_selection(payload, selecting_genre)
 
@@ -67,8 +82,59 @@ func _on_song_select_updated(payload: Dictionary) -> void:
 
 
 func _on_song_select_confirmed(payload: Dictionary) -> void:
-	_show_confirmed_song(payload)
+	if _intro_active:
+		_pending_confirm_payload = payload.duplicate(true)
+		return
+
+	if not bool(payload.get("random_selected", false)):
+		_show_confirmed_song(payload)
 	_play_song_from_payload(payload)
+
+
+# Intro video playback.
+func _start_intro_video() -> void:
+	var stream := ResourceLoader.load(INTRO_VIDEO_PATH) as VideoStream
+	if not stream:
+		push_warning("Song select intro video could not be loaded from '%s'." % INTRO_VIDEO_PATH)
+		return
+
+	_intro_active = true
+	_set_selector_visible(false)
+
+	_intro_video = VideoStreamPlayer.new()
+	_intro_video.name = "IntroVideo"
+	_intro_video.stream = stream
+	_intro_video.expand = true
+	_intro_video.bus = "music"
+	_intro_video.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_intro_video.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	_intro_video.finished.connect(_on_intro_video_finished)
+	add_child(_intro_video)
+	_intro_video.play()
+
+
+func _on_intro_video_finished() -> void:
+	_intro_active = false
+	if _intro_video and is_instance_valid(_intro_video):
+		_intro_video.queue_free()
+	_intro_video = null
+	_set_selector_visible(true)
+
+	if not _pending_confirm_payload.is_empty():
+		var payload := _pending_confirm_payload
+		_pending_confirm_payload = {}
+		_on_song_select_confirmed(payload)
+		return
+
+	if not _pending_update_payload.is_empty():
+		var payload := _pending_update_payload
+		_pending_update_payload = {}
+		_on_song_select_updated(payload)
+
+
+func _set_selector_visible(visible: bool) -> void:
+	_background.visible = visible
+	_panel.visible = visible
 
 
 # Shared UI state for genre browsing and song browsing.

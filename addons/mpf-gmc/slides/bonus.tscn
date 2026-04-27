@@ -7,8 +7,8 @@
 [node name="Bonus" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 1920.0
-offset_bottom = 720.0
+offset_right = 1366.0
+offset_bottom = 768.0
 script = ExtResource("1_524xj")
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -30,7 +30,7 @@ visible = false
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/initial"]
 offset_top = 253.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 430.0
 theme_override_font_sizes/font_size = 100
 horizontal_alignment = 1
@@ -44,7 +44,7 @@ visible = false
 
 [node name="bonus_entry_name" type="Label" parent="MPFConditionalChildren/__default__"]
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 310.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
@@ -56,7 +56,7 @@ variable_name = "text"
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/__default__"]
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 528.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
@@ -72,7 +72,7 @@ visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/subtotal"]
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 310.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Subtotal"
@@ -81,7 +81,7 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/subtotal"]
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 528.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
@@ -97,7 +97,7 @@ visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/multiplier"]
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 310.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Multiplier"
@@ -106,7 +106,7 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/multiplier"]
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 528.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"
@@ -122,7 +122,7 @@ visible = false
 
 [node name="Label" type="Label" parent="MPFConditionalChildren/total"]
 offset_top = 133.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 310.0
 theme_override_font_sizes/font_size = 100
 text = "Total Bonus"
@@ -131,7 +131,7 @@ vertical_alignment = 1
 
 [node name="bonus_entry_score" type="Label" parent="MPFConditionalChildren/total"]
 offset_top = 351.0
-offset_right = 1920.0
+offset_right = 1366.0
 offset_bottom = 528.0
 theme_override_font_sizes/font_size = 100
 text = "Bonus Name"

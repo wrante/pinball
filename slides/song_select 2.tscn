@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://lqm3c3o3274r"]
+[gd_scene format=3 uid="uid://wpyynbu87gvk"]
 
 [ext_resource type="Script" uid="uid://dwaw4sb6tqhmi" path="res://slides/song_select.gd" id="2_hguvq"]
 [ext_resource type="Texture2D" uid="uid://bb1j42ukygpj5" path="res://images/green_chalkboard.jpg" id="2_nbyu5"]
@@ -52,7 +52,6 @@ vertical_alignment = 1
 
 [node name="Genres" type="GridContainer" parent="Panel" unique_id=666462550]
 layout_mode = 0
-offset_left = 0.0
 offset_top = 82.0
 offset_right = 1238.0
 offset_bottom = 672.0
@@ -62,7 +61,6 @@ columns = 2
 
 [node name="Songs" type="VBoxContainer" parent="Panel" unique_id=306273214]
 layout_mode = 0
-offset_left = 0.0
 offset_top = 86.0
 offset_right = 1238.0
 offset_bottom = 672.0
